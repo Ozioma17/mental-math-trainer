@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>2-Digit Subtraction Trainer</title>
+<style>
+:root{--p:#f6f1e8;--p2:#efe8dc;--c:#fffdf8;--i:#171717;--m:#6f6a63;--l:#d7d0c4;--r:#b23a2d;--g:#1f5d52;--bad:#a5342b}
+*{box-sizing:border-box}body{margin:0;background:var(--p);color:var(--i);font-family:Inter,system-ui,sans-serif}button,input,select{font:inherit}button{cursor:pointer}
+.wrap{max-width:930px;margin:auto;padding:38px 18px 80px}.ey{color:var(--r);font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}
+h1,h2{font-family:Georgia,serif}h1{font-size:clamp(40px,8vw,66px);line-height:.98;margin:8px 0}.lead{color:var(--m);line-height:1.6}
+.card{background:var(--c);border:1px solid var(--l);border-radius:26px;padding:clamp(22px,4vw,38px);box-shadow:0 14px 38px rgba(25,20,14,.08)}.hidden{display:none!important}
+.metrics,.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:9px}.metric,.stat{background:var(--p2);border:1px solid var(--l);border-radius:14px;padding:13px}.metric span,.stat span{display:block;color:var(--m);font-size:10px;text-transform:uppercase}.metric b,.stat b{display:block;font:700 25px Georgia,serif;margin-top:5px}
+h2{font-size:22px;margin:26px 0 10px}.choices{display:grid;grid-template-columns:repeat(4,1fr);gap:9px}.choice,.timerChoice{border:1px solid var(--l);background:#fff;border-radius:14px;padding:13px;font-weight:800}.selected{background:var(--i)!important;color:#fff!important;border-color:var(--i)!important}
+.timergrid{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}.custom{display:flex;gap:8px;margin-top:8px}.custom input{width:110px;border:1px solid var(--l);border-radius:11px;padding:10px}
+.actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:18px}.btn,.ghost{border:1px solid var(--l);border-radius:999px;padding:11px 16px;font-weight:800}.btn{background:var(--i);color:#fff;border-color:var(--i)}.ghost{background:#fff}
+.problem{text-align:center;font:700 clamp(66px,14vw,110px) Georgia,serif;margin:52px 0 28px}.answer{display:flex;gap:9px;max-width:520px;margin:auto}.answer input{flex:1;min-width:0;border:1px solid var(--l);border-radius:13px;padding:15px;text-align:center;font-size:24px;font-weight:800}.answer button{border:0;background:var(--i);color:#fff;border-radius:13px;padding:0 22px;font-weight:800}
+.top{display:flex;justify-content:space-between;color:var(--m);font-size:12px}.bar,.timer{height:8px;background:#e7e0d4;border-radius:99px;overflow:hidden}.bar{margin:10px 0 18px}.bar div{height:100%;background:var(--r)}.timer div{height:100%;background:var(--g)}
+.timerline{display:flex;justify-content:space-between;color:var(--m);font-size:12px;margin-bottom:6px}.feedback{display:none;max-width:600px;margin:14px auto;padding:12px;border-radius:12px;font-size:13px}.show{display:block}.good{background:#e7f2ec;color:var(--g)}.bad{background:#f7e8e5;color:var(--bad)}
+.note{background:var(--p2);border-radius:13px;padding:14px;color:var(--m);line-height:1.55;font-size:12px;margin-top:16px}.borrowGrid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:16px}.borrowGrid .metric{background:#fff}
+@media(max-width:650px){.metrics,.stats{grid-template-columns:1fr 1fr}.choices{grid-template-columns:1fr 1fr}.timergrid{grid-template-columns:repeat(3,1fr)}.answer{flex-direction:column}.answer button{padding:14px}}
+</style></head><body><div class="wrap">
+<div class="ey">2-digit automaticity</div><h1>Subtraction mastery.</h1><p class="lead">A 3,000-question visual bank, balanced between borrowing and non-borrowing. Progress is autosaved in this browser.</p>
+
+<section id="setup" class="card">
+<div class="metrics"><div class="metric"><span>Main bank</span><b>3,000</b></div><div class="metric"><span>Mastered</span><b id="mastered">0</b></div><div class="metric"><span>Remaining</span><b id="remaining">3000</b></div><div class="metric"><span>Phase</span><b id="phase">Main</b></div></div>
+<div class="borrowGrid"><div class="metric"><span>No-borrow mastered</span><b id="nbProg">0 / 1500</b></div><div class="metric"><span>Borrow mastered</span><b id="bProg">0 / 1500</b></div></div>
+<h2>Set size</h2><div class="choices"><button class="choice " data-size="10">10</button><button class="choice selected" data-size="20">20</button><button class="choice " data-size="50">50</button><button class="choice " data-size="100">100</button></div>
+<h2>Time per question</h2><div class="timergrid"><button class="timerChoice " data-time="5">5s</button><button class="timerChoice selected" data-time="7">7s</button><button class="timerChoice " data-time="10">10s</button><button class="timerChoice " data-time="15">15s</button><button class="timerChoice" data-time="0">Untimed</button></div>
+<div class="custom"><input id="customTime" type="number" min="1" max="120" placeholder="Custom"><button id="useCustom" class="ghost">Use seconds</button></div>
+<div class="note">Correct questions leave the active bank. Wrong answers and timeouts stay for later. After all 3,000 are mastered, a 100-question benchmark becomes available; you can then unlock an optional 2,000-question extension.</div>
+<div class="actions"><button id="start" class="btn">Start set</button><button id="benchmark" class="ghost hidden">Start 100 benchmark</button><button id="extension" class="ghost hidden">Unlock +2,000 extension</button><button id="reset" class="ghost">Reset progress</button></div>
+</section>
+
+<section id="drill" class="card hidden">
+<div class="top"><span id="qLabel">QUESTION 1 / 20</span><span id="bankLabel">0 mastered</span></div><div class="bar"><div id="setBar"></div></div>
+<div class="timerline"><span>Time remaining</span><b id="time">7.0s</b></div><div class="timer"><div id="timeBar"></div></div>
+<div id="problem" class="problem">83 − 27</div>
+<form id="form" class="answer"><input id="answer" type="number" inputmode="numeric" autocomplete="off" placeholder="Answer"><button>Submit</button></form><div id="feedback" class="feedback"></div>
+<div class="stats"><div class="stat"><span>Answered</span><b id="sAnswered">0</b></div><div class="stat"><span>Correct</span><b id="sCorrect">0</b></div><div class="stat"><span>Wrong</span><b id="sWrong">0</b></div><div class="stat"><span>Timed out</span><b id="sTimeout">0</b></div></div>
+<div class="actions" style="justify-content:center"><button id="end" class="ghost" type="button">End session</button></div>
+</section>
+
+<section id="done" class="card hidden"><h2>Set complete</h2><div id="summary" class="note"></div><div class="actions"><button id="again" class="btn">Another set</button></div></section>
+</div>
+<script>
+const $=s=>document.querySelector(s),TOTAL_MAIN=3000,KEY='hostedSubtractionTrainer_v1';
+function rng(seed){let x=seed>>>0;return()=>{x+=0x6D2B79F5;let t=x;t=Math.imul(t^(t>>>15),t|1);t^=t+Math.imul(t^(t>>>7),t|61);return((t^(t>>>14))>>>0)/4294967296}}
+function sh(a,r=Math.random){a=[...a];for(let i=a.length-1;i>0;i--){let j=Math.floor(r()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+function makeMain(){let b=[[],[]],r=rng(260926),seen=new Set();while(b[0].length<1500||b[1].length<1500){let a=10+Math.floor(r()*90),c=10+Math.floor(r()*90);if(a<c)[a,c]=[c,a];if(a===c)continue;let k=a+'-'+c;if(seen.has(k))continue;let br=(a%10)<(c%10)?1:0;if(b[br].length>=1500)continue;seen.add(k);b[br].push({a,b:c,ans:a-c,key:k,borrow:br})}return sh(b.flat(),r)}
+function makeExt(){let r=rng(260927),seen=new Set(MAIN.map(x=>x.key)),out=[];while(out.length<2000){let a=10+Math.floor(r()*90),b=10+Math.floor(r()*90);if(a<b)[a,b]=[b,a];if(a===b)continue;let k=a+'-'+b;if(seen.has(k))continue;seen.add(k);out.push({a,b,ans:a-b,key:k,borrow:(a%10)<(b%10)?1:0})}return out}
+const MAIN=makeMain(),EXT=makeExt();
+let state;try{state=JSON.parse(localStorage.getItem(KEY)||'null')}catch{};if(!state)state={done:[],extDone:[],extension:false,history:[]};let done=new Set(state.done||[]),extDone=new Set(state.extDone||[]);
+let size=20,limit=7,queue=[],cur=null,answered=0,correct=0,wrong=0,timeouts=0,timer=null,next=null,active=false,token=0,benchmarkMode=false;
+function save(){state.done=[...done];state.extDone=[...extDone];localStorage.setItem(KEY,JSON.stringify(state))}
+function pool(){let bank=state.extension?[...MAIN,...EXT]:MAIN;return bank.filter(q=>!(q.key.startsWith('x:')?extDone:done).has(q.key))}
+function isExt(q){return !MAIN.some(m=>m.key===q.key)}
+function refresh(){let nb=MAIN.filter(q=>!q.borrow&&done.has(q.key)).length,b=MAIN.filter(q=>q.borrow&&done.has(q.key)).length;$('#mastered').textContent=done.size+(state.extension?extDone.size:0);$('#remaining').textContent=(state.extension?5000:3000)-done.size-(state.extension?extDone.size:0);$('#nbProg').textContent=nb+' / 1500';$('#bProg').textContent=b+' / 1500';$('#phase').textContent=state.extension?'Extension':'Main';$('#benchmark').classList.toggle('hidden',done.size<3000);$('#extension').classList.toggle('hidden',done.size<3000||state.extension)}
+function stop(){active=false;token++;if(timer)clearInterval(timer);if(next)clearTimeout(next);timer=next=null}
+function show(id){['setup','drill','done'].forEach(x=>$('#'+x).classList.toggle('hidden',x!==id))}
+document.querySelectorAll('.choice').forEach(b=>b.onclick=()=>{size=+b.dataset.size;document.querySelectorAll('.choice').forEach(x=>x.classList.toggle('selected',x===b))});
+document.querySelectorAll('.timerChoice').forEach(b=>b.onclick=()=>{limit=+b.dataset.time;document.querySelectorAll('.timerChoice').forEach(x=>x.classList.toggle('selected',x===b))});
+$('#useCustom').onclick=()=>{let v=+$('customTime').value;if(v>0){limit=v;document.querySelectorAll('.timerChoice').forEach(x=>x.classList.remove('selected'))}};
+function start(isBench=false){stop();benchmarkMode=isBench;let available=isBench?sh(MAIN).slice(0,100):pool();if(!available.length)return alert('No questions remain in this bank.');queue=isBench?available:sh(available).slice(0,Math.min(size,available.length));answered=correct=wrong=timeouts=0;active=true;let t=token;show('drill');nextQ(t)}
+function nextQ(t){if(!active||t!==token)return;if(!queue.length)return finish();cur=queue.shift();$('#problem').textContent=cur.a+' − '+cur.b;$('#answer').value='';$('#answer').disabled=false;$('#feedback').className='feedback';$('#qLabel').textContent='QUESTION '+(answered+1)+' / '+(answered+queue.length+1);$('#bankLabel').textContent=(done.size+(state.extension?extDone.size:0))+' mastered';$('#setBar').style.width=(answered/(answered+queue.length+1)*100)+'%';$('#answer').focus();startTimer(t)}
+function startTimer(t){if(timer)clearInterval(timer);if(!limit){$('#time').textContent='Untimed';$('#timeBar').style.width='100%';return}let st=performance.now();let tick=()=>{if(!active||t!==token)return;let left=Math.max(0,limit-(performance.now()-st)/1000);$('#time').textContent=left.toFixed(1)+'s';$('#timeBar').style.width=(left/limit*100)+'%';if(left<=0){clearInterval(timer);timer=null;grade(null,true,t)}};tick();timer=setInterval(tick,80)}
+function grade(v,to,t){if(!active||t!==token||!cur)return;if(timer)clearInterval(timer);timer=null;$('#answer').disabled=true;answered++;if(to)timeouts++;let ok=!to&&v===cur.ans;if(ok){correct++;if(!benchmarkMode){if(isExt(cur))extDone.add(cur.key);else done.add(cur.key);save()}$('#feedback').className='feedback show good';$('#feedback').innerHTML='✓ Correct — <b>'+cur.ans+'</b>'}else{wrong++;$('#feedback').className='feedback show bad';$('#feedback').innerHTML='✕ '+cur.a+' − '+cur.b+' = <b>'+cur.ans+'</b>'}$('#sAnswered').textContent=answered;$('#sCorrect').textContent=correct;$('#sWrong').textContent=wrong;$('#sTimeout').textContent=timeouts;refresh();next=setTimeout(()=>nextQ(t),ok?350:800)}
+$('#form').onsubmit=e=>{e.preventDefault();if(!active)return;let v=$('#answer').value.trim();if(v!=='')grade(+v,false,token)};
+function finish(){let total=answered,acc=total?Math.round(correct/total*100):0;stop();state.history.unshift({date:Date.now(),benchmark:benchmarkMode,total,correct,acc});state.history=state.history.slice(0,20);save();$('#summary').innerHTML='<b>'+correct+' / '+total+'</b> correct ('+acc+'%).'+(benchmarkMode?'<br>This benchmark does not remove questions from the bank.':'');show('done');refresh()}
+$('#start').onclick=()=>start(false);$('#benchmark').onclick=()=>start(true);$('#extension').onclick=()=>{if(confirm('Unlock the optional 2,000-question extension?')){state.extension=true;save();refresh()}};
+$('#end').onclick=()=>{stop();show('setup');refresh()};$('#again').onclick=()=>{show('setup');refresh()};$('#reset').onclick=()=>{if(confirm('Reset all subtraction progress?')){stop();localStorage.removeItem(KEY);state={done:[],extDone:[],extension:false,history:[]};done=new Set();extDone=new Set();show('setup');refresh()}};
+window.addEventListener('pagehide',()=>save());refresh();show('setup');
+</script></body></html>
