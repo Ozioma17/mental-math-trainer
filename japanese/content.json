@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-10-12-starter-1",
+  "revision": "2026-10-12-learned-sets-1",
   "updatedAt": "2026-10-12",
   "foundation": "Readings assume basic particles, pronouns, polite/past verb forms, それから, でも, だと／と, and こと. Target vocabulary and grammar are tested before each reading. These starter entries are not assumed mastered.",
   "sources": [
@@ -9,6 +9,726 @@
       "title": "Starter collection",
       "type": "original",
       "note": "Original learning material created for this site. Your pages and pictures will form separate source collections."
+    },
+    {
+      "id": "learned-set-1",
+      "title": "Give meanings · Set 1",
+      "type": "prior-study",
+      "previouslyLearned": true,
+      "entryCount": 32,
+      "note": "Recovered from kanji_vocab_practice.html created in the Give meanings chat. The user reports having learned this vocabulary. Inflected source forms are kept alongside dictionary lemmas.",
+      "entries": [
+        {
+          "wordId": "learned-s1-01",
+          "sourceForm": "悩む",
+          "reading": "なやむ"
+        },
+        {
+          "wordId": "learned-s1-02",
+          "sourceForm": "相談",
+          "reading": "そうだん"
+        },
+        {
+          "wordId": "learned-s1-03",
+          "sourceForm": "絶対",
+          "reading": "ぜったい"
+        },
+        {
+          "wordId": "learned-s1-04",
+          "sourceForm": "約束",
+          "reading": "やくそく"
+        },
+        {
+          "wordId": "learned-s1-05",
+          "sourceForm": "破る",
+          "reading": "やぶる"
+        },
+        {
+          "wordId": "learned-s1-06",
+          "sourceForm": "警備",
+          "reading": "けいび"
+        },
+        {
+          "wordId": "learned-s1-07",
+          "sourceForm": "都合",
+          "reading": "つごう"
+        },
+        {
+          "wordId": "learned-s1-08",
+          "sourceForm": "延期",
+          "reading": "えんき"
+        },
+        {
+          "wordId": "learned-s1-09",
+          "sourceForm": "住宅",
+          "reading": "じゅうたく"
+        },
+        {
+          "wordId": "learned-s1-10",
+          "sourceForm": "光",
+          "reading": "ひかり"
+        },
+        {
+          "wordId": "learned-s1-11",
+          "sourceForm": "奥",
+          "reading": "おく"
+        },
+        {
+          "wordId": "learned-s1-12",
+          "sourceForm": "届く",
+          "reading": "とどく"
+        },
+        {
+          "wordId": "learned-s1-13",
+          "sourceForm": "政府",
+          "reading": "せいふ"
+        },
+        {
+          "wordId": "learned-s1-14",
+          "sourceForm": "調査",
+          "reading": "ちょうさ"
+        },
+        {
+          "wordId": "learned-s1-15",
+          "sourceForm": "農産物",
+          "reading": "のうさんぶつ"
+        },
+        {
+          "wordId": "learned-s1-16",
+          "sourceForm": "被害",
+          "reading": "ひがい"
+        },
+        {
+          "wordId": "learned-s1-17",
+          "sourceForm": "記事",
+          "reading": "きじ"
+        },
+        {
+          "wordId": "learned-s1-18",
+          "sourceForm": "汗",
+          "reading": "あせ"
+        },
+        {
+          "wordId": "learned-s1-19",
+          "sourceForm": "流す",
+          "reading": "ながす"
+        },
+        {
+          "wordId": "learned-s1-20",
+          "sourceForm": "働く",
+          "reading": "はたらく"
+        },
+        {
+          "wordId": "learned-s1-21",
+          "sourceForm": "警告",
+          "reading": "けいこく"
+        },
+        {
+          "wordId": "learned-s1-22",
+          "sourceForm": "飲酒",
+          "reading": "いんしゅ"
+        },
+        {
+          "wordId": "learned-s1-23",
+          "sourceForm": "習慣",
+          "reading": "しゅうかん"
+        },
+        {
+          "wordId": "learned-s1-24",
+          "sourceForm": "改める",
+          "reading": "あらためる"
+        },
+        {
+          "wordId": "learned-s1-25",
+          "sourceForm": "一方",
+          "reading": "いっぽう"
+        },
+        {
+          "wordId": "learned-s1-26",
+          "sourceForm": "姉妹",
+          "reading": "しまい"
+        },
+        {
+          "wordId": "learned-s1-27",
+          "sourceForm": "姿",
+          "reading": "すがた"
+        },
+        {
+          "wordId": "learned-s1-28",
+          "sourceForm": "似る",
+          "reading": "にる"
+        },
+        {
+          "wordId": "learned-s1-29",
+          "sourceForm": "結ぶ",
+          "reading": "むすぶ"
+        },
+        {
+          "wordId": "learned-s1-30",
+          "sourceForm": "著者",
+          "reading": "ちょしゃ"
+        },
+        {
+          "wordId": "learned-s1-31",
+          "sourceForm": "地域",
+          "reading": "ちいき"
+        },
+        {
+          "wordId": "learned-s1-32",
+          "sourceForm": "住民",
+          "reading": "じゅうみん"
+        }
+      ]
+    },
+    {
+      "id": "learned-set-2",
+      "title": "Give meanings · Set 2",
+      "type": "prior-study",
+      "previouslyLearned": true,
+      "entryCount": 32,
+      "note": "Recovered from kanji_vocab_practice_set_2.html created in the Give meanings chat. The user reports having learned this vocabulary. Inflected source forms are kept alongside dictionary lemmas.",
+      "entries": [
+        {
+          "wordId": "learned-s2-01",
+          "sourceForm": "観察",
+          "reading": "かんさつ"
+        },
+        {
+          "wordId": "learned-s2-02",
+          "sourceForm": "歴史",
+          "reading": "れきし"
+        },
+        {
+          "wordId": "learned-s2-03",
+          "sourceForm": "担当",
+          "reading": "たんとう"
+        },
+        {
+          "wordId": "learned-s2-04",
+          "sourceForm": "係員",
+          "reading": "かかりいん"
+        },
+        {
+          "wordId": "learned-s2-05",
+          "sourceForm": "束",
+          "reading": "たば"
+        },
+        {
+          "wordId": "learned-s2-06",
+          "sourceForm": "腕",
+          "reading": "うで"
+        },
+        {
+          "wordId": "learned-s2-07",
+          "sourceForm": "抱える",
+          "reading": "かかえる"
+        },
+        {
+          "wordId": "learned-s2-08",
+          "sourceForm": "独立",
+          "reading": "どくりつ"
+        },
+        {
+          "wordId": "learned-s2-09",
+          "sourceForm": "希望",
+          "reading": "きぼう"
+        },
+        {
+          "wordId": "learned-s2-10",
+          "sourceForm": "燃える",
+          "reading": "もえる"
+        },
+        {
+          "wordId": "learned-s2-11",
+          "sourceForm": "耕す",
+          "reading": "たがやす"
+        },
+        {
+          "wordId": "learned-s2-12",
+          "sourceForm": "種",
+          "reading": "たね"
+        },
+        {
+          "wordId": "learned-s2-13",
+          "sourceForm": "草",
+          "reading": "くさ"
+        },
+        {
+          "wordId": "learned-s2-14",
+          "sourceForm": "虫",
+          "reading": "むし"
+        },
+        {
+          "wordId": "learned-s2-15",
+          "sourceForm": "作物",
+          "reading": "さくもつ"
+        },
+        {
+          "wordId": "learned-s2-16",
+          "sourceForm": "守る",
+          "reading": "まもる"
+        },
+        {
+          "wordId": "learned-s2-17",
+          "sourceForm": "混乱",
+          "reading": "こんらん"
+        },
+        {
+          "wordId": "learned-s2-18",
+          "sourceForm": "肩",
+          "reading": "かた"
+        },
+        {
+          "wordId": "learned-s2-19",
+          "sourceForm": "抜く",
+          "reading": "ぬく"
+        },
+        {
+          "wordId": "learned-s2-20",
+          "sourceForm": "閉じる",
+          "reading": "とじる"
+        },
+        {
+          "wordId": "learned-s2-21",
+          "sourceForm": "呼吸",
+          "reading": "こきゅう"
+        },
+        {
+          "wordId": "learned-s2-22",
+          "sourceForm": "首相",
+          "reading": "しゅしょう"
+        },
+        {
+          "wordId": "learned-s2-23",
+          "sourceForm": "状況",
+          "reading": "じょうきょう"
+        },
+        {
+          "wordId": "learned-s2-24",
+          "sourceForm": "認める",
+          "reading": "みとめる"
+        },
+        {
+          "wordId": "learned-s2-25",
+          "sourceForm": "雨量",
+          "reading": "うりょう"
+        },
+        {
+          "wordId": "learned-s2-26",
+          "sourceForm": "湿度",
+          "reading": "しつど"
+        },
+        {
+          "wordId": "learned-s2-27",
+          "sourceForm": "途中",
+          "reading": "とちゅう"
+        },
+        {
+          "wordId": "learned-s2-28",
+          "sourceForm": "突然",
+          "reading": "とつぜん"
+        },
+        {
+          "wordId": "learned-s2-29",
+          "sourceForm": "死亡",
+          "reading": "しぼう"
+        },
+        {
+          "wordId": "learned-s2-30",
+          "sourceForm": "深い",
+          "reading": "ふかい"
+        },
+        {
+          "wordId": "learned-s2-31",
+          "sourceForm": "沈む",
+          "reading": "しずむ"
+        },
+        {
+          "wordId": "learned-s2-32",
+          "sourceForm": "優しい",
+          "reading": "やさしい"
+        }
+      ]
+    },
+    {
+      "id": "learned-set-3",
+      "title": "Give meanings · Set 3",
+      "type": "prior-study",
+      "previouslyLearned": true,
+      "entryCount": 36,
+      "note": "Recovered from kanji_vocab_practice_set_3.html created in the Give meanings chat. The user reports having learned this vocabulary. Inflected source forms are kept alongside dictionary lemmas.",
+      "entries": [
+        {
+          "wordId": "learned-s3-01",
+          "sourceForm": "細かい",
+          "reading": "こまかい"
+        },
+        {
+          "wordId": "learned-s3-02",
+          "sourceForm": "肯定的",
+          "reading": "こうていてき"
+        },
+        {
+          "wordId": "learned-s1-07",
+          "sourceForm": "都合",
+          "reading": "つごう"
+        },
+        {
+          "wordId": "learned-s3-04",
+          "sourceForm": "帰宅",
+          "reading": "きたく"
+        },
+        {
+          "wordId": "learned-s3-05",
+          "sourceForm": "不規則",
+          "reading": "ふきそく"
+        },
+        {
+          "wordId": "learned-s3-06",
+          "sourceForm": "夜中",
+          "reading": "よなか"
+        },
+        {
+          "wordId": "learned-s3-07",
+          "sourceForm": "血液",
+          "reading": "けつえき"
+        },
+        {
+          "wordId": "learned-s3-08",
+          "sourceForm": "栄養分",
+          "reading": "えいようぶん"
+        },
+        {
+          "wordId": "learned-s3-09",
+          "sourceForm": "供給",
+          "reading": "きょうきゅう"
+        },
+        {
+          "wordId": "learned-s3-10",
+          "sourceForm": "運び去る",
+          "reading": "はこびさる"
+        },
+        {
+          "wordId": "learned-s3-11",
+          "sourceForm": "工夫",
+          "reading": "くふう"
+        },
+        {
+          "wordId": "learned-s3-12",
+          "sourceForm": "重ねる",
+          "reading": "かさねる"
+        },
+        {
+          "wordId": "experiment",
+          "sourceForm": "実験",
+          "reading": "じっけん"
+        },
+        {
+          "wordId": "learned-s3-14",
+          "sourceForm": "成功",
+          "reading": "せいこう"
+        },
+        {
+          "wordId": "learned-s3-15",
+          "sourceForm": "受ける",
+          "reading": "うける"
+        },
+        {
+          "wordId": "learned-s3-16",
+          "sourceForm": "権利",
+          "reading": "けんり"
+        },
+        {
+          "wordId": "learned-s3-17",
+          "sourceForm": "憲法",
+          "reading": "けんぽう"
+        },
+        {
+          "wordId": "learned-s3-18",
+          "sourceForm": "分野",
+          "reading": "ぶんや"
+        },
+        {
+          "wordId": "learned-s3-19",
+          "sourceForm": "人類学",
+          "reading": "じんるいがく"
+        },
+        {
+          "wordId": "learned-s3-20",
+          "sourceForm": "日常",
+          "reading": "にちじょう"
+        },
+        {
+          "wordId": "learned-s3-21",
+          "sourceForm": "現象",
+          "reading": "げんしょう"
+        },
+        {
+          "wordId": "learned-s3-22",
+          "sourceForm": "論文",
+          "reading": "ろんぶん"
+        },
+        {
+          "wordId": "learned-s3-23",
+          "sourceForm": "映る",
+          "reading": "うつる"
+        },
+        {
+          "wordId": "learned-s3-24",
+          "sourceForm": "左右",
+          "reading": "さゆう"
+        },
+        {
+          "wordId": "learned-s3-25",
+          "sourceForm": "逆",
+          "reading": "ぎゃく"
+        },
+        {
+          "wordId": "learned-s3-26",
+          "sourceForm": "囲む",
+          "reading": "かこむ"
+        },
+        {
+          "wordId": "learned-s3-27",
+          "sourceForm": "農業",
+          "reading": "のうぎょう"
+        },
+        {
+          "wordId": "learned-s3-28",
+          "sourceForm": "募集",
+          "reading": "ぼしゅう"
+        },
+        {
+          "wordId": "learned-s3-29",
+          "sourceForm": "平等",
+          "reading": "びょうどう"
+        },
+        {
+          "wordId": "learned-s3-30",
+          "sourceForm": "各国",
+          "reading": "かくこく"
+        },
+        {
+          "wordId": "learned-s3-31",
+          "sourceForm": "代表",
+          "reading": "だいひょう"
+        },
+        {
+          "wordId": "learned-s3-32",
+          "sourceForm": "出席",
+          "reading": "しゅっせき"
+        },
+        {
+          "wordId": "learned-s3-33",
+          "sourceForm": "軽い",
+          "reading": "かるい"
+        },
+        {
+          "wordId": "learned-s3-34",
+          "sourceForm": "操作",
+          "reading": "そうさ"
+        },
+        {
+          "wordId": "learned-s3-35",
+          "sourceForm": "簡単",
+          "reading": "かんたん"
+        },
+        {
+          "wordId": "learned-s3-36",
+          "sourceForm": "値段",
+          "reading": "ねだん"
+        }
+      ]
+    },
+    {
+      "id": "learned-set-4",
+      "title": "Give meanings · Set 4",
+      "type": "prior-study",
+      "previouslyLearned": true,
+      "entryCount": 36,
+      "note": "Recovered from kanji_vocab_practice_set_4.html created in the Give meanings chat. The user reports having learned this vocabulary. Inflected source forms are kept alongside dictionary lemmas.",
+      "entries": [
+        {
+          "wordId": "learned-s4-01",
+          "sourceForm": "欠点",
+          "reading": "けってん"
+        },
+        {
+          "wordId": "learned-s4-02",
+          "sourceForm": "比べる",
+          "reading": "くらべる"
+        },
+        {
+          "wordId": "learned-s4-03",
+          "sourceForm": "進歩",
+          "reading": "しんぽ"
+        },
+        {
+          "wordId": "learned-s4-04",
+          "sourceForm": "放送局",
+          "reading": "ほうそうきょく"
+        },
+        {
+          "wordId": "learned-s4-05",
+          "sourceForm": "正面",
+          "reading": "しょうめん"
+        },
+        {
+          "wordId": "learned-s4-06",
+          "sourceForm": "停車",
+          "reading": "ていしゃ"
+        },
+        {
+          "wordId": "learned-s4-07",
+          "sourceForm": "禁止",
+          "reading": "きんし"
+        },
+        {
+          "wordId": "learned-s4-08",
+          "sourceForm": "地震",
+          "reading": "じしん"
+        },
+        {
+          "wordId": "learned-s4-09",
+          "sourceForm": "際",
+          "reading": "さい"
+        },
+        {
+          "wordId": "learned-s1-16",
+          "sourceForm": "被害",
+          "reading": "ひがい"
+        },
+        {
+          "wordId": "learned-s4-11",
+          "sourceForm": "確か",
+          "reading": "たしか"
+        },
+        {
+          "wordId": "learned-s4-12",
+          "sourceForm": "情報",
+          "reading": "じょうほう"
+        },
+        {
+          "wordId": "learned-s4-13",
+          "sourceForm": "航空",
+          "reading": "こうくう"
+        },
+        {
+          "wordId": "learned-s4-14",
+          "sourceForm": "万一",
+          "reading": "まんいち"
+        },
+        {
+          "wordId": "learned-s4-15",
+          "sourceForm": "備えて",
+          "reading": "そなえて"
+        },
+        {
+          "wordId": "learned-s4-16",
+          "sourceForm": "救助",
+          "reading": "きゅうじょ"
+        },
+        {
+          "wordId": "learned-s4-17",
+          "sourceForm": "留学生",
+          "reading": "りゅうがくせい"
+        },
+        {
+          "wordId": "learned-s4-18",
+          "sourceForm": "集会",
+          "reading": "しゅうかい"
+        },
+        {
+          "wordId": "learned-s4-19",
+          "sourceForm": "参加",
+          "reading": "さんか"
+        },
+        {
+          "wordId": "learned-s4-20",
+          "sourceForm": "交換",
+          "reading": "こうかん"
+        },
+        {
+          "wordId": "learned-s4-21",
+          "sourceForm": "珍しい",
+          "reading": "めずらしい"
+        },
+        {
+          "wordId": "learned-s4-22",
+          "sourceForm": "植物",
+          "reading": "しょくぶつ"
+        },
+        {
+          "wordId": "investigate",
+          "sourceForm": "調べて",
+          "reading": "しらべて"
+        },
+        {
+          "wordId": "learned-s4-24",
+          "sourceForm": "記録",
+          "reading": "きろく"
+        },
+        {
+          "wordId": "learned-s4-25",
+          "sourceForm": "老人",
+          "reading": "ろうじん"
+        },
+        {
+          "wordId": "learned-s4-26",
+          "sourceForm": "接触",
+          "reading": "せっしょく"
+        },
+        {
+          "wordId": "learned-s4-27",
+          "sourceForm": "倒れ",
+          "reading": "たおれ"
+        },
+        {
+          "wordId": "learned-s4-28",
+          "sourceForm": "折った",
+          "reading": "おった"
+        },
+        {
+          "wordId": "learned-s4-29",
+          "sourceForm": "汚染",
+          "reading": "おせん"
+        },
+        {
+          "wordId": "learned-s4-30",
+          "sourceForm": "恐れた",
+          "reading": "おそれた"
+        },
+        {
+          "wordId": "learned-s1-32",
+          "sourceForm": "住民",
+          "reading": "じゅうみん"
+        },
+        {
+          "wordId": "learned-s4-32",
+          "sourceForm": "鉱山",
+          "reading": "こうざん"
+        },
+        {
+          "wordId": "learned-s4-33",
+          "sourceForm": "恋愛",
+          "reading": "れんあい"
+        },
+        {
+          "wordId": "learned-s4-34",
+          "sourceForm": "結婚",
+          "reading": "けっこん"
+        },
+        {
+          "wordId": "learned-s4-35",
+          "sourceForm": "賛成",
+          "reading": "さんせい"
+        },
+        {
+          "wordId": "learned-s4-36",
+          "sourceForm": "順番",
+          "reading": "じゅんばん"
+        }
+      ]
     }
   ],
   "words": [
@@ -466,7 +1186,11 @@
           "reading": "きゅう"
         }
       ],
-      "forms": {}
+      "forms": {},
+      "example": {
+        "jp": "原因を調べたあとで、友達と一緒に実験を重ねました。細かい記録は研究で大切です。",
+        "en": "After investigating the cause, I repeated the experiment with a friend. Detailed records are important in research."
+      }
     },
     {
       "id": "experiment",
@@ -474,7 +1198,9 @@
       "reading": "じっけん",
       "meaning": "experiment",
       "tags": [
-        "Engineering"
+        "Engineering",
+        "Previously learned",
+        "Set 3"
       ],
       "icon": "🧪",
       "scene": "A test tube launches a tiny rocket.",
@@ -495,7 +1221,19 @@
       "example": {
         "jp": "実験の前に、先生の説明を聞きました。",
         "en": "Before the experiment, I listened to the teacher’s explanation."
-      }
+      },
+      "previouslyLearned": true,
+      "sourceIds": [
+        "starter",
+        "learned-set-3"
+      ],
+      "learnedSets": [
+        3
+      ],
+      "accept": [
+        "experiment",
+        "experimentation"
+      ]
     },
     {
       "id": "fail",
@@ -521,7 +1259,8 @@
         }
       ],
       "forms": {
-        "失敗しました": "しっぱいしました"
+        "失敗しました": "しっぱいしました",
+        "失敗した": "しっぱいした"
       },
       "example": {
         "jp": "でも、実験は失敗しました。友達が原因を調べてくれました。",
@@ -563,7 +1302,9 @@
       "reading": "しらべる",
       "meaning": "to investigate; to look up",
       "tags": [
-        "Engineering"
+        "Engineering",
+        "Previously learned",
+        "Set 4"
       ],
       "icon": "🕵️",
       "scene": "Search a mountain of papers with a giant magnifying glass.",
@@ -576,12 +1317,28 @@
         }
       ],
       "forms": {
-        "調べて": "しらべて"
+        "調べて": "しらべて",
+        "調べた": "しらべた"
       },
       "example": {
         "jp": "でも、実験は失敗しました。友達が原因を調べてくれました。",
         "en": "But the experiment failed. My friend investigated the cause for me."
-      }
+      },
+      "previouslyLearned": true,
+      "sourceIds": [
+        "starter",
+        "learned-set-4"
+      ],
+      "learnedSets": [
+        4
+      ],
+      "accept": [
+        "investigate",
+        "check",
+        "look up",
+        "research",
+        "examine"
+      ]
     },
     {
       "id": "explain",
@@ -608,7 +1365,8 @@
       ],
       "forms": {
         "説明して": "せつめいして",
-        "説明": "せつめい"
+        "説明": "せつめい",
+        "説明しました": "せつめいしました"
       },
       "example": {
         "jp": "一緒に本を読みました。友達が日本語を説明してくれました。",
@@ -1094,7 +1852,8 @@
         }
       ],
       "forms": {
-        "思います": "おもいます"
+        "思います": "おもいます",
+        "思いました": "おもいました"
       },
       "example": {
         "jp": "毎日続けるので、少し分かります。練習は大切だと思います。",
@@ -1336,6 +2095,5165 @@
       "example": {
         "jp": "実験の前に、先生の説明を聞きました。",
         "en": "Before the experiment, I listened to the teacher’s explanation."
+      }
+    },
+    {
+      "id": "learned-s1-01",
+      "surface": "悩む",
+      "reading": "なやむ",
+      "meaning": "to worry; to be troubled",
+      "tags": [
+        "Previously learned",
+        "Set 1"
+      ],
+      "sourceId": "learned-set-1",
+      "sourceIds": [
+        "learned-set-1"
+      ],
+      "previouslyLearned": true,
+      "icon": "💭",
+      "scene": "Create a vivid scene for “to worry; to be troubled”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "悩",
+          "reading": "なや",
+          "meaning": "worry · trouble"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "worry",
+        "to worry",
+        "be worried",
+        "be troubled",
+        "to be troubled",
+        "struggle with",
+        "be distressed"
+      ],
+      "learnedSets": [
+        1
+      ]
+    },
+    {
+      "id": "learned-s1-02",
+      "surface": "相談",
+      "reading": "そうだん",
+      "meaning": "consultation; discussion; asking for advice",
+      "tags": [
+        "Previously learned",
+        "Set 1"
+      ],
+      "sourceId": "learned-set-1",
+      "sourceIds": [
+        "learned-set-1"
+      ],
+      "previouslyLearned": true,
+      "icon": "💬",
+      "scene": "Create a vivid scene for “consultation; discussion; asking for advice”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "相",
+          "reading": "そう",
+          "meaning": "mutual · together"
+        },
+        {
+          "char": "談",
+          "reading": "だん",
+          "meaning": "talk · discuss"
+        }
+      ],
+      "forms": {
+        "相談して": "そうだんして",
+        "相談しました": "そうだんしました"
+      },
+      "accept": [
+        "consultation",
+        "discussion",
+        "asking for advice",
+        "ask for advice",
+        "consult",
+        "advice",
+        "talk something over"
+      ],
+      "learnedSets": [
+        1
+      ],
+      "example": {
+        "jp": "友達が「今日は難しい」と説明してくれたので、相談して、約束を延期しました。",
+        "en": "Because my friend explained, “Today is difficult,” we talked it over and postponed our arrangement."
+      }
+    },
+    {
+      "id": "learned-s1-03",
+      "surface": "絶対",
+      "reading": "ぜったい",
+      "meaning": "absolutely; definitely",
+      "tags": [
+        "Previously learned",
+        "Set 1"
+      ],
+      "sourceId": "learned-set-1",
+      "sourceIds": [
+        "learned-set-1"
+      ],
+      "previouslyLearned": true,
+      "icon": "🔒",
+      "scene": "Create a vivid scene for “absolutely; definitely”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "絶",
+          "reading": "ぜつ",
+          "meaning": "sever · cease"
+        },
+        {
+          "char": "対",
+          "reading": "たい",
+          "meaning": "opposite · versus"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "absolutely",
+        "definitely",
+        "absolute",
+        "certainly",
+        "for sure",
+        "without fail"
+      ],
+      "learnedSets": [
+        1
+      ]
+    },
+    {
+      "id": "learned-s1-04",
+      "surface": "約束",
+      "reading": "やくそく",
+      "meaning": "promise; agreement",
+      "tags": [
+        "Previously learned",
+        "Set 1"
+      ],
+      "sourceId": "learned-set-1",
+      "sourceIds": [
+        "learned-set-1"
+      ],
+      "previouslyLearned": true,
+      "icon": "🤝",
+      "scene": "Imagine a ribbon connecting two hands; the ribbon carries the promise.",
+      "kanji": [
+        {
+          "char": "約",
+          "reading": "やく",
+          "meaning": "promise · contract"
+        },
+        {
+          "char": "束",
+          "reading": "そく",
+          "meaning": "bundle · bind"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "promise",
+        "a promise",
+        "agreement",
+        "appointment",
+        "pledge"
+      ],
+      "learnedSets": [
+        1
+      ],
+      "example": {
+        "jp": "今日、友達と図書館に行く約束をしました。",
+        "en": "Today, I made a promise to go to the library with a friend."
+      }
+    },
+    {
+      "id": "learned-s1-05",
+      "surface": "破る",
+      "reading": "やぶる",
+      "meaning": "to break; to violate",
+      "tags": [
+        "Previously learned",
+        "Set 1"
+      ],
+      "sourceId": "learned-set-1",
+      "sourceIds": [
+        "learned-set-1"
+      ],
+      "previouslyLearned": true,
+      "icon": "📜",
+      "scene": "Create a vivid scene for “to break; to violate”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "破",
+          "reading": "やぶ",
+          "meaning": "break · tear"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "break",
+        "to break",
+        "violate",
+        "to violate",
+        "tear",
+        "to tear",
+        "break a rule",
+        "break a promise"
+      ],
+      "learnedSets": [
+        1
+      ]
+    },
+    {
+      "id": "learned-s1-06",
+      "surface": "警備",
+      "reading": "けいび",
+      "meaning": "security; guarding",
+      "tags": [
+        "Previously learned",
+        "Set 1"
+      ],
+      "sourceId": "learned-set-1",
+      "sourceIds": [
+        "learned-set-1"
+      ],
+      "previouslyLearned": true,
+      "icon": "🛡️",
+      "scene": "Create a vivid scene for “security; guarding”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "警",
+          "reading": "けい",
+          "meaning": "warn · caution"
+        },
+        {
+          "char": "備",
+          "reading": "び",
+          "meaning": "prepare · equip"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "security",
+        "guarding",
+        "guard",
+        "security detail",
+        "security services"
+      ],
+      "learnedSets": [
+        1
+      ]
+    },
+    {
+      "id": "learned-s1-07",
+      "surface": "都合",
+      "reading": "つごう",
+      "meaning": "circumstances; convenience; availability",
+      "tags": [
+        "Previously learned",
+        "Set 1",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-1",
+      "sourceIds": [
+        "learned-set-1",
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "🗓️",
+      "scene": "Picture calendar squares moving until two people’s free time overlaps.",
+      "kanji": [
+        {
+          "char": "都",
+          "reading": "つ",
+          "meaning": "capital · metropolis"
+        },
+        {
+          "char": "合",
+          "reading": "ごう",
+          "meaning": "fit · join"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "circumstances",
+        "convenience",
+        "availability",
+        "schedule",
+        "situation",
+        "convenient time"
+      ],
+      "learnedSets": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "learned-s1-08",
+      "surface": "延期",
+      "reading": "えんき",
+      "meaning": "postponement; delay",
+      "tags": [
+        "Previously learned",
+        "Set 1"
+      ],
+      "sourceId": "learned-set-1",
+      "sourceIds": [
+        "learned-set-1"
+      ],
+      "previouslyLearned": true,
+      "icon": "⏭️",
+      "scene": "Slide an appointment card across a giant calendar to a later day.",
+      "kanji": [
+        {
+          "char": "延",
+          "reading": "えん",
+          "meaning": "extend · prolong"
+        },
+        {
+          "char": "期",
+          "reading": "き",
+          "meaning": "period · term"
+        }
+      ],
+      "forms": {
+        "延期しました": "えんきしました"
+      },
+      "accept": [
+        "postponement",
+        "delay",
+        "postpone",
+        "extension",
+        "putting off"
+      ],
+      "learnedSets": [
+        1
+      ],
+      "example": {
+        "jp": "友達が「今日は難しい」と説明してくれたので、相談して、約束を延期しました。",
+        "en": "Because my friend explained, “Today is difficult,” we talked it over and postponed our arrangement."
+      }
+    },
+    {
+      "id": "learned-s1-09",
+      "surface": "住宅",
+      "reading": "じゅうたく",
+      "meaning": "housing; residence",
+      "tags": [
+        "Previously learned",
+        "Set 1"
+      ],
+      "sourceId": "learned-set-1",
+      "sourceIds": [
+        "learned-set-1"
+      ],
+      "previouslyLearned": true,
+      "icon": "🏘️",
+      "scene": "Create a vivid scene for “housing; residence”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "住",
+          "reading": "じゅう",
+          "meaning": "reside · live"
+        },
+        {
+          "char": "宅",
+          "reading": "たく",
+          "meaning": "home · house"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "housing",
+        "residence",
+        "house",
+        "homes",
+        "residential housing",
+        "dwelling"
+      ],
+      "learnedSets": [
+        1
+      ]
+    },
+    {
+      "id": "learned-s1-10",
+      "surface": "光",
+      "reading": "ひかり",
+      "meaning": "light",
+      "tags": [
+        "Previously learned",
+        "Set 1"
+      ],
+      "sourceId": "learned-set-1",
+      "sourceIds": [
+        "learned-set-1"
+      ],
+      "previouslyLearned": true,
+      "icon": "💡",
+      "scene": "Create a vivid scene for “light”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "光",
+          "reading": "ひかり",
+          "meaning": "light · shine"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "light",
+        "a light",
+        "shine",
+        "ray of light"
+      ],
+      "learnedSets": [
+        1
+      ]
+    },
+    {
+      "id": "learned-s1-11",
+      "surface": "奥",
+      "reading": "おく",
+      "meaning": "inner part; back; deep inside",
+      "tags": [
+        "Previously learned",
+        "Set 1"
+      ],
+      "sourceId": "learned-set-1",
+      "sourceIds": [
+        "learned-set-1"
+      ],
+      "previouslyLearned": true,
+      "icon": "🚪",
+      "scene": "Create a vivid scene for “inner part; back; deep inside”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "奥",
+          "reading": "おく",
+          "meaning": "inner part · depths"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "inner part",
+        "back",
+        "deep inside",
+        "interior",
+        "depths",
+        "inside"
+      ],
+      "learnedSets": [
+        1
+      ]
+    },
+    {
+      "id": "learned-s1-12",
+      "surface": "届く",
+      "reading": "とどく",
+      "meaning": "to reach; to arrive; to be delivered",
+      "tags": [
+        "Previously learned",
+        "Set 1"
+      ],
+      "sourceId": "learned-set-1",
+      "sourceIds": [
+        "learned-set-1"
+      ],
+      "previouslyLearned": true,
+      "icon": "📦",
+      "scene": "Create a vivid scene for “to reach; to arrive; to be delivered”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "届",
+          "reading": "とど",
+          "meaning": "reach · deliver"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "reach",
+        "to reach",
+        "arrive",
+        "to arrive",
+        "be delivered",
+        "to be delivered",
+        "get delivered"
+      ],
+      "learnedSets": [
+        1
+      ]
+    },
+    {
+      "id": "learned-s1-13",
+      "surface": "政府",
+      "reading": "せいふ",
+      "meaning": "government",
+      "tags": [
+        "Previously learned",
+        "Set 1"
+      ],
+      "sourceId": "learned-set-1",
+      "sourceIds": [
+        "learned-set-1"
+      ],
+      "previouslyLearned": true,
+      "icon": "🏛️",
+      "scene": "Create a vivid scene for “government”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "政",
+          "reading": "せい",
+          "meaning": "government · politics"
+        },
+        {
+          "char": "府",
+          "reading": "ふ",
+          "meaning": "government office"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "government",
+        "the government"
+      ],
+      "learnedSets": [
+        1
+      ]
+    },
+    {
+      "id": "learned-s1-14",
+      "surface": "調査",
+      "reading": "ちょうさ",
+      "meaning": "investigation; survey; research",
+      "tags": [
+        "Previously learned",
+        "Set 1"
+      ],
+      "sourceId": "learned-set-1",
+      "sourceIds": [
+        "learned-set-1"
+      ],
+      "previouslyLearned": true,
+      "icon": "🔎",
+      "scene": "Create a vivid scene for “investigation; survey; research”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "調",
+          "reading": "ちょう",
+          "meaning": "investigate · tune"
+        },
+        {
+          "char": "査",
+          "reading": "さ",
+          "meaning": "examine · investigate"
+        }
+      ],
+      "forms": {
+        "調査しました": "ちょうさしました"
+      },
+      "accept": [
+        "investigation",
+        "survey",
+        "research",
+        "inquiry",
+        "investigate",
+        "examination"
+      ],
+      "learnedSets": [
+        1
+      ],
+      "example": {
+        "jp": "友達と一緒に、地域の農業を調査しました。先生が作物を説明してくれました。",
+        "en": "Together with a friend, I investigated farming in the area. The teacher explained the crops to us."
+      }
+    },
+    {
+      "id": "learned-s1-15",
+      "surface": "農産物",
+      "reading": "のうさんぶつ",
+      "meaning": "agricultural products; farm produce",
+      "tags": [
+        "Previously learned",
+        "Set 1"
+      ],
+      "sourceId": "learned-set-1",
+      "sourceIds": [
+        "learned-set-1"
+      ],
+      "previouslyLearned": true,
+      "icon": "🥕",
+      "scene": "Create a vivid scene for “agricultural products; farm produce”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "農",
+          "reading": "のう",
+          "meaning": "agriculture · farming"
+        },
+        {
+          "char": "産",
+          "reading": "さん",
+          "meaning": "produce · give birth"
+        },
+        {
+          "char": "物",
+          "reading": "ぶつ",
+          "meaning": "thing · object"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "agricultural products",
+        "farm produce",
+        "agricultural produce",
+        "farm products",
+        "produce"
+      ],
+      "learnedSets": [
+        1
+      ],
+      "example": {
+        "jp": "農産物を守ることは大切だと思いました。記録を読みました。",
+        "en": "I thought protecting agricultural produce was important. I read the records."
+      }
+    },
+    {
+      "id": "learned-s1-16",
+      "surface": "被害",
+      "reading": "ひがい",
+      "meaning": "damage; harm",
+      "tags": [
+        "Previously learned",
+        "Set 1",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-1",
+      "sourceIds": [
+        "learned-set-1",
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "💥",
+      "scene": "Create a vivid scene for “damage; harm”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "被",
+          "reading": "ひ",
+          "meaning": "suffer · be subjected to"
+        },
+        {
+          "char": "害",
+          "reading": "がい",
+          "meaning": "harm · damage"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "damage",
+        "harm",
+        "injury",
+        "loss",
+        "damages",
+        "harm suffered"
+      ],
+      "learnedSets": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": "learned-s1-17",
+      "surface": "記事",
+      "reading": "きじ",
+      "meaning": "article; news story",
+      "tags": [
+        "Previously learned",
+        "Set 1"
+      ],
+      "sourceId": "learned-set-1",
+      "sourceIds": [
+        "learned-set-1"
+      ],
+      "previouslyLearned": true,
+      "icon": "📰",
+      "scene": "Create a vivid scene for “article; news story”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "記",
+          "reading": "き",
+          "meaning": "record · write down"
+        },
+        {
+          "char": "事",
+          "reading": "じ",
+          "meaning": "matter · thing"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "article",
+        "news article",
+        "news story",
+        "story",
+        "written article"
+      ],
+      "learnedSets": [
+        1
+      ],
+      "example": {
+        "jp": "一方、私は図書館で地域の記事を読みました。記事の著者は、その地域の住民でした。",
+        "en": "Meanwhile, I read an article about the area at the library. Its author was a resident of that area."
+      }
+    },
+    {
+      "id": "learned-s1-18",
+      "surface": "汗",
+      "reading": "あせ",
+      "meaning": "sweat",
+      "tags": [
+        "Previously learned",
+        "Set 1"
+      ],
+      "sourceId": "learned-set-1",
+      "sourceIds": [
+        "learned-set-1"
+      ],
+      "previouslyLearned": true,
+      "icon": "💧",
+      "scene": "Create a vivid scene for “sweat”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "汗",
+          "reading": "あせ",
+          "meaning": "sweat"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "sweat",
+        "perspiration"
+      ],
+      "learnedSets": [
+        1
+      ]
+    },
+    {
+      "id": "learned-s1-19",
+      "surface": "流す",
+      "reading": "ながす",
+      "meaning": "to let flow; to drain; to shed",
+      "tags": [
+        "Previously learned",
+        "Set 1"
+      ],
+      "sourceId": "learned-set-1",
+      "sourceIds": [
+        "learned-set-1"
+      ],
+      "previouslyLearned": true,
+      "icon": "🌊",
+      "scene": "Create a vivid scene for “to let flow; to drain; to shed”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "流",
+          "reading": "なが",
+          "meaning": "flow · stream"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "let flow",
+        "to let flow",
+        "drain",
+        "to drain",
+        "shed",
+        "to shed",
+        "pour",
+        "wash away"
+      ],
+      "learnedSets": [
+        1
+      ]
+    },
+    {
+      "id": "learned-s1-20",
+      "surface": "働く",
+      "reading": "はたらく",
+      "meaning": "to work",
+      "tags": [
+        "Previously learned",
+        "Set 1"
+      ],
+      "sourceId": "learned-set-1",
+      "sourceIds": [
+        "learned-set-1"
+      ],
+      "previouslyLearned": true,
+      "icon": "🧰",
+      "scene": "Create a vivid scene for “to work”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "働",
+          "reading": "はたら",
+          "meaning": "work · labor"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "work",
+        "to work",
+        "labor",
+        "to labor",
+        "be employed"
+      ],
+      "learnedSets": [
+        1
+      ]
+    },
+    {
+      "id": "learned-s1-21",
+      "surface": "警告",
+      "reading": "けいこく",
+      "meaning": "warning",
+      "tags": [
+        "Previously learned",
+        "Set 1"
+      ],
+      "sourceId": "learned-set-1",
+      "sourceIds": [
+        "learned-set-1"
+      ],
+      "previouslyLearned": true,
+      "icon": "⚠️",
+      "scene": "Create a vivid scene for “warning”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "警",
+          "reading": "けい",
+          "meaning": "warn · caution"
+        },
+        {
+          "char": "告",
+          "reading": "こく",
+          "meaning": "announce · inform"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "warning",
+        "a warning",
+        "caution",
+        "alert"
+      ],
+      "learnedSets": [
+        1
+      ]
+    },
+    {
+      "id": "learned-s1-22",
+      "surface": "飲酒",
+      "reading": "いんしゅ",
+      "meaning": "drinking alcohol; alcohol consumption",
+      "tags": [
+        "Previously learned",
+        "Set 1"
+      ],
+      "sourceId": "learned-set-1",
+      "sourceIds": [
+        "learned-set-1"
+      ],
+      "previouslyLearned": true,
+      "icon": "🍶",
+      "scene": "Create a vivid scene for “drinking alcohol; alcohol consumption”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "飲",
+          "reading": "いん",
+          "meaning": "drink"
+        },
+        {
+          "char": "酒",
+          "reading": "しゅ",
+          "meaning": "alcohol · sake"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "drinking alcohol",
+        "alcohol consumption",
+        "drinking",
+        "alcohol drinking",
+        "consumption of alcohol"
+      ],
+      "learnedSets": [
+        1
+      ]
+    },
+    {
+      "id": "learned-s1-23",
+      "surface": "習慣",
+      "reading": "しゅうかん",
+      "meaning": "habit; custom",
+      "tags": [
+        "Previously learned",
+        "Set 1"
+      ],
+      "sourceId": "learned-set-1",
+      "sourceIds": [
+        "learned-set-1"
+      ],
+      "previouslyLearned": true,
+      "icon": "🔁",
+      "scene": "An action repeats around the same calendar square every morning.",
+      "kanji": [
+        {
+          "char": "習",
+          "reading": "しゅう",
+          "meaning": "learn · practice"
+        },
+        {
+          "char": "慣",
+          "reading": "かん",
+          "meaning": "accustomed · habit"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "habit",
+        "custom",
+        "routine",
+        "practice",
+        "habitual practice"
+      ],
+      "learnedSets": [
+        1
+      ]
+    },
+    {
+      "id": "learned-s1-24",
+      "surface": "改める",
+      "reading": "あらためる",
+      "meaning": "to change; to correct; to revise",
+      "tags": [
+        "Previously learned",
+        "Set 1"
+      ],
+      "sourceId": "learned-set-1",
+      "sourceIds": [
+        "learned-set-1"
+      ],
+      "previouslyLearned": true,
+      "icon": "✏️",
+      "scene": "Create a vivid scene for “to change; to correct; to revise”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "改",
+          "reading": "あらた",
+          "meaning": "change · reform"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "change",
+        "to change",
+        "correct",
+        "to correct",
+        "revise",
+        "to revise",
+        "reform",
+        "amend",
+        "improve"
+      ],
+      "learnedSets": [
+        1
+      ]
+    },
+    {
+      "id": "learned-s1-25",
+      "surface": "一方",
+      "reading": "いっぽう",
+      "meaning": "on the other hand; one side",
+      "tags": [
+        "Previously learned",
+        "Set 1"
+      ],
+      "sourceId": "learned-set-1",
+      "sourceIds": [
+        "learned-set-1"
+      ],
+      "previouslyLearned": true,
+      "icon": "↔️",
+      "scene": "Create a vivid scene for “on the other hand; one side”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "一",
+          "reading": "いっ",
+          "meaning": "one"
+        },
+        {
+          "char": "方",
+          "reading": "ぽう",
+          "meaning": "direction · side"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "on the other hand",
+        "one side",
+        "one direction",
+        "meanwhile",
+        "the other hand"
+      ],
+      "learnedSets": [
+        1
+      ],
+      "example": {
+        "jp": "一方、私は図書館で地域の記事を読みました。記事の著者は、その地域の住民でした。",
+        "en": "Meanwhile, I read an article about the area at the library. Its author was a resident of that area."
+      }
+    },
+    {
+      "id": "learned-s1-26",
+      "surface": "姉妹",
+      "reading": "しまい",
+      "meaning": "sisters",
+      "tags": [
+        "Previously learned",
+        "Set 1"
+      ],
+      "sourceId": "learned-set-1",
+      "sourceIds": [
+        "learned-set-1"
+      ],
+      "previouslyLearned": true,
+      "icon": "👭",
+      "scene": "Create a vivid scene for “sisters”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "姉",
+          "reading": "し",
+          "meaning": "older sister"
+        },
+        {
+          "char": "妹",
+          "reading": "まい",
+          "meaning": "younger sister"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "sisters",
+        "sister",
+        "female siblings"
+      ],
+      "learnedSets": [
+        1
+      ]
+    },
+    {
+      "id": "learned-s1-27",
+      "surface": "姿",
+      "reading": "すがた",
+      "meaning": "appearance; figure; form",
+      "tags": [
+        "Previously learned",
+        "Set 1"
+      ],
+      "sourceId": "learned-set-1",
+      "sourceIds": [
+        "learned-set-1"
+      ],
+      "previouslyLearned": true,
+      "icon": "🪞",
+      "scene": "Create a vivid scene for “appearance; figure; form”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "姿",
+          "reading": "すがた",
+          "meaning": "appearance · figure"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "appearance",
+        "figure",
+        "form",
+        "shape",
+        "姿",
+        "look"
+      ],
+      "learnedSets": [
+        1
+      ]
+    },
+    {
+      "id": "learned-s1-28",
+      "surface": "似る",
+      "reading": "にる",
+      "meaning": "to resemble; to look like",
+      "tags": [
+        "Previously learned",
+        "Set 1"
+      ],
+      "sourceId": "learned-set-1",
+      "sourceIds": [
+        "learned-set-1"
+      ],
+      "previouslyLearned": true,
+      "icon": "👥",
+      "scene": "Create a vivid scene for “to resemble; to look like”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "似",
+          "reading": "に",
+          "meaning": "resemble · similar"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "resemble",
+        "to resemble",
+        "look like",
+        "to look like",
+        "be similar",
+        "to be similar"
+      ],
+      "learnedSets": [
+        1
+      ]
+    },
+    {
+      "id": "learned-s1-29",
+      "surface": "結ぶ",
+      "reading": "むすぶ",
+      "meaning": "to tie; to connect; to bind",
+      "tags": [
+        "Previously learned",
+        "Set 1"
+      ],
+      "sourceId": "learned-set-1",
+      "sourceIds": [
+        "learned-set-1"
+      ],
+      "previouslyLearned": true,
+      "icon": "🪢",
+      "scene": "Create a vivid scene for “to tie; to connect; to bind”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "結",
+          "reading": "むす",
+          "meaning": "tie · bind · connect"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "tie",
+        "to tie",
+        "connect",
+        "to connect",
+        "bind",
+        "to bind",
+        "link",
+        "form",
+        "conclude"
+      ],
+      "learnedSets": [
+        1
+      ]
+    },
+    {
+      "id": "learned-s1-30",
+      "surface": "著者",
+      "reading": "ちょしゃ",
+      "meaning": "author",
+      "tags": [
+        "Previously learned",
+        "Set 1"
+      ],
+      "sourceId": "learned-set-1",
+      "sourceIds": [
+        "learned-set-1"
+      ],
+      "previouslyLearned": true,
+      "icon": "🖋️",
+      "scene": "Create a vivid scene for “author”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "著",
+          "reading": "ちょ",
+          "meaning": "write · notable"
+        },
+        {
+          "char": "者",
+          "reading": "しゃ",
+          "meaning": "person"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "author",
+        "writer",
+        "the author"
+      ],
+      "learnedSets": [
+        1
+      ],
+      "example": {
+        "jp": "一方、私は図書館で地域の記事を読みました。記事の著者は、その地域の住民でした。",
+        "en": "Meanwhile, I read an article about the area at the library. Its author was a resident of that area."
+      }
+    },
+    {
+      "id": "learned-s1-31",
+      "surface": "地域",
+      "reading": "ちいき",
+      "meaning": "region; area",
+      "tags": [
+        "Previously learned",
+        "Set 1"
+      ],
+      "sourceId": "learned-set-1",
+      "sourceIds": [
+        "learned-set-1"
+      ],
+      "previouslyLearned": true,
+      "icon": "🗺️",
+      "scene": "Create a vivid scene for “region; area”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "地",
+          "reading": "ち",
+          "meaning": "ground · place"
+        },
+        {
+          "char": "域",
+          "reading": "いき",
+          "meaning": "region · boundary"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "region",
+        "area",
+        "district",
+        "local area",
+        "zone"
+      ],
+      "learnedSets": [
+        1
+      ],
+      "example": {
+        "jp": "一方、私は図書館で地域の記事を読みました。記事の著者は、その地域の住民でした。",
+        "en": "Meanwhile, I read an article about the area at the library. Its author was a resident of that area."
+      }
+    },
+    {
+      "id": "learned-s1-32",
+      "surface": "住民",
+      "reading": "じゅうみん",
+      "meaning": "residents; inhabitants",
+      "tags": [
+        "Previously learned",
+        "Set 1",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-1",
+      "sourceIds": [
+        "learned-set-1",
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "🏘️",
+      "scene": "Create a vivid scene for “residents; inhabitants”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "住",
+          "reading": "じゅう",
+          "meaning": "reside · live"
+        },
+        {
+          "char": "民",
+          "reading": "みん",
+          "meaning": "people · citizens"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "residents",
+        "inhabitants",
+        "resident",
+        "locals",
+        "local residents",
+        "population"
+      ],
+      "learnedSets": [
+        1,
+        4
+      ],
+      "example": {
+        "jp": "一方、私は図書館で地域の記事を読みました。記事の著者は、その地域の住民でした。",
+        "en": "Meanwhile, I read an article about the area at the library. Its author was a resident of that area."
+      }
+    },
+    {
+      "id": "learned-s2-01",
+      "surface": "観察",
+      "reading": "かんさつ",
+      "meaning": "observation; observing",
+      "tags": [
+        "Previously learned",
+        "Set 2"
+      ],
+      "sourceId": "learned-set-2",
+      "sourceIds": [
+        "learned-set-2"
+      ],
+      "previouslyLearned": true,
+      "icon": "🔬",
+      "scene": "Create a vivid scene for “observation; observing”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "観",
+          "reading": "かん",
+          "meaning": "observe · view"
+        },
+        {
+          "char": "察",
+          "reading": "さつ",
+          "meaning": "inspect · examine"
+        }
+      ],
+      "forms": {
+        "観察しました": "かんさつしました"
+      },
+      "accept": [
+        "observation",
+        "observing",
+        "observe",
+        "inspection"
+      ],
+      "learnedSets": [
+        2
+      ],
+      "example": {
+        "jp": "作物を調べる前に、雨量と湿度を記録しました。それから、草の虫を観察しました。",
+        "en": "Before examining the crops, we recorded rainfall and humidity. Then we observed the insects on the grass."
+      }
+    },
+    {
+      "id": "learned-s2-02",
+      "surface": "歴史",
+      "reading": "れきし",
+      "meaning": "history",
+      "tags": [
+        "Previously learned",
+        "Set 2"
+      ],
+      "sourceId": "learned-set-2",
+      "sourceIds": [
+        "learned-set-2"
+      ],
+      "previouslyLearned": true,
+      "icon": "📜",
+      "scene": "Create a vivid scene for “history”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "歴",
+          "reading": "れき",
+          "meaning": "history · passing through"
+        },
+        {
+          "char": "史",
+          "reading": "し",
+          "meaning": "history · chronicle"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "history"
+      ],
+      "learnedSets": [
+        2
+      ]
+    },
+    {
+      "id": "learned-s2-03",
+      "surface": "担当",
+      "reading": "たんとう",
+      "meaning": "being in charge of; responsibility",
+      "tags": [
+        "Previously learned",
+        "Set 2"
+      ],
+      "sourceId": "learned-set-2",
+      "sourceIds": [
+        "learned-set-2"
+      ],
+      "previouslyLearned": true,
+      "icon": "📋",
+      "scene": "Create a vivid scene for “being in charge of; responsibility”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "担",
+          "reading": "たん",
+          "meaning": "carry · bear"
+        },
+        {
+          "char": "当",
+          "reading": "とう",
+          "meaning": "hit · correspond"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "being in charge of",
+        "in charge",
+        "responsibility",
+        "charge",
+        "assignment"
+      ],
+      "learnedSets": [
+        2
+      ]
+    },
+    {
+      "id": "learned-s2-04",
+      "surface": "係員",
+      "reading": "かかりいん",
+      "meaning": "attendant; staff member; person in charge",
+      "tags": [
+        "Previously learned",
+        "Set 2"
+      ],
+      "sourceId": "learned-set-2",
+      "sourceIds": [
+        "learned-set-2"
+      ],
+      "previouslyLearned": true,
+      "icon": "🧑‍💼",
+      "scene": "Create a vivid scene for “attendant; staff member; person in charge”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "係",
+          "reading": "かかり",
+          "meaning": "connection · person in charge"
+        },
+        {
+          "char": "員",
+          "reading": "いん",
+          "meaning": "member · staff"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "attendant",
+        "staff member",
+        "staff",
+        "person in charge",
+        "clerk",
+        "employee"
+      ],
+      "learnedSets": [
+        2
+      ],
+      "example": {
+        "jp": "集会の前に、係員が順番を説明してくれました。一緒に珍しい植物を観察しました。",
+        "en": "Before the gathering, a staff member explained the order to us. We observed a rare plant together."
+      }
+    },
+    {
+      "id": "learned-s2-05",
+      "surface": "束",
+      "reading": "たば",
+      "meaning": "bundle; bunch",
+      "tags": [
+        "Previously learned",
+        "Set 2"
+      ],
+      "sourceId": "learned-set-2",
+      "sourceIds": [
+        "learned-set-2"
+      ],
+      "previouslyLearned": true,
+      "icon": "💐",
+      "scene": "Create a vivid scene for “bundle; bunch”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "束",
+          "reading": "たば",
+          "meaning": "bundle · bind"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "bundle",
+        "bunch",
+        "sheaf"
+      ],
+      "learnedSets": [
+        2
+      ]
+    },
+    {
+      "id": "learned-s2-06",
+      "surface": "腕",
+      "reading": "うで",
+      "meaning": "arm; skill/ability",
+      "tags": [
+        "Previously learned",
+        "Set 2"
+      ],
+      "sourceId": "learned-set-2",
+      "sourceIds": [
+        "learned-set-2"
+      ],
+      "previouslyLearned": true,
+      "icon": "💪",
+      "scene": "Create a vivid scene for “arm; skill/ability”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "腕",
+          "reading": "うで",
+          "meaning": "arm · skill"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "arm",
+        "skill",
+        "ability"
+      ],
+      "learnedSets": [
+        2
+      ]
+    },
+    {
+      "id": "learned-s2-07",
+      "surface": "抱える",
+      "reading": "かかえる",
+      "meaning": "to hold in one's arms; to have/bear a problem",
+      "tags": [
+        "Previously learned",
+        "Set 2"
+      ],
+      "sourceId": "learned-set-2",
+      "sourceIds": [
+        "learned-set-2"
+      ],
+      "previouslyLearned": true,
+      "icon": "🧸",
+      "scene": "Create a vivid scene for “to hold in one's arms; to have/bear a problem”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "抱",
+          "reading": "かか",
+          "meaning": "hold · embrace"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "hold in one's arms",
+        "to hold in one's arms",
+        "hold",
+        "carry in one's arms",
+        "bear a problem",
+        "have a problem",
+        "bear"
+      ],
+      "learnedSets": [
+        2
+      ]
+    },
+    {
+      "id": "learned-s2-08",
+      "surface": "独立",
+      "reading": "どくりつ",
+      "meaning": "independence; becoming independent",
+      "tags": [
+        "Previously learned",
+        "Set 2"
+      ],
+      "sourceId": "learned-set-2",
+      "sourceIds": [
+        "learned-set-2"
+      ],
+      "previouslyLearned": true,
+      "icon": "🕊️",
+      "scene": "Create a vivid scene for “independence; becoming independent”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "独",
+          "reading": "どく",
+          "meaning": "alone · single"
+        },
+        {
+          "char": "立",
+          "reading": "りつ",
+          "meaning": "stand · establish"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "independence",
+        "independent",
+        "becoming independent"
+      ],
+      "learnedSets": [
+        2
+      ]
+    },
+    {
+      "id": "learned-s2-09",
+      "surface": "希望",
+      "reading": "きぼう",
+      "meaning": "hope; wish; desire",
+      "tags": [
+        "Previously learned",
+        "Set 2"
+      ],
+      "sourceId": "learned-set-2",
+      "sourceIds": [
+        "learned-set-2"
+      ],
+      "previouslyLearned": true,
+      "icon": "🌅",
+      "scene": "Create a vivid scene for “hope; wish; desire”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "希",
+          "reading": "き",
+          "meaning": "hope · rare"
+        },
+        {
+          "char": "望",
+          "reading": "ぼう",
+          "meaning": "hope · desire"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "hope",
+        "wish",
+        "desire"
+      ],
+      "learnedSets": [
+        2
+      ],
+      "example": {
+        "jp": "植物を調べたあとで、情報を交換しました。私は研究の希望を説明しました。友達は賛成しました。",
+        "en": "After examining the plant, we exchanged information. I explained what I hoped to research. My friend agreed."
+      }
+    },
+    {
+      "id": "learned-s2-10",
+      "surface": "燃える",
+      "reading": "もえる",
+      "meaning": "to burn; to be on fire",
+      "tags": [
+        "Previously learned",
+        "Set 2"
+      ],
+      "sourceId": "learned-set-2",
+      "sourceIds": [
+        "learned-set-2"
+      ],
+      "previouslyLearned": true,
+      "icon": "🔥",
+      "scene": "Create a vivid scene for “to burn; to be on fire”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "燃",
+          "reading": "も",
+          "meaning": "burn"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "burn",
+        "to burn",
+        "be on fire",
+        "to be on fire"
+      ],
+      "learnedSets": [
+        2
+      ]
+    },
+    {
+      "id": "learned-s2-11",
+      "surface": "耕す",
+      "reading": "たがやす",
+      "meaning": "to cultivate; to till/plow land",
+      "tags": [
+        "Previously learned",
+        "Set 2"
+      ],
+      "sourceId": "learned-set-2",
+      "sourceIds": [
+        "learned-set-2"
+      ],
+      "previouslyLearned": true,
+      "icon": "🚜",
+      "scene": "Create a vivid scene for “to cultivate; to till/plow land”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "耕",
+          "reading": "たがや",
+          "meaning": "cultivate · till"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "cultivate",
+        "to cultivate",
+        "till",
+        "to till",
+        "plow",
+        "to plow"
+      ],
+      "learnedSets": [
+        2
+      ]
+    },
+    {
+      "id": "learned-s2-12",
+      "surface": "種",
+      "reading": "たね",
+      "meaning": "seed",
+      "tags": [
+        "Previously learned",
+        "Set 2"
+      ],
+      "sourceId": "learned-set-2",
+      "sourceIds": [
+        "learned-set-2"
+      ],
+      "previouslyLearned": true,
+      "icon": "🌰",
+      "scene": "Create a vivid scene for “seed”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "種",
+          "reading": "たね",
+          "meaning": "seed · kind"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "seed"
+      ],
+      "learnedSets": [
+        2
+      ]
+    },
+    {
+      "id": "learned-s2-13",
+      "surface": "草",
+      "reading": "くさ",
+      "meaning": "grass; weed",
+      "tags": [
+        "Previously learned",
+        "Set 2"
+      ],
+      "sourceId": "learned-set-2",
+      "sourceIds": [
+        "learned-set-2"
+      ],
+      "previouslyLearned": true,
+      "icon": "🌱",
+      "scene": "Create a vivid scene for “grass; weed”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "草",
+          "reading": "くさ",
+          "meaning": "grass · weed"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "grass",
+        "weed"
+      ],
+      "learnedSets": [
+        2
+      ],
+      "example": {
+        "jp": "作物を調べる前に、雨量と湿度を記録しました。それから、草の虫を観察しました。",
+        "en": "Before examining the crops, we recorded rainfall and humidity. Then we observed the insects on the grass."
+      }
+    },
+    {
+      "id": "learned-s2-14",
+      "surface": "虫",
+      "reading": "むし",
+      "meaning": "insect; bug",
+      "tags": [
+        "Previously learned",
+        "Set 2"
+      ],
+      "sourceId": "learned-set-2",
+      "sourceIds": [
+        "learned-set-2"
+      ],
+      "previouslyLearned": true,
+      "icon": "🐞",
+      "scene": "Create a vivid scene for “insect; bug”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "虫",
+          "reading": "むし",
+          "meaning": "insect · bug"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "insect",
+        "bug"
+      ],
+      "learnedSets": [
+        2
+      ],
+      "example": {
+        "jp": "作物を調べる前に、雨量と湿度を記録しました。それから、草の虫を観察しました。",
+        "en": "Before examining the crops, we recorded rainfall and humidity. Then we observed the insects on the grass."
+      }
+    },
+    {
+      "id": "learned-s2-15",
+      "surface": "作物",
+      "reading": "さくもつ",
+      "meaning": "crop; agricultural produce",
+      "tags": [
+        "Previously learned",
+        "Set 2"
+      ],
+      "sourceId": "learned-set-2",
+      "sourceIds": [
+        "learned-set-2"
+      ],
+      "previouslyLearned": true,
+      "icon": "🌾",
+      "scene": "Create a vivid scene for “crop; agricultural produce”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "作",
+          "reading": "さく",
+          "meaning": "make · produce"
+        },
+        {
+          "char": "物",
+          "reading": "もつ",
+          "meaning": "thing · object"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "crop",
+        "crops",
+        "agricultural produce",
+        "produce"
+      ],
+      "learnedSets": [
+        2
+      ],
+      "example": {
+        "jp": "友達と一緒に、地域の農業を調査しました。先生が作物を説明してくれました。",
+        "en": "Together with a friend, I investigated farming in the area. The teacher explained the crops to us."
+      }
+    },
+    {
+      "id": "learned-s2-16",
+      "surface": "守る",
+      "reading": "まもる",
+      "meaning": "to protect; to obey; to keep",
+      "tags": [
+        "Previously learned",
+        "Set 2"
+      ],
+      "sourceId": "learned-set-2",
+      "sourceIds": [
+        "learned-set-2"
+      ],
+      "previouslyLearned": true,
+      "icon": "🛡️",
+      "scene": "Create a vivid scene for “to protect; to obey; to keep”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "守",
+          "reading": "まも",
+          "meaning": "protect · keep"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "protect",
+        "to protect",
+        "obey",
+        "to obey",
+        "keep",
+        "to keep"
+      ],
+      "learnedSets": [
+        2
+      ],
+      "example": {
+        "jp": "農産物を守ることは大切だと思いました。記録を読みました。",
+        "en": "I thought protecting agricultural produce was important. I read the records."
+      }
+    },
+    {
+      "id": "learned-s2-17",
+      "surface": "混乱",
+      "reading": "こんらん",
+      "meaning": "confusion; disorder; chaos",
+      "tags": [
+        "Previously learned",
+        "Set 2"
+      ],
+      "sourceId": "learned-set-2",
+      "sourceIds": [
+        "learned-set-2"
+      ],
+      "previouslyLearned": true,
+      "icon": "🌀",
+      "scene": "Create a vivid scene for “confusion; disorder; chaos”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "混",
+          "reading": "こん",
+          "meaning": "mix · mingle"
+        },
+        {
+          "char": "乱",
+          "reading": "らん",
+          "meaning": "disorder · chaos"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "confusion",
+        "disorder",
+        "chaos",
+        "turmoil"
+      ],
+      "learnedSets": [
+        2
+      ]
+    },
+    {
+      "id": "learned-s2-18",
+      "surface": "肩",
+      "reading": "かた",
+      "meaning": "shoulder",
+      "tags": [
+        "Previously learned",
+        "Set 2"
+      ],
+      "sourceId": "learned-set-2",
+      "sourceIds": [
+        "learned-set-2"
+      ],
+      "previouslyLearned": true,
+      "icon": "🎒",
+      "scene": "Create a vivid scene for “shoulder”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "肩",
+          "reading": "かた",
+          "meaning": "shoulder"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "shoulder"
+      ],
+      "learnedSets": [
+        2
+      ]
+    },
+    {
+      "id": "learned-s2-19",
+      "surface": "抜く",
+      "reading": "ぬく",
+      "meaning": "to pull out; to remove; to extract",
+      "tags": [
+        "Previously learned",
+        "Set 2"
+      ],
+      "sourceId": "learned-set-2",
+      "sourceIds": [
+        "learned-set-2"
+      ],
+      "previouslyLearned": true,
+      "icon": "🥕",
+      "scene": "Create a vivid scene for “to pull out; to remove; to extract”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "抜",
+          "reading": "ぬ",
+          "meaning": "pull out · extract"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "pull out",
+        "to pull out",
+        "remove",
+        "to remove",
+        "extract",
+        "to extract"
+      ],
+      "learnedSets": [
+        2
+      ]
+    },
+    {
+      "id": "learned-s2-20",
+      "surface": "閉じる",
+      "reading": "とじる",
+      "meaning": "to close; to shut",
+      "tags": [
+        "Previously learned",
+        "Set 2"
+      ],
+      "sourceId": "learned-set-2",
+      "sourceIds": [
+        "learned-set-2"
+      ],
+      "previouslyLearned": true,
+      "icon": "🚪",
+      "scene": "Create a vivid scene for “to close; to shut”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "閉",
+          "reading": "と",
+          "meaning": "close · shut"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "close",
+        "to close",
+        "shut",
+        "to shut"
+      ],
+      "learnedSets": [
+        2
+      ]
+    },
+    {
+      "id": "learned-s2-21",
+      "surface": "呼吸",
+      "reading": "こきゅう",
+      "meaning": "breathing; respiration",
+      "tags": [
+        "Previously learned",
+        "Set 2"
+      ],
+      "sourceId": "learned-set-2",
+      "sourceIds": [
+        "learned-set-2"
+      ],
+      "previouslyLearned": true,
+      "icon": "🌬️",
+      "scene": "Create a vivid scene for “breathing; respiration”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "呼",
+          "reading": "こ",
+          "meaning": "call"
+        },
+        {
+          "char": "吸",
+          "reading": "きゅう",
+          "meaning": "inhale · suck"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "breathing",
+        "respiration",
+        "breath"
+      ],
+      "learnedSets": [
+        2
+      ]
+    },
+    {
+      "id": "learned-s2-22",
+      "surface": "首相",
+      "reading": "しゅしょう",
+      "meaning": "prime minister",
+      "tags": [
+        "Previously learned",
+        "Set 2"
+      ],
+      "sourceId": "learned-set-2",
+      "sourceIds": [
+        "learned-set-2"
+      ],
+      "previouslyLearned": true,
+      "icon": "🏛️",
+      "scene": "Create a vivid scene for “prime minister”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "首",
+          "reading": "しゅ",
+          "meaning": "head · neck"
+        },
+        {
+          "char": "相",
+          "reading": "しょう",
+          "meaning": "mutual · minister"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "prime minister"
+      ],
+      "learnedSets": [
+        2
+      ]
+    },
+    {
+      "id": "learned-s2-23",
+      "surface": "状況",
+      "reading": "じょうきょう",
+      "meaning": "situation; circumstances; condition",
+      "tags": [
+        "Previously learned",
+        "Set 2"
+      ],
+      "sourceId": "learned-set-2",
+      "sourceIds": [
+        "learned-set-2"
+      ],
+      "previouslyLearned": true,
+      "icon": "🎬",
+      "scene": "Create a vivid scene for “situation; circumstances; condition”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "状",
+          "reading": "じょう",
+          "meaning": "condition · state"
+        },
+        {
+          "char": "況",
+          "reading": "きょう",
+          "meaning": "condition · situation"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "situation",
+        "circumstances",
+        "condition",
+        "state of affairs"
+      ],
+      "learnedSets": [
+        2
+      ]
+    },
+    {
+      "id": "learned-s2-24",
+      "surface": "認める",
+      "reading": "みとめる",
+      "meaning": "to recognize; to acknowledge; to admit; to approve",
+      "tags": [
+        "Previously learned",
+        "Set 2"
+      ],
+      "sourceId": "learned-set-2",
+      "sourceIds": [
+        "learned-set-2"
+      ],
+      "previouslyLearned": true,
+      "icon": "✅",
+      "scene": "Create a vivid scene for “to recognize; to acknowledge; to admit; to approve”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "認",
+          "reading": "みと",
+          "meaning": "recognize · admit"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "recognize",
+        "to recognize",
+        "acknowledge",
+        "to acknowledge",
+        "admit",
+        "to admit",
+        "approve",
+        "to approve"
+      ],
+      "learnedSets": [
+        2
+      ]
+    },
+    {
+      "id": "learned-s2-25",
+      "surface": "雨量",
+      "reading": "うりょう",
+      "meaning": "amount of rainfall; rainfall",
+      "tags": [
+        "Previously learned",
+        "Set 2"
+      ],
+      "sourceId": "learned-set-2",
+      "sourceIds": [
+        "learned-set-2"
+      ],
+      "previouslyLearned": true,
+      "icon": "🌧️",
+      "scene": "Create a vivid scene for “amount of rainfall; rainfall”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "雨",
+          "reading": "う",
+          "meaning": "rain"
+        },
+        {
+          "char": "量",
+          "reading": "りょう",
+          "meaning": "amount · quantity"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "amount of rainfall",
+        "rainfall",
+        "rain amount"
+      ],
+      "learnedSets": [
+        2
+      ],
+      "example": {
+        "jp": "作物を調べる前に、雨量と湿度を記録しました。それから、草の虫を観察しました。",
+        "en": "Before examining the crops, we recorded rainfall and humidity. Then we observed the insects on the grass."
+      }
+    },
+    {
+      "id": "learned-s2-26",
+      "surface": "湿度",
+      "reading": "しつど",
+      "meaning": "humidity",
+      "tags": [
+        "Previously learned",
+        "Set 2"
+      ],
+      "sourceId": "learned-set-2",
+      "sourceIds": [
+        "learned-set-2"
+      ],
+      "previouslyLearned": true,
+      "icon": "💧",
+      "scene": "Create a vivid scene for “humidity”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "湿",
+          "reading": "しつ",
+          "meaning": "wet · moist"
+        },
+        {
+          "char": "度",
+          "reading": "ど",
+          "meaning": "degree · extent"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "humidity"
+      ],
+      "learnedSets": [
+        2
+      ],
+      "example": {
+        "jp": "作物を調べる前に、雨量と湿度を記録しました。それから、草の虫を観察しました。",
+        "en": "Before examining the crops, we recorded rainfall and humidity. Then we observed the insects on the grass."
+      }
+    },
+    {
+      "id": "learned-s2-27",
+      "surface": "途中",
+      "reading": "とちゅう",
+      "meaning": "on the way; midway; in the middle of",
+      "tags": [
+        "Previously learned",
+        "Set 2"
+      ],
+      "sourceId": "learned-set-2",
+      "sourceIds": [
+        "learned-set-2"
+      ],
+      "previouslyLearned": true,
+      "icon": "🛤️",
+      "scene": "Create a vivid scene for “on the way; midway; in the middle of”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "途",
+          "reading": "と",
+          "meaning": "route · way"
+        },
+        {
+          "char": "中",
+          "reading": "ちゅう",
+          "meaning": "middle · inside"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "on the way",
+        "midway",
+        "in the middle of",
+        "halfway",
+        "during"
+      ],
+      "learnedSets": [
+        2
+      ]
+    },
+    {
+      "id": "learned-s2-28",
+      "surface": "突然",
+      "reading": "とつぜん",
+      "meaning": "suddenly; unexpectedly",
+      "tags": [
+        "Previously learned",
+        "Set 2"
+      ],
+      "sourceId": "learned-set-2",
+      "sourceIds": [
+        "learned-set-2"
+      ],
+      "previouslyLearned": true,
+      "icon": "⚡",
+      "scene": "Create a vivid scene for “suddenly; unexpectedly”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "突",
+          "reading": "とつ",
+          "meaning": "thrust · sudden"
+        },
+        {
+          "char": "然",
+          "reading": "ぜん",
+          "meaning": "so · natural"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "suddenly",
+        "unexpectedly",
+        "abruptly"
+      ],
+      "learnedSets": [
+        2
+      ]
+    },
+    {
+      "id": "learned-s2-29",
+      "surface": "死亡",
+      "reading": "しぼう",
+      "meaning": "death; dying",
+      "tags": [
+        "Previously learned",
+        "Set 2"
+      ],
+      "sourceId": "learned-set-2",
+      "sourceIds": [
+        "learned-set-2"
+      ],
+      "previouslyLearned": true,
+      "icon": "🕯️",
+      "scene": "Create a vivid scene for “death; dying”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "死",
+          "reading": "し",
+          "meaning": "death · die"
+        },
+        {
+          "char": "亡",
+          "reading": "ぼう",
+          "meaning": "die · perish"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "death",
+        "dying"
+      ],
+      "learnedSets": [
+        2
+      ]
+    },
+    {
+      "id": "learned-s2-30",
+      "surface": "深い",
+      "reading": "ふかい",
+      "meaning": "deep",
+      "tags": [
+        "Previously learned",
+        "Set 2"
+      ],
+      "sourceId": "learned-set-2",
+      "sourceIds": [
+        "learned-set-2"
+      ],
+      "previouslyLearned": true,
+      "icon": "🕳️",
+      "scene": "Create a vivid scene for “deep”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "深",
+          "reading": "ふか",
+          "meaning": "deep"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "deep"
+      ],
+      "learnedSets": [
+        2
+      ]
+    },
+    {
+      "id": "learned-s2-31",
+      "surface": "沈む",
+      "reading": "しずむ",
+      "meaning": "to sink; to go down; to become depressed/gloomy",
+      "tags": [
+        "Previously learned",
+        "Set 2"
+      ],
+      "sourceId": "learned-set-2",
+      "sourceIds": [
+        "learned-set-2"
+      ],
+      "previouslyLearned": true,
+      "icon": "⚓",
+      "scene": "Create a vivid scene for “to sink; to go down; to become depressed/gloomy”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "沈",
+          "reading": "しず",
+          "meaning": "sink · submerge"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "sink",
+        "to sink",
+        "go down",
+        "to go down",
+        "become depressed",
+        "to become depressed",
+        "become gloomy"
+      ],
+      "learnedSets": [
+        2
+      ]
+    },
+    {
+      "id": "learned-s2-32",
+      "surface": "優しい",
+      "reading": "やさしい",
+      "meaning": "kind; gentle; considerate",
+      "tags": [
+        "Previously learned",
+        "Set 2"
+      ],
+      "sourceId": "learned-set-2",
+      "sourceIds": [
+        "learned-set-2"
+      ],
+      "previouslyLearned": true,
+      "icon": "🤲",
+      "scene": "Create a vivid scene for “kind; gentle; considerate”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "優",
+          "reading": "やさ",
+          "meaning": "gentle · excellent"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "kind",
+        "gentle",
+        "considerate",
+        "nice"
+      ],
+      "learnedSets": [
+        2
+      ]
+    },
+    {
+      "id": "learned-s3-01",
+      "surface": "細かい",
+      "reading": "こまかい",
+      "meaning": "fine; small; detailed",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "🔍",
+      "scene": "Create a vivid scene for “fine; small; detailed”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "細",
+          "reading": "こま",
+          "meaning": "thin · fine · detailed"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "fine",
+        "small",
+        "detailed",
+        "minute",
+        "tiny"
+      ],
+      "learnedSets": [
+        3
+      ],
+      "example": {
+        "jp": "原因を調べたあとで、友達と一緒に実験を重ねました。細かい記録は研究で大切です。",
+        "en": "After investigating the cause, I repeated the experiment with a friend. Detailed records are important in research."
+      }
+    },
+    {
+      "id": "learned-s3-02",
+      "surface": "肯定的",
+      "reading": "こうていてき",
+      "meaning": "affirmative; positive",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "👍",
+      "scene": "Create a vivid scene for “affirmative; positive”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "肯",
+          "reading": "こう",
+          "meaning": "agree · consent"
+        },
+        {
+          "char": "定",
+          "reading": "てい",
+          "meaning": "decide · fixed"
+        },
+        {
+          "char": "的",
+          "reading": "てき",
+          "meaning": "target · -like"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "affirmative",
+        "positive",
+        "approving"
+      ],
+      "learnedSets": [
+        3
+      ]
+    },
+    {
+      "id": "learned-s3-04",
+      "surface": "帰宅",
+      "reading": "きたく",
+      "meaning": "returning home; going home",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "🏠",
+      "scene": "Create a vivid scene for “returning home; going home”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "帰",
+          "reading": "き",
+          "meaning": "return · go home"
+        },
+        {
+          "char": "宅",
+          "reading": "たく",
+          "meaning": "home · house"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "returning home",
+        "going home",
+        "return home",
+        "go home"
+      ],
+      "learnedSets": [
+        3
+      ]
+    },
+    {
+      "id": "learned-s3-05",
+      "surface": "不規則",
+      "reading": "ふきそく",
+      "meaning": "irregular; disorderly",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "〰️",
+      "scene": "A clock skips beats while its hands jump in uneven steps.",
+      "kanji": [
+        {
+          "char": "不",
+          "reading": "ふ",
+          "meaning": "not · negative"
+        },
+        {
+          "char": "規",
+          "reading": "き",
+          "meaning": "rule · standard"
+        },
+        {
+          "char": "則",
+          "reading": "そく",
+          "meaning": "rule · law"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "irregular",
+        "disorderly",
+        "unsystematic"
+      ],
+      "learnedSets": [
+        3
+      ]
+    },
+    {
+      "id": "learned-s3-06",
+      "surface": "夜中",
+      "reading": "よなか",
+      "meaning": "middle of the night",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "🌙",
+      "scene": "Create a vivid scene for “middle of the night”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "夜",
+          "reading": "よ",
+          "meaning": "night"
+        },
+        {
+          "char": "中",
+          "reading": "なか",
+          "meaning": "middle · inside"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "middle of the night",
+        "midnight",
+        "nighttime"
+      ],
+      "learnedSets": [
+        3
+      ]
+    },
+    {
+      "id": "learned-s3-07",
+      "surface": "血液",
+      "reading": "けつえき",
+      "meaning": "blood",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "🩸",
+      "scene": "Create a vivid scene for “blood”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "血",
+          "reading": "けつ",
+          "meaning": "blood"
+        },
+        {
+          "char": "液",
+          "reading": "えき",
+          "meaning": "liquid · fluid"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "blood"
+      ],
+      "learnedSets": [
+        3
+      ]
+    },
+    {
+      "id": "learned-s3-08",
+      "surface": "栄養分",
+      "reading": "えいようぶん",
+      "meaning": "nutrients; nutritional components",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "🥦",
+      "scene": "Create a vivid scene for “nutrients; nutritional components”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "栄",
+          "reading": "えい",
+          "meaning": "prosper · glory"
+        },
+        {
+          "char": "養",
+          "reading": "よう",
+          "meaning": "nourish · raise"
+        },
+        {
+          "char": "分",
+          "reading": "ぶん",
+          "meaning": "part · portion"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "nutrients",
+        "nutrient",
+        "nutritional components",
+        "nutrition"
+      ],
+      "learnedSets": [
+        3
+      ]
+    },
+    {
+      "id": "learned-s3-09",
+      "surface": "供給",
+      "reading": "きょうきゅう",
+      "meaning": "supply; provision",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "🚰",
+      "scene": "Picture a pipe delivering glowing drops exactly where they are needed.",
+      "kanji": [
+        {
+          "char": "供",
+          "reading": "きょう",
+          "meaning": "offer · accompany"
+        },
+        {
+          "char": "給",
+          "reading": "きゅう",
+          "meaning": "supply · provide"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "supply",
+        "provision",
+        "provide",
+        "supplying"
+      ],
+      "learnedSets": [
+        3
+      ]
+    },
+    {
+      "id": "learned-s3-10",
+      "surface": "運び去る",
+      "reading": "はこびさる",
+      "meaning": "to carry away; take away",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "🚚",
+      "scene": "Create a vivid scene for “to carry away; take away”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "運",
+          "reading": "はこ",
+          "meaning": "carry · transport"
+        },
+        {
+          "char": "去",
+          "reading": "さ",
+          "meaning": "leave · depart"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "carry away",
+        "to carry away",
+        "take away",
+        "to take away",
+        "remove"
+      ],
+      "learnedSets": [
+        3
+      ]
+    },
+    {
+      "id": "learned-s3-11",
+      "surface": "工夫",
+      "reading": "くふう",
+      "meaning": "ingenuity; devising a way; creative idea",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "💡",
+      "scene": "A light bulb turns into a tool that solves a small problem.",
+      "kanji": [
+        {
+          "char": "工",
+          "reading": "く",
+          "meaning": "craft · construction"
+        },
+        {
+          "char": "夫",
+          "reading": "ふ",
+          "meaning": "man · husband"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "ingenuity",
+        "devising a way",
+        "creative idea",
+        "device",
+        "contrivance",
+        "innovation"
+      ],
+      "learnedSets": [
+        3
+      ],
+      "example": {
+        "jp": "実験が失敗したので、先生に相談しました。先生は「操作は簡単です。工夫は大切です」と説明してくれました。",
+        "en": "Because the experiment failed, I asked my teacher for advice. The teacher explained, “The operation is simple. Ingenuity is important.”"
+      }
+    },
+    {
+      "id": "learned-s3-12",
+      "surface": "重ねる",
+      "reading": "かさねる",
+      "meaning": "to pile up; stack; repeat",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "📚",
+      "scene": "Create a vivid scene for “to pile up; stack; repeat”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "重",
+          "reading": "かさ",
+          "meaning": "heavy · overlap"
+        }
+      ],
+      "forms": {
+        "重ねました": "かさねました"
+      },
+      "accept": [
+        "pile up",
+        "to pile up",
+        "stack",
+        "to stack",
+        "repeat",
+        "to repeat",
+        "layer"
+      ],
+      "learnedSets": [
+        3
+      ],
+      "example": {
+        "jp": "原因を調べたあとで、友達と一緒に実験を重ねました。細かい記録は研究で大切です。",
+        "en": "After investigating the cause, I repeated the experiment with a friend. Detailed records are important in research."
+      }
+    },
+    {
+      "id": "learned-s3-14",
+      "surface": "成功",
+      "reading": "せいこう",
+      "meaning": "success",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "🏆",
+      "scene": "Create a vivid scene for “success”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "成",
+          "reading": "せい",
+          "meaning": "become · achieve"
+        },
+        {
+          "char": "功",
+          "reading": "こう",
+          "meaning": "achievement · merit"
+        }
+      ],
+      "forms": {
+        "成功した": "せいこうした"
+      },
+      "accept": [
+        "success",
+        "succeed"
+      ],
+      "learnedSets": [
+        3
+      ],
+      "example": {
+        "jp": "成功したので、現象を記録して、論文を読みました。少し進歩したと思いました。",
+        "en": "Because we succeeded, I recorded the phenomenon and read an academic paper. I thought I had made a little progress."
+      }
+    },
+    {
+      "id": "learned-s3-15",
+      "surface": "受ける",
+      "reading": "うける",
+      "meaning": "to receive; take; undergo",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "📥",
+      "scene": "Create a vivid scene for “to receive; take; undergo”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "受",
+          "reading": "う",
+          "meaning": "receive · accept"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "receive",
+        "to receive",
+        "take",
+        "to take",
+        "undergo",
+        "to undergo"
+      ],
+      "learnedSets": [
+        3
+      ]
+    },
+    {
+      "id": "learned-s3-16",
+      "surface": "権利",
+      "reading": "けんり",
+      "meaning": "right; privilege",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "⚖️",
+      "scene": "Create a vivid scene for “right; privilege”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "権",
+          "reading": "けん",
+          "meaning": "authority · right"
+        },
+        {
+          "char": "利",
+          "reading": "り",
+          "meaning": "profit · advantage"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "right",
+        "rights",
+        "privilege"
+      ],
+      "learnedSets": [
+        3
+      ]
+    },
+    {
+      "id": "learned-s3-17",
+      "surface": "憲法",
+      "reading": "けんぽう",
+      "meaning": "constitution",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "📕",
+      "scene": "Create a vivid scene for “constitution”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "憲",
+          "reading": "けん",
+          "meaning": "constitution · law"
+        },
+        {
+          "char": "法",
+          "reading": "ぽう",
+          "meaning": "law · method"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "constitution"
+      ],
+      "learnedSets": [
+        3
+      ]
+    },
+    {
+      "id": "learned-s3-18",
+      "surface": "分野",
+      "reading": "ぶんや",
+      "meaning": "field; area; branch",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "🗂️",
+      "scene": "Create a vivid scene for “field; area; branch”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "分",
+          "reading": "ぶん",
+          "meaning": "part · divide"
+        },
+        {
+          "char": "野",
+          "reading": "や",
+          "meaning": "field · plain"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "field",
+        "area",
+        "branch",
+        "sphere",
+        "domain"
+      ],
+      "learnedSets": [
+        3
+      ]
+    },
+    {
+      "id": "learned-s3-19",
+      "surface": "人類学",
+      "reading": "じんるいがく",
+      "meaning": "anthropology",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "🌍",
+      "scene": "Picture people from many places gathered around a globe; you observe how they live.",
+      "kanji": [
+        {
+          "char": "人",
+          "reading": "じん",
+          "meaning": "person · human"
+        },
+        {
+          "char": "類",
+          "reading": "るい",
+          "meaning": "kind · category"
+        },
+        {
+          "char": "学",
+          "reading": "がく",
+          "meaning": "study · learning"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "anthropology"
+      ],
+      "learnedSets": [
+        3
+      ]
+    },
+    {
+      "id": "learned-s3-20",
+      "surface": "日常",
+      "reading": "にちじょう",
+      "meaning": "everyday life; daily",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "☕",
+      "scene": "Create a vivid scene for “everyday life; daily”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "日",
+          "reading": "にち",
+          "meaning": "day · sun"
+        },
+        {
+          "char": "常",
+          "reading": "じょう",
+          "meaning": "usual · constant"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "everyday life",
+        "daily",
+        "everyday",
+        "ordinary life"
+      ],
+      "learnedSets": [
+        3
+      ]
+    },
+    {
+      "id": "learned-s3-21",
+      "surface": "現象",
+      "reading": "げんしょう",
+      "meaning": "phenomenon",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "🌈",
+      "scene": "Imagine a rainbow appearing above a tiny laboratory and ask what caused it.",
+      "kanji": [
+        {
+          "char": "現",
+          "reading": "げん",
+          "meaning": "appear · present"
+        },
+        {
+          "char": "象",
+          "reading": "しょう",
+          "meaning": "image · phenomenon"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "phenomenon",
+        "phenomena"
+      ],
+      "learnedSets": [
+        3
+      ],
+      "example": {
+        "jp": "成功したので、現象を記録して、論文を読みました。少し進歩したと思いました。",
+        "en": "Because we succeeded, I recorded the phenomenon and read an academic paper. I thought I had made a little progress."
+      }
+    },
+    {
+      "id": "learned-s3-22",
+      "surface": "論文",
+      "reading": "ろんぶん",
+      "meaning": "academic paper; thesis; essay",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "📑",
+      "scene": "Create a vivid scene for “academic paper; thesis; essay”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "論",
+          "reading": "ろん",
+          "meaning": "argument · theory"
+        },
+        {
+          "char": "文",
+          "reading": "ぶん",
+          "meaning": "writing · sentence"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "academic paper",
+        "paper",
+        "thesis",
+        "essay",
+        "research paper"
+      ],
+      "learnedSets": [
+        3
+      ],
+      "example": {
+        "jp": "成功したので、現象を記録して、論文を読みました。少し進歩したと思いました。",
+        "en": "Because we succeeded, I recorded the phenomenon and read an academic paper. I thought I had made a little progress."
+      }
+    },
+    {
+      "id": "learned-s3-23",
+      "surface": "映る",
+      "reading": "うつる",
+      "meaning": "to be reflected; appear in a picture/screen",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "🪞",
+      "scene": "Create a vivid scene for “to be reflected; appear in a picture/screen”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "映",
+          "reading": "うつ",
+          "meaning": "reflect · project"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "be reflected",
+        "to be reflected",
+        "appear in a picture",
+        "appear on screen",
+        "show up",
+        "to appear"
+      ],
+      "learnedSets": [
+        3
+      ]
+    },
+    {
+      "id": "learned-s3-24",
+      "surface": "左右",
+      "reading": "さゆう",
+      "meaning": "left and right; both sides",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "↔️",
+      "scene": "Create a vivid scene for “left and right; both sides”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "左",
+          "reading": "さ",
+          "meaning": "left"
+        },
+        {
+          "char": "右",
+          "reading": "ゆう",
+          "meaning": "right"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "left and right",
+        "both sides",
+        "left right"
+      ],
+      "learnedSets": [
+        3
+      ]
+    },
+    {
+      "id": "learned-s3-25",
+      "surface": "逆",
+      "reading": "ぎゃく",
+      "meaning": "reverse; opposite; contrary",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "🔃",
+      "scene": "Create a vivid scene for “reverse; opposite; contrary”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "逆",
+          "reading": "ぎゃく",
+          "meaning": "reverse · opposite"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "reverse",
+        "opposite",
+        "contrary",
+        "inverse"
+      ],
+      "learnedSets": [
+        3
+      ]
+    },
+    {
+      "id": "learned-s3-26",
+      "surface": "囲む",
+      "reading": "かこむ",
+      "meaning": "to surround; enclose",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "⭕",
+      "scene": "Create a vivid scene for “to surround; enclose”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "囲",
+          "reading": "かこ",
+          "meaning": "surround · enclose"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "surround",
+        "to surround",
+        "enclose",
+        "to enclose",
+        "encircle"
+      ],
+      "learnedSets": [
+        3
+      ]
+    },
+    {
+      "id": "learned-s3-27",
+      "surface": "農業",
+      "reading": "のうぎょう",
+      "meaning": "agriculture; farming",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "🚜",
+      "scene": "Create a vivid scene for “agriculture; farming”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "農",
+          "reading": "のう",
+          "meaning": "agriculture · farming"
+        },
+        {
+          "char": "業",
+          "reading": "ぎょう",
+          "meaning": "business · work"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "agriculture",
+        "farming",
+        "farm industry"
+      ],
+      "learnedSets": [
+        3
+      ],
+      "example": {
+        "jp": "友達と一緒に、地域の農業を調査しました。先生が作物を説明してくれました。",
+        "en": "Together with a friend, I investigated farming in the area. The teacher explained the crops to us."
+      }
+    },
+    {
+      "id": "learned-s3-28",
+      "surface": "募集",
+      "reading": "ぼしゅう",
+      "meaning": "recruitment; collecting applications",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "📣",
+      "scene": "Create a vivid scene for “recruitment; collecting applications”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "募",
+          "reading": "ぼ",
+          "meaning": "recruit · solicit"
+        },
+        {
+          "char": "集",
+          "reading": "しゅう",
+          "meaning": "gather · collect"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "recruitment",
+        "collecting applications",
+        "recruiting",
+        "invitation for applications"
+      ],
+      "learnedSets": [
+        3
+      ]
+    },
+    {
+      "id": "learned-s3-29",
+      "surface": "平等",
+      "reading": "びょうどう",
+      "meaning": "equality; equal",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "⚖️",
+      "scene": "A balance holds equal weights while people stand at the same height.",
+      "kanji": [
+        {
+          "char": "平",
+          "reading": "びょう",
+          "meaning": "flat · equal"
+        },
+        {
+          "char": "等",
+          "reading": "どう",
+          "meaning": "equal · class"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "equality",
+        "equal",
+        "equal treatment"
+      ],
+      "learnedSets": [
+        3
+      ]
+    },
+    {
+      "id": "learned-s3-30",
+      "surface": "各国",
+      "reading": "かくこく",
+      "meaning": "each country; various countries",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "🌐",
+      "scene": "Create a vivid scene for “each country; various countries”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "各",
+          "reading": "かく",
+          "meaning": "each · every"
+        },
+        {
+          "char": "国",
+          "reading": "こく",
+          "meaning": "country · nation"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "each country",
+        "various countries",
+        "countries",
+        "every country"
+      ],
+      "learnedSets": [
+        3
+      ],
+      "example": {
+        "jp": "今日、留学生の集会に参加しました。各国の代表が出席しました。",
+        "en": "Today, I took part in a gathering of international students. Representatives from various countries attended."
+      }
+    },
+    {
+      "id": "learned-s3-31",
+      "surface": "代表",
+      "reading": "だいひょう",
+      "meaning": "representative; representation",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "🎤",
+      "scene": "Create a vivid scene for “representative; representation”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "代",
+          "reading": "だい",
+          "meaning": "substitute · generation"
+        },
+        {
+          "char": "表",
+          "reading": "ひょう",
+          "meaning": "surface · express"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "representative",
+        "representation",
+        "delegate",
+        "represent"
+      ],
+      "learnedSets": [
+        3
+      ],
+      "example": {
+        "jp": "今日、留学生の集会に参加しました。各国の代表が出席しました。",
+        "en": "Today, I took part in a gathering of international students. Representatives from various countries attended."
+      }
+    },
+    {
+      "id": "learned-s3-32",
+      "surface": "出席",
+      "reading": "しゅっせき",
+      "meaning": "attendance; presence",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "🪑",
+      "scene": "Create a vivid scene for “attendance; presence”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "出",
+          "reading": "しゅっ",
+          "meaning": "exit · go out"
+        },
+        {
+          "char": "席",
+          "reading": "せき",
+          "meaning": "seat · place"
+        }
+      ],
+      "forms": {
+        "出席しました": "しゅっせきしました"
+      },
+      "accept": [
+        "attendance",
+        "presence",
+        "attending"
+      ],
+      "learnedSets": [
+        3
+      ],
+      "example": {
+        "jp": "今日、留学生の集会に参加しました。各国の代表が出席しました。",
+        "en": "Today, I took part in a gathering of international students. Representatives from various countries attended."
+      }
+    },
+    {
+      "id": "learned-s3-33",
+      "surface": "軽い",
+      "reading": "かるい",
+      "meaning": "light; lightweight; mild",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "🪶",
+      "scene": "Create a vivid scene for “light; lightweight; mild”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "軽",
+          "reading": "かる",
+          "meaning": "light · easy"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "light",
+        "lightweight",
+        "mild",
+        "slight"
+      ],
+      "learnedSets": [
+        3
+      ]
+    },
+    {
+      "id": "learned-s3-34",
+      "surface": "操作",
+      "reading": "そうさ",
+      "meaning": "operation; manipulation; control",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "🎛️",
+      "scene": "Create a vivid scene for “operation; manipulation; control”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "操",
+          "reading": "そう",
+          "meaning": "operate · manipulate"
+        },
+        {
+          "char": "作",
+          "reading": "さ",
+          "meaning": "make · do"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "operation",
+        "manipulation",
+        "control",
+        "operate"
+      ],
+      "learnedSets": [
+        3
+      ],
+      "example": {
+        "jp": "実験が失敗したので、先生に相談しました。先生は「操作は簡単です。工夫は大切です」と説明してくれました。",
+        "en": "Because the experiment failed, I asked my teacher for advice. The teacher explained, “The operation is simple. Ingenuity is important.”"
+      }
+    },
+    {
+      "id": "learned-s3-35",
+      "surface": "簡単",
+      "reading": "かんたん",
+      "meaning": "simple; easy",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "🧩",
+      "scene": "Create a vivid scene for “simple; easy”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "簡",
+          "reading": "かん",
+          "meaning": "simple · brief"
+        },
+        {
+          "char": "単",
+          "reading": "たん",
+          "meaning": "single · simple"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "simple",
+        "easy",
+        "brief"
+      ],
+      "learnedSets": [
+        3
+      ],
+      "example": {
+        "jp": "実験が失敗したので、先生に相談しました。先生は「操作は簡単です。工夫は大切です」と説明してくれました。",
+        "en": "Because the experiment failed, I asked my teacher for advice. The teacher explained, “The operation is simple. Ingenuity is important.”"
+      }
+    },
+    {
+      "id": "learned-s3-36",
+      "surface": "値段",
+      "reading": "ねだん",
+      "meaning": "price",
+      "tags": [
+        "Previously learned",
+        "Set 3"
+      ],
+      "sourceId": "learned-set-3",
+      "sourceIds": [
+        "learned-set-3"
+      ],
+      "previouslyLearned": true,
+      "icon": "🏷️",
+      "scene": "Create a vivid scene for “price”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "値",
+          "reading": "ね",
+          "meaning": "value · price"
+        },
+        {
+          "char": "段",
+          "reading": "だん",
+          "meaning": "step · level"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "price",
+        "cost"
+      ],
+      "learnedSets": [
+        3
+      ]
+    },
+    {
+      "id": "learned-s4-01",
+      "surface": "欠点",
+      "reading": "けってん",
+      "meaning": "defect; flaw; weak point",
+      "tags": [
+        "Previously learned",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-4",
+      "sourceIds": [
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "🔧",
+      "scene": "An almost-perfect wheel has one notch; your finger points to the flaw.",
+      "kanji": [
+        {
+          "char": "欠",
+          "reading": "けっ",
+          "meaning": "lack · missing"
+        },
+        {
+          "char": "点",
+          "reading": "てん",
+          "meaning": "point · spot"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "defect",
+        "flaw",
+        "weak point",
+        "weakness",
+        "shortcoming"
+      ],
+      "learnedSets": [
+        4
+      ]
+    },
+    {
+      "id": "learned-s4-02",
+      "surface": "比べる",
+      "reading": "くらべる",
+      "meaning": "to compare",
+      "tags": [
+        "Previously learned",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-4",
+      "sourceIds": [
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "⚖️",
+      "scene": "Create a vivid scene for “to compare”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "比",
+          "reading": "くら",
+          "meaning": "compare · ratio"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "compare",
+        "to compare"
+      ],
+      "learnedSets": [
+        4
+      ]
+    },
+    {
+      "id": "learned-s4-03",
+      "surface": "進歩",
+      "reading": "しんぽ",
+      "meaning": "progress; advancement",
+      "tags": [
+        "Previously learned",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-4",
+      "sourceIds": [
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "🪜",
+      "scene": "Create a vivid scene for “progress; advancement”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "進",
+          "reading": "しん",
+          "meaning": "advance · proceed"
+        },
+        {
+          "char": "歩",
+          "reading": "ぽ",
+          "meaning": "walk · step"
+        }
+      ],
+      "forms": {
+        "進歩した": "しんぽした"
+      },
+      "accept": [
+        "progress",
+        "advancement",
+        "improvement",
+        "advance"
+      ],
+      "learnedSets": [
+        4
+      ],
+      "example": {
+        "jp": "成功したので、現象を記録して、論文を読みました。少し進歩したと思いました。",
+        "en": "Because we succeeded, I recorded the phenomenon and read an academic paper. I thought I had made a little progress."
+      }
+    },
+    {
+      "id": "learned-s4-04",
+      "surface": "放送局",
+      "reading": "ほうそうきょく",
+      "meaning": "broadcasting station; TV/radio station",
+      "tags": [
+        "Previously learned",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-4",
+      "sourceIds": [
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "📡",
+      "scene": "Create a vivid scene for “broadcasting station; TV/radio station”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "放",
+          "reading": "ほう",
+          "meaning": "release · let go"
+        },
+        {
+          "char": "送",
+          "reading": "そう",
+          "meaning": "send"
+        },
+        {
+          "char": "局",
+          "reading": "きょく",
+          "meaning": "bureau · office"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "broadcasting station",
+        "broadcast station",
+        "tv station",
+        "radio station",
+        "station"
+      ],
+      "learnedSets": [
+        4
+      ]
+    },
+    {
+      "id": "learned-s4-05",
+      "surface": "正面",
+      "reading": "しょうめん",
+      "meaning": "front; front side; directly ahead",
+      "tags": [
+        "Previously learned",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-4",
+      "sourceIds": [
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "🚪",
+      "scene": "Create a vivid scene for “front; front side; directly ahead”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "正",
+          "reading": "しょう",
+          "meaning": "correct · right"
+        },
+        {
+          "char": "面",
+          "reading": "めん",
+          "meaning": "face · surface"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "front",
+        "front side",
+        "directly ahead",
+        "facing"
+      ],
+      "learnedSets": [
+        4
+      ]
+    },
+    {
+      "id": "learned-s4-06",
+      "surface": "停車",
+      "reading": "ていしゃ",
+      "meaning": "stopping a vehicle; vehicle stop",
+      "tags": [
+        "Previously learned",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-4",
+      "sourceIds": [
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "🚉",
+      "scene": "Create a vivid scene for “stopping a vehicle; vehicle stop”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "停",
+          "reading": "てい",
+          "meaning": "stop · halt"
+        },
+        {
+          "char": "車",
+          "reading": "しゃ",
+          "meaning": "car · vehicle"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "stopping a vehicle",
+        "vehicle stop",
+        "stop",
+        "stopping"
+      ],
+      "learnedSets": [
+        4
+      ]
+    },
+    {
+      "id": "learned-s4-07",
+      "surface": "禁止",
+      "reading": "きんし",
+      "meaning": "prohibition; ban",
+      "tags": [
+        "Previously learned",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-4",
+      "sourceIds": [
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "🚫",
+      "scene": "Create a vivid scene for “prohibition; ban”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "禁",
+          "reading": "きん",
+          "meaning": "prohibit · forbid"
+        },
+        {
+          "char": "止",
+          "reading": "し",
+          "meaning": "stop"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "prohibition",
+        "ban",
+        "forbidden",
+        "prohibit"
+      ],
+      "learnedSets": [
+        4
+      ]
+    },
+    {
+      "id": "learned-s4-08",
+      "surface": "地震",
+      "reading": "じしん",
+      "meaning": "earthquake",
+      "tags": [
+        "Previously learned",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-4",
+      "sourceIds": [
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "🏚️",
+      "scene": "Create a vivid scene for “earthquake”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "地",
+          "reading": "じ",
+          "meaning": "ground · earth"
+        },
+        {
+          "char": "震",
+          "reading": "しん",
+          "meaning": "quake · shake"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "earthquake",
+        "quake"
+      ],
+      "learnedSets": [
+        4
+      ]
+    },
+    {
+      "id": "learned-s4-09",
+      "surface": "際",
+      "reading": "さい",
+      "meaning": "occasion; time; when",
+      "tags": [
+        "Previously learned",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-4",
+      "sourceIds": [
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "⏱️",
+      "scene": "Create a vivid scene for “occasion; time; when”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "際",
+          "reading": "さい",
+          "meaning": "occasion · edge"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "occasion",
+        "time",
+        "when",
+        "at the time"
+      ],
+      "learnedSets": [
+        4
+      ]
+    },
+    {
+      "id": "learned-s4-11",
+      "surface": "確か",
+      "reading": "たしか",
+      "meaning": "certain; sure; if I remember correctly",
+      "tags": [
+        "Previously learned",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-4",
+      "sourceIds": [
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "✅",
+      "scene": "Create a vivid scene for “certain; sure; if I remember correctly”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "確",
+          "reading": "たし",
+          "meaning": "certain · confirm"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "certain",
+        "sure",
+        "if i remember correctly",
+        "certainly"
+      ],
+      "learnedSets": [
+        4
+      ]
+    },
+    {
+      "id": "learned-s4-12",
+      "surface": "情報",
+      "reading": "じょうほう",
+      "meaning": "information",
+      "tags": [
+        "Previously learned",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-4",
+      "sourceIds": [
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "📨",
+      "scene": "Create a vivid scene for “information”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "情",
+          "reading": "じょう",
+          "meaning": "feeling · circumstances"
+        },
+        {
+          "char": "報",
+          "reading": "ほう",
+          "meaning": "report · inform"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "information",
+        "info"
+      ],
+      "learnedSets": [
+        4
+      ],
+      "example": {
+        "jp": "植物を調べたあとで、情報を交換しました。私は研究の希望を説明しました。友達は賛成しました。",
+        "en": "After examining the plant, we exchanged information. I explained what I hoped to research. My friend agreed."
+      }
+    },
+    {
+      "id": "learned-s4-13",
+      "surface": "航空",
+      "reading": "こうくう",
+      "meaning": "aviation; air travel",
+      "tags": [
+        "Previously learned",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-4",
+      "sourceIds": [
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "✈️",
+      "scene": "Create a vivid scene for “aviation; air travel”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "航",
+          "reading": "こう",
+          "meaning": "navigate · sail"
+        },
+        {
+          "char": "空",
+          "reading": "くう",
+          "meaning": "sky · empty"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "aviation",
+        "air travel",
+        "air transport"
+      ],
+      "learnedSets": [
+        4
+      ]
+    },
+    {
+      "id": "learned-s4-14",
+      "surface": "万一",
+      "reading": "まんいち",
+      "meaning": "by any chance; in the unlikely event",
+      "tags": [
+        "Previously learned",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-4",
+      "sourceIds": [
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "☂️",
+      "scene": "Create a vivid scene for “by any chance; in the unlikely event”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "万",
+          "reading": "まん",
+          "meaning": "ten thousand · all"
+        },
+        {
+          "char": "一",
+          "reading": "いち",
+          "meaning": "one"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "by any chance",
+        "in the unlikely event",
+        "if by chance",
+        "just in case"
+      ],
+      "learnedSets": [
+        4
+      ]
+    },
+    {
+      "id": "learned-s4-15",
+      "surface": "備える",
+      "reading": "そなえる",
+      "meaning": "to prepare for; to equip",
+      "tags": [
+        "Previously learned",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-4",
+      "sourceIds": [
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "🎒",
+      "scene": "Create a vivid scene for “to prepare for; to equip”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "備",
+          "reading": "そな",
+          "meaning": "prepare · equip"
+        }
+      ],
+      "forms": {
+        "備えて": "そなえて"
+      },
+      "accept": [
+        "in preparation for",
+        "being prepared for",
+        "prepare for",
+        "prepared for"
+      ],
+      "learnedSets": [
+        4
+      ]
+    },
+    {
+      "id": "learned-s4-16",
+      "surface": "救助",
+      "reading": "きゅうじょ",
+      "meaning": "rescue; aid",
+      "tags": [
+        "Previously learned",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-4",
+      "sourceIds": [
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "🛟",
+      "scene": "A life ring reaches someone just as they need help.",
+      "kanji": [
+        {
+          "char": "救",
+          "reading": "きゅう",
+          "meaning": "rescue · save"
+        },
+        {
+          "char": "助",
+          "reading": "じょ",
+          "meaning": "help · assist"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "rescue",
+        "aid",
+        "help",
+        "relief"
+      ],
+      "learnedSets": [
+        4
+      ]
+    },
+    {
+      "id": "learned-s4-17",
+      "surface": "留学生",
+      "reading": "りゅうがくせい",
+      "meaning": "international student; foreign student",
+      "tags": [
+        "Previously learned",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-4",
+      "sourceIds": [
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "🎓",
+      "scene": "Create a vivid scene for “international student; foreign student”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "留",
+          "reading": "りゅう",
+          "meaning": "stay · detain"
+        },
+        {
+          "char": "学",
+          "reading": "がく",
+          "meaning": "study · learning"
+        },
+        {
+          "char": "生",
+          "reading": "せい",
+          "meaning": "life · birth"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "international student",
+        "foreign student",
+        "exchange student"
+      ],
+      "learnedSets": [
+        4
+      ],
+      "example": {
+        "jp": "今日、留学生の集会に参加しました。各国の代表が出席しました。",
+        "en": "Today, I took part in a gathering of international students. Representatives from various countries attended."
+      }
+    },
+    {
+      "id": "learned-s4-18",
+      "surface": "集会",
+      "reading": "しゅうかい",
+      "meaning": "meeting; gathering; assembly",
+      "tags": [
+        "Previously learned",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-4",
+      "sourceIds": [
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "👥",
+      "scene": "Create a vivid scene for “meeting; gathering; assembly”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "集",
+          "reading": "しゅう",
+          "meaning": "gather · collect"
+        },
+        {
+          "char": "会",
+          "reading": "かい",
+          "meaning": "meet · meeting"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "meeting",
+        "gathering",
+        "assembly",
+        "rally"
+      ],
+      "learnedSets": [
+        4
+      ],
+      "example": {
+        "jp": "今日、留学生の集会に参加しました。各国の代表が出席しました。",
+        "en": "Today, I took part in a gathering of international students. Representatives from various countries attended."
+      }
+    },
+    {
+      "id": "learned-s4-19",
+      "surface": "参加",
+      "reading": "さんか",
+      "meaning": "participation; joining",
+      "tags": [
+        "Previously learned",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-4",
+      "sourceIds": [
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "🙋",
+      "scene": "Create a vivid scene for “participation; joining”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "参",
+          "reading": "さん",
+          "meaning": "participate · visit"
+        },
+        {
+          "char": "加",
+          "reading": "か",
+          "meaning": "add · join"
+        }
+      ],
+      "forms": {
+        "参加しました": "さんかしました"
+      },
+      "accept": [
+        "participation",
+        "joining",
+        "participate",
+        "join"
+      ],
+      "learnedSets": [
+        4
+      ],
+      "example": {
+        "jp": "今日、留学生の集会に参加しました。各国の代表が出席しました。",
+        "en": "Today, I took part in a gathering of international students. Representatives from various countries attended."
+      }
+    },
+    {
+      "id": "learned-s4-20",
+      "surface": "交換",
+      "reading": "こうかん",
+      "meaning": "exchange; replacement",
+      "tags": [
+        "Previously learned",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-4",
+      "sourceIds": [
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "🔄",
+      "scene": "Create a vivid scene for “exchange; replacement”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "交",
+          "reading": "こう",
+          "meaning": "exchange · mix"
+        },
+        {
+          "char": "換",
+          "reading": "かん",
+          "meaning": "exchange · replace"
+        }
+      ],
+      "forms": {
+        "交換しました": "こうかんしました"
+      },
+      "accept": [
+        "exchange",
+        "replacement",
+        "swap",
+        "replace"
+      ],
+      "learnedSets": [
+        4
+      ],
+      "example": {
+        "jp": "植物を調べたあとで、情報を交換しました。私は研究の希望を説明しました。友達は賛成しました。",
+        "en": "After examining the plant, we exchanged information. I explained what I hoped to research. My friend agreed."
+      }
+    },
+    {
+      "id": "learned-s4-21",
+      "surface": "珍しい",
+      "reading": "めずらしい",
+      "meaning": "rare; unusual",
+      "tags": [
+        "Previously learned",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-4",
+      "sourceIds": [
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "💎",
+      "scene": "Create a vivid scene for “rare; unusual”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "珍",
+          "reading": "めずら",
+          "meaning": "rare · precious"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "rare",
+        "unusual",
+        "uncommon",
+        "strange"
+      ],
+      "learnedSets": [
+        4
+      ],
+      "example": {
+        "jp": "集会の前に、係員が順番を説明してくれました。一緒に珍しい植物を観察しました。",
+        "en": "Before the gathering, a staff member explained the order to us. We observed a rare plant together."
+      }
+    },
+    {
+      "id": "learned-s4-22",
+      "surface": "植物",
+      "reading": "しょくぶつ",
+      "meaning": "plant; vegetation",
+      "tags": [
+        "Previously learned",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-4",
+      "sourceIds": [
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "🪴",
+      "scene": "Create a vivid scene for “plant; vegetation”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "植",
+          "reading": "しょく",
+          "meaning": "plant · grow"
+        },
+        {
+          "char": "物",
+          "reading": "ぶつ",
+          "meaning": "thing · object"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "plant",
+        "plants",
+        "vegetation"
+      ],
+      "learnedSets": [
+        4
+      ],
+      "example": {
+        "jp": "集会の前に、係員が順番を説明してくれました。一緒に珍しい植物を観察しました。",
+        "en": "Before the gathering, a staff member explained the order to us. We observed a rare plant together."
+      }
+    },
+    {
+      "id": "learned-s4-24",
+      "surface": "記録",
+      "reading": "きろく",
+      "meaning": "record; documentation",
+      "tags": [
+        "Previously learned",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-4",
+      "sourceIds": [
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "📝",
+      "scene": "Create a vivid scene for “record; documentation”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "記",
+          "reading": "き",
+          "meaning": "record · write down"
+        },
+        {
+          "char": "録",
+          "reading": "ろく",
+          "meaning": "record"
+        }
+      ],
+      "forms": {
+        "記録しました": "きろくしました",
+        "記録して": "きろくして"
+      },
+      "accept": [
+        "record",
+        "documentation",
+        "recording"
+      ],
+      "learnedSets": [
+        4
+      ],
+      "example": {
+        "jp": "作物を調べる前に、雨量と湿度を記録しました。それから、草の虫を観察しました。",
+        "en": "Before examining the crops, we recorded rainfall and humidity. Then we observed the insects on the grass."
+      }
+    },
+    {
+      "id": "learned-s4-25",
+      "surface": "老人",
+      "reading": "ろうじん",
+      "meaning": "elderly person; old person",
+      "tags": [
+        "Previously learned",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-4",
+      "sourceIds": [
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "🧓",
+      "scene": "Create a vivid scene for “elderly person; old person”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "老",
+          "reading": "ろう",
+          "meaning": "old · aged"
+        },
+        {
+          "char": "人",
+          "reading": "じん",
+          "meaning": "person · human"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "elderly person",
+        "old person",
+        "elderly",
+        "senior citizen"
+      ],
+      "learnedSets": [
+        4
+      ]
+    },
+    {
+      "id": "learned-s4-26",
+      "surface": "接触",
+      "reading": "せっしょく",
+      "meaning": "contact; touching",
+      "tags": [
+        "Previously learned",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-4",
+      "sourceIds": [
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "🫱",
+      "scene": "Create a vivid scene for “contact; touching”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "接",
+          "reading": "せつ",
+          "meaning": "contact · touch"
+        },
+        {
+          "char": "触",
+          "reading": "しょく",
+          "meaning": "touch · contact"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "contact",
+        "touching",
+        "touch",
+        "contacting"
+      ],
+      "learnedSets": [
+        4
+      ]
+    },
+    {
+      "id": "learned-s4-27",
+      "surface": "倒れる",
+      "reading": "たおれる",
+      "meaning": "to fall; to collapse",
+      "tags": [
+        "Previously learned",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-4",
+      "sourceIds": [
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "🪵",
+      "scene": "Create a vivid scene for “to fall; to collapse”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "倒",
+          "reading": "たお",
+          "meaning": "fall · collapse"
+        }
+      ],
+      "forms": {
+        "倒れ": "たおれ"
+      },
+      "accept": [
+        "falling",
+        "collapsing",
+        "collapse",
+        "fall"
+      ],
+      "learnedSets": [
+        4
+      ]
+    },
+    {
+      "id": "learned-s4-28",
+      "surface": "折る",
+      "reading": "おる",
+      "meaning": "to break; to fold",
+      "tags": [
+        "Previously learned",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-4",
+      "sourceIds": [
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "📄",
+      "scene": "Create a vivid scene for “to break; to fold”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "折",
+          "reading": "お",
+          "meaning": "fold · break"
+        }
+      ],
+      "forms": {
+        "折った": "おった"
+      },
+      "accept": [
+        "broke",
+        "folded",
+        "broke off",
+        "snapped"
+      ],
+      "learnedSets": [
+        4
+      ]
+    },
+    {
+      "id": "learned-s4-29",
+      "surface": "汚染",
+      "reading": "おせん",
+      "meaning": "pollution; contamination",
+      "tags": [
+        "Previously learned",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-4",
+      "sourceIds": [
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "🏭",
+      "scene": "Create a vivid scene for “pollution; contamination”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "汚",
+          "reading": "お",
+          "meaning": "dirty · pollute"
+        },
+        {
+          "char": "染",
+          "reading": "せん",
+          "meaning": "dye · stain"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "pollution",
+        "contamination",
+        "pollute",
+        "contaminate"
+      ],
+      "learnedSets": [
+        4
+      ]
+    },
+    {
+      "id": "learned-s4-30",
+      "surface": "恐れる",
+      "reading": "おそれる",
+      "meaning": "to fear; to be afraid of",
+      "tags": [
+        "Previously learned",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-4",
+      "sourceIds": [
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "😨",
+      "scene": "Create a vivid scene for “to fear; to be afraid of”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "恐",
+          "reading": "おそ",
+          "meaning": "fear · dread"
+        }
+      ],
+      "forms": {
+        "恐れた": "おそれた"
+      },
+      "accept": [
+        "feared",
+        "was afraid of",
+        "afraid",
+        "fear"
+      ],
+      "learnedSets": [
+        4
+      ]
+    },
+    {
+      "id": "learned-s4-32",
+      "surface": "鉱山",
+      "reading": "こうざん",
+      "meaning": "mine; mining area",
+      "tags": [
+        "Previously learned",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-4",
+      "sourceIds": [
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "⛏️",
+      "scene": "A mountain opens to reveal tunnels full of sparkling ore.",
+      "kanji": [
+        {
+          "char": "鉱",
+          "reading": "こう",
+          "meaning": "mineral · ore"
+        },
+        {
+          "char": "山",
+          "reading": "ざん",
+          "meaning": "mountain"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "mine",
+        "mining area",
+        "mining",
+        "ore mine"
+      ],
+      "learnedSets": [
+        4
+      ]
+    },
+    {
+      "id": "learned-s4-33",
+      "surface": "恋愛",
+      "reading": "れんあい",
+      "meaning": "romantic love; romance",
+      "tags": [
+        "Previously learned",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-4",
+      "sourceIds": [
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "💞",
+      "scene": "Create a vivid scene for “romantic love; romance”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "恋",
+          "reading": "れん",
+          "meaning": "love · romance"
+        },
+        {
+          "char": "愛",
+          "reading": "あい",
+          "meaning": "love · affection"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "romantic love",
+        "romance",
+        "love"
+      ],
+      "learnedSets": [
+        4
+      ]
+    },
+    {
+      "id": "learned-s4-34",
+      "surface": "結婚",
+      "reading": "けっこん",
+      "meaning": "marriage",
+      "tags": [
+        "Previously learned",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-4",
+      "sourceIds": [
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "💍",
+      "scene": "Create a vivid scene for “marriage”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "結",
+          "reading": "けっ",
+          "meaning": "tie · connect"
+        },
+        {
+          "char": "婚",
+          "reading": "こん",
+          "meaning": "marriage"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "marriage",
+        "wedding",
+        "marry"
+      ],
+      "learnedSets": [
+        4
+      ]
+    },
+    {
+      "id": "learned-s4-35",
+      "surface": "賛成",
+      "reading": "さんせい",
+      "meaning": "agreement; approval; being in favor",
+      "tags": [
+        "Previously learned",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-4",
+      "sourceIds": [
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "👍",
+      "scene": "Create a vivid scene for “agreement; approval; being in favor”. Make one object unusually large and give it a memorable action.",
+      "kanji": [
+        {
+          "char": "賛",
+          "reading": "さん",
+          "meaning": "approve · praise"
+        },
+        {
+          "char": "成",
+          "reading": "せい",
+          "meaning": "become · achieve"
+        }
+      ],
+      "forms": {
+        "賛成しました": "さんせいしました"
+      },
+      "accept": [
+        "agreement",
+        "approval",
+        "being in favor",
+        "agree",
+        "support"
+      ],
+      "learnedSets": [
+        4
+      ],
+      "example": {
+        "jp": "植物を調べたあとで、情報を交換しました。私は研究の希望を説明しました。友達は賛成しました。",
+        "en": "After examining the plant, we exchanged information. I explained what I hoped to research. My friend agreed."
+      }
+    },
+    {
+      "id": "learned-s4-36",
+      "surface": "順番",
+      "reading": "じゅんばん",
+      "meaning": "order; turn; sequence",
+      "tags": [
+        "Previously learned",
+        "Set 4"
+      ],
+      "sourceId": "learned-set-4",
+      "sourceIds": [
+        "learned-set-4"
+      ],
+      "previouslyLearned": true,
+      "icon": "🔢",
+      "scene": "People stand on numbered stepping stones, waiting for their turn.",
+      "kanji": [
+        {
+          "char": "順",
+          "reading": "じゅん",
+          "meaning": "order · obey"
+        },
+        {
+          "char": "番",
+          "reading": "ばん",
+          "meaning": "turn · number"
+        }
+      ],
+      "forms": {},
+      "accept": [
+        "order",
+        "turn",
+        "sequence",
+        "one's turn"
+      ],
+      "learnedSets": [
+        4
+      ],
+      "example": {
+        "jp": "集会の前に、係員が順番を説明してくれました。一緒に珍しい植物を観察しました。",
+        "en": "Before the gathering, a staff member explained the order to us. We observed a rare plant together."
       }
     }
   ],
@@ -1989,6 +7907,367 @@
       "kind": "Reflection",
       "sourceId": "starter",
       "createdAt": "2026-10-12"
+    },
+    {
+      "id": "learned-promise",
+      "title": "友達との約束",
+      "subtitle": "A change of plans · ともだちとのやくそく",
+      "context": "Friendship",
+      "icon": "🗓️",
+      "scene": "Imagine a promise ribbon stretching between two friends; their calendar cards move to a later date.",
+      "grammarIds": [
+        "because",
+        "favor"
+      ],
+      "wordIds": [
+        "today",
+        "friend",
+        "library",
+        "go",
+        "learned-s1-04",
+        "do",
+        "difficult",
+        "explain",
+        "learned-s1-02",
+        "learned-s1-08",
+        "learned-s1-25",
+        "learned-s1-31",
+        "learned-s1-17",
+        "read",
+        "learned-s1-30",
+        "learned-s1-32"
+      ],
+      "paragraphs": [
+        {
+          "jp": "[[today|今日]]、[[friend|友達]]と[[library|図書館]]に[[go|行く]][[learned-s1-04|約束]]を[[do|しました]]。",
+          "en": "Today, I made a promise to go to the library with a friend."
+        },
+        {
+          "jp": "[[friend|友達]]が「[[today|今日]]は[[difficult|難しい]]」と[[explain|説明して]]くれたので、[[learned-s1-02|相談して]]、[[learned-s1-04|約束]]を[[learned-s1-08|延期しました]]。",
+          "en": "Because my friend explained, “Today is difficult,” we talked it over and postponed our arrangement."
+        },
+        {
+          "jp": "[[learned-s1-25|一方]]、私は[[library|図書館]]で[[learned-s1-31|地域]]の[[learned-s1-17|記事]]を[[read|読みました]]。[[learned-s1-17|記事]]の[[learned-s1-30|著者]]は、その[[learned-s1-31|地域]]の[[learned-s1-32|住民]]でした。",
+          "en": "Meanwhile, I read an article about the area at the library. Its author was a resident of that area."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "What had the narrator arranged to do?",
+          "options": [
+            "Go to the library with a friend",
+            "Attend a gathering of representatives",
+            "Conduct an experiment"
+          ],
+          "answer": 0,
+          "explanation": "図書館に行く約束をしました."
+        },
+        {
+          "prompt": "Why was the arrangement postponed?",
+          "options": [
+            "The friend said today was difficult",
+            "The library was closed",
+            "The article had not arrived"
+          ],
+          "answer": 0,
+          "explanation": "The friend’s explanation is followed by ので."
+        },
+        {
+          "prompt": "Who wrote the article?",
+          "options": [
+            "A resident of the area",
+            "The friend",
+            "The narrator"
+          ],
+          "answer": 0,
+          "explanation": "記事の著者は、その地域の住民でした."
+        }
+      ],
+      "kind": "Story",
+      "sourceId": "learned-set-1",
+      "createdAt": "2026-10-12"
+    },
+    {
+      "id": "learned-farm-observation",
+      "title": "作物の観察",
+      "subtitle": "Looking closely at crops · さくもつのかんさつ",
+      "context": "Agriculture",
+      "icon": "🌾",
+      "scene": "A magnifying glass grows over a field; tiny insects become visible on the grass.",
+      "grammarIds": [
+        "before",
+        "favor"
+      ],
+      "wordIds": [
+        "friend",
+        "together",
+        "learned-s1-31",
+        "learned-s3-27",
+        "learned-s1-14",
+        "teacher",
+        "learned-s2-15",
+        "explain",
+        "investigate",
+        "before",
+        "learned-s2-25",
+        "learned-s2-26",
+        "learned-s4-24",
+        "learned-s2-13",
+        "learned-s2-14",
+        "learned-s2-01",
+        "learned-s1-15",
+        "learned-s2-16",
+        "important",
+        "think",
+        "read"
+      ],
+      "paragraphs": [
+        {
+          "jp": "[[friend|友達]]と[[together|一緒に]]、[[learned-s1-31|地域]]の[[learned-s3-27|農業]]を[[learned-s1-14|調査しました]]。[[teacher|先生]]が[[learned-s2-15|作物]]を[[explain|説明して]]くれました。",
+          "en": "Together with a friend, I investigated farming in the area. The teacher explained the crops to us."
+        },
+        {
+          "jp": "[[learned-s2-15|作物]]を[[investigate|調べる]][[before|前]]に、[[learned-s2-25|雨量]]と[[learned-s2-26|湿度]]を[[learned-s4-24|記録しました]]。それから、[[learned-s2-13|草]]の[[learned-s2-14|虫]]を[[learned-s2-01|観察しました]]。",
+          "en": "Before examining the crops, we recorded rainfall and humidity. Then we observed the insects on the grass."
+        },
+        {
+          "jp": "[[learned-s1-15|農産物]]を[[learned-s2-16|守る]]ことは[[important|大切]]だと[[think|思いました]]。[[learned-s4-24|記録]]を[[read|読みました]]。",
+          "en": "I thought protecting agricultural produce was important. I read the records."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "What did they record before examining the crops?",
+          "options": [
+            "Rainfall and humidity",
+            "Prices and attendance",
+            "Left and right"
+          ],
+          "answer": 0,
+          "explanation": "作物を調べる前に、雨量と湿度を記録しました."
+        },
+        {
+          "prompt": "What did they observe on the grass?",
+          "options": [
+            "Insects",
+            "Aircraft",
+            "A reflection"
+          ],
+          "answer": 0,
+          "explanation": "草の虫を観察しました."
+        },
+        {
+          "prompt": "Which idea does the narrator consider important?",
+          "options": [
+            "Protecting agricultural produce",
+            "Cancelling the research",
+            "Skipping the records"
+          ],
+          "answer": 0,
+          "explanation": "農産物を守ることは大切だと思いました."
+        }
+      ],
+      "kind": "Story",
+      "sourceId": "learned-set-2",
+      "createdAt": "2026-10-12"
+    },
+    {
+      "id": "learned-experiment-design",
+      "title": "実験の工夫",
+      "subtitle": "A better way to experiment · じっけんのくふう",
+      "context": "Engineering",
+      "icon": "💡",
+      "scene": "A failed experiment turns into a light bulb; repeated attempts leave a trail of written records.",
+      "grammarIds": [
+        "because",
+        "after",
+        "favor"
+      ],
+      "wordIds": [
+        "experiment",
+        "fail",
+        "teacher",
+        "learned-s1-02",
+        "learned-s3-34",
+        "learned-s3-35",
+        "learned-s3-11",
+        "important",
+        "explain",
+        "reason",
+        "investigate",
+        "friend",
+        "together",
+        "learned-s3-12",
+        "learned-s3-01",
+        "learned-s4-24",
+        "research",
+        "learned-s3-14",
+        "learned-s3-21",
+        "learned-s3-22",
+        "read",
+        "little",
+        "learned-s4-03",
+        "think"
+      ],
+      "paragraphs": [
+        {
+          "jp": "[[experiment|実験]]が[[fail|失敗した]]ので、[[teacher|先生]]に[[learned-s1-02|相談しました]]。[[teacher|先生]]は「[[learned-s3-34|操作]]は[[learned-s3-35|簡単]]です。[[learned-s3-11|工夫]]は[[important|大切]]です」と[[explain|説明して]]くれました。",
+          "en": "Because the experiment failed, I asked my teacher for advice. The teacher explained, “The operation is simple. Ingenuity is important.”"
+        },
+        {
+          "jp": "[[reason|原因]]を[[investigate|調べた]]あとで、[[friend|友達]]と[[together|一緒に]][[experiment|実験]]を[[learned-s3-12|重ねました]]。[[learned-s3-01|細かい]][[learned-s4-24|記録]]は[[research|研究]]で[[important|大切]]です。",
+          "en": "After investigating the cause, I repeated the experiment with a friend. Detailed records are important in research."
+        },
+        {
+          "jp": "[[learned-s3-14|成功した]]ので、[[learned-s3-21|現象]]を[[learned-s4-24|記録して]]、[[learned-s3-22|論文]]を[[read|読みました]]。[[little|少し]][[learned-s4-03|進歩した]]と[[think|思いました]]。",
+          "en": "Because we succeeded, I recorded the phenomenon and read an academic paper. I thought I had made a little progress."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Why did the narrator ask the teacher for advice?",
+          "options": [
+            "The experiment failed",
+            "The teacher missed a train",
+            "The records were lost"
+          ],
+          "answer": 0,
+          "explanation": "実験が失敗したので gives the reason."
+        },
+        {
+          "prompt": "What happened before the repeated experiments?",
+          "options": [
+            "They investigated the cause",
+            "They read about a successful result",
+            "They postponed a gathering"
+          ],
+          "answer": 0,
+          "explanation": "原因を調べたあとで comes before 実験を重ねました."
+        },
+        {
+          "prompt": "What did the narrator do after succeeding?",
+          "options": [
+            "Recorded the phenomenon and read a paper",
+            "Destroyed the records",
+            "Changed the library arrangement"
+          ],
+          "answer": 0,
+          "explanation": "現象を記録して、論文を読みました."
+        }
+      ],
+      "kind": "Story",
+      "sourceId": "learned-set-3",
+      "createdAt": "2026-10-12"
+    },
+    {
+      "id": "learned-student-gathering",
+      "title": "留学生の集会",
+      "subtitle": "An exchange of observations · りゅうがくせいのしゅうかい",
+      "context": "Campus",
+      "icon": "🌍",
+      "scene": "Representatives stand around a rare plant; numbered cards and notes pass from hand to hand.",
+      "grammarIds": [
+        "before",
+        "favor",
+        "after"
+      ],
+      "wordIds": [
+        "today",
+        "learned-s4-17",
+        "learned-s4-18",
+        "learned-s4-19",
+        "learned-s3-30",
+        "learned-s3-31",
+        "learned-s3-32",
+        "before",
+        "learned-s2-04",
+        "learned-s4-36",
+        "explain",
+        "together",
+        "learned-s4-21",
+        "learned-s4-22",
+        "learned-s2-01",
+        "investigate",
+        "learned-s4-12",
+        "learned-s4-20",
+        "research",
+        "learned-s2-09",
+        "friend",
+        "learned-s4-35"
+      ],
+      "paragraphs": [
+        {
+          "jp": "[[today|今日]]、[[learned-s4-17|留学生]]の[[learned-s4-18|集会]]に[[learned-s4-19|参加しました]]。[[learned-s3-30|各国]]の[[learned-s3-31|代表]]が[[learned-s3-32|出席しました]]。",
+          "en": "Today, I took part in a gathering of international students. Representatives from various countries attended."
+        },
+        {
+          "jp": "[[learned-s4-18|集会]]の[[before|前]]に、[[learned-s2-04|係員]]が[[learned-s4-36|順番]]を[[explain|説明して]]くれました。[[together|一緒に]][[learned-s4-21|珍しい]][[learned-s4-22|植物]]を[[learned-s2-01|観察しました]]。",
+          "en": "Before the gathering, a staff member explained the order to us. We observed a rare plant together."
+        },
+        {
+          "jp": "[[learned-s4-22|植物]]を[[investigate|調べた]]あとで、[[learned-s4-12|情報]]を[[learned-s4-20|交換しました]]。私は[[research|研究]]の[[learned-s2-09|希望]]を[[explain|説明しました]]。[[friend|友達]]は[[learned-s4-35|賛成しました]]。",
+          "en": "After examining the plant, we exchanged information. I explained what I hoped to research. My friend agreed."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Who attended the gathering?",
+          "options": [
+            "Representatives from various countries",
+            "Only the narrator",
+            "Only local residents"
+          ],
+          "answer": 0,
+          "explanation": "各国の代表が出席しました."
+        },
+        {
+          "prompt": "What did the staff member explain?",
+          "options": [
+            "The order",
+            "A constitutional right",
+            "An aircraft schedule"
+          ],
+          "answer": 0,
+          "explanation": "係員が順番を説明してくれました."
+        },
+        {
+          "prompt": "What happened after examining the plant?",
+          "options": [
+            "They exchanged information",
+            "They stopped the gathering",
+            "They missed the last train"
+          ],
+          "answer": 0,
+          "explanation": "植物を調べたあとで、情報を交換しました."
+        }
+      ],
+      "kind": "Story",
+      "sourceId": "learned-set-4",
+      "createdAt": "2026-10-12"
     }
-  ]
+  ],
+  "learningHistory": {
+    "title": "Give meanings",
+    "sets": [
+      {
+        "sourceId": "learned-set-1",
+        "entries": 32
+      },
+      {
+        "sourceId": "learned-set-2",
+        "entries": 32
+      },
+      {
+        "sourceId": "learned-set-3",
+        "entries": 36
+      },
+      {
+        "sourceId": "learned-set-4",
+        "entries": 36
+      }
+    ],
+    "sourceEntries": 136,
+    "uniquePreviouslyLearnedWords": 133,
+    "note": "Imported as previously learned, as reported by the user. Browser mastery checks remain independent."
+  }
 }
