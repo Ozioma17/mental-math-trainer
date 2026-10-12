@@ -1,0 +1,1994 @@
+{
+  "schemaVersion": 1,
+  "revision": "2026-10-12-starter-1",
+  "updatedAt": "2026-10-12",
+  "foundation": "Readings assume basic particles, pronouns, polite/past verb forms, それから, でも, だと／と, and こと. Target vocabulary and grammar are tested before each reading. These starter entries are not assumed mastered.",
+  "sources": [
+    {
+      "id": "starter",
+      "title": "Starter collection",
+      "type": "original",
+      "note": "Original learning material created for this site. Your pages and pictures will form separate source collections."
+    }
+  ],
+  "words": [
+    {
+      "id": "class",
+      "surface": "授業",
+      "reading": "じゅぎょう",
+      "meaning": "class; lesson",
+      "tags": [
+        "Campus"
+      ],
+      "icon": "📖",
+      "scene": "Picture a classroom floating inside a giant open book.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "授",
+          "meaning": "impart; teach",
+          "reading": "じゅ"
+        },
+        {
+          "char": "業",
+          "meaning": "work; business",
+          "reading": "ぎょう"
+        }
+      ],
+      "forms": {},
+      "example": {
+        "jp": "授業が終わったあとで、友達と図書館に行きました。",
+        "en": "After class finished, I went to the library with a friend."
+      }
+    },
+    {
+      "id": "end",
+      "surface": "終わる",
+      "reading": "おわる",
+      "meaning": "to finish; to end",
+      "tags": [
+        "Everyday"
+      ],
+      "icon": "🏁",
+      "scene": "A clock crosses a finish line and stops.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "終",
+          "meaning": "end",
+          "reading": "しゅう／お"
+        }
+      ],
+      "forms": {
+        "終わった": "おわった"
+      },
+      "example": {
+        "jp": "授業が終わったあとで、友達と図書館に行きました。",
+        "en": "After class finished, I went to the library with a friend."
+      }
+    },
+    {
+      "id": "friend",
+      "surface": "友達",
+      "reading": "ともだち",
+      "meaning": "friend",
+      "tags": [
+        "Everyday"
+      ],
+      "icon": "🤝",
+      "scene": "Picture a friend catching you before you fall.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "友",
+          "meaning": "friend",
+          "reading": "とも"
+        },
+        {
+          "char": "達",
+          "meaning": "reach; plural suffix",
+          "reading": "たち"
+        }
+      ],
+      "forms": {},
+      "example": {
+        "jp": "授業が終わったあとで、友達と図書館に行きました。",
+        "en": "After class finished, I went to the library with a friend."
+      }
+    },
+    {
+      "id": "library",
+      "surface": "図書館",
+      "reading": "としょかん",
+      "meaning": "library",
+      "tags": [
+        "Campus"
+      ],
+      "icon": "📚",
+      "scene": "A building made entirely of stacked books.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "図",
+          "meaning": "diagram",
+          "reading": "と"
+        },
+        {
+          "char": "書",
+          "meaning": "write; book",
+          "reading": "しょ"
+        },
+        {
+          "char": "館",
+          "meaning": "building",
+          "reading": "かん"
+        }
+      ],
+      "forms": {},
+      "example": {
+        "jp": "授業が終わったあとで、友達と図書館に行きました。",
+        "en": "After class finished, I went to the library with a friend."
+      }
+    },
+    {
+      "id": "go",
+      "surface": "行く",
+      "reading": "いく",
+      "meaning": "to go",
+      "tags": [
+        "Everyday"
+      ],
+      "icon": "🚶",
+      "scene": "Walk through a doorway into a new scene.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "行",
+          "meaning": "go",
+          "reading": "い／こう"
+        }
+      ],
+      "forms": {
+        "行きました": "いきました"
+      },
+      "example": {
+        "jp": "授業が終わったあとで、友達と図書館に行きました。",
+        "en": "After class finished, I went to the library with a friend."
+      }
+    },
+    {
+      "id": "rain",
+      "surface": "雨",
+      "reading": "あめ",
+      "meaning": "rain",
+      "tags": [
+        "Everyday"
+      ],
+      "icon": "🌧️",
+      "scene": "An enormous cloud rains inside your room.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "雨",
+          "meaning": "rain",
+          "reading": "あめ"
+        }
+      ],
+      "forms": {},
+      "example": {
+        "jp": "雨なので、友達が傘を貸してくれました。",
+        "en": "Because it was raining, my friend lent me an umbrella."
+      }
+    },
+    {
+      "id": "umbrella",
+      "surface": "傘",
+      "reading": "かさ",
+      "meaning": "umbrella",
+      "tags": [
+        "Everyday"
+      ],
+      "icon": "☂️",
+      "scene": "A huge umbrella lifts you into the air.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "傘",
+          "meaning": "umbrella",
+          "reading": "かさ"
+        }
+      ],
+      "forms": {},
+      "example": {
+        "jp": "雨なので、友達が傘を貸してくれました。",
+        "en": "Because it was raining, my friend lent me an umbrella."
+      }
+    },
+    {
+      "id": "lend",
+      "surface": "貸す",
+      "reading": "かす",
+      "meaning": "to lend",
+      "tags": [
+        "Everyday"
+      ],
+      "icon": "🫴",
+      "scene": "Pass an umbrella to a friend with a return ribbon attached.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "貸",
+          "meaning": "lend",
+          "reading": "か"
+        }
+      ],
+      "forms": {
+        "貸して": "かして"
+      },
+      "example": {
+        "jp": "雨なので、友達が傘を貸してくれました。",
+        "en": "Because it was raining, my friend lent me an umbrella."
+      }
+    },
+    {
+      "id": "together",
+      "surface": "一緒に",
+      "reading": "いっしょに",
+      "meaning": "together",
+      "tags": [
+        "Everyday"
+      ],
+      "icon": "👥",
+      "scene": "Two people walk inside one enormous shoe.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "一",
+          "meaning": "one",
+          "reading": "いち"
+        },
+        {
+          "char": "緒",
+          "meaning": "cord; together",
+          "reading": "しょ"
+        }
+      ],
+      "forms": {},
+      "example": {
+        "jp": "一緒に本を読みました。友達が日本語を説明してくれました。",
+        "en": "We read a book together. My friend explained the Japanese to me."
+      }
+    },
+    {
+      "id": "station",
+      "surface": "駅",
+      "reading": "えき",
+      "meaning": "station",
+      "tags": [
+        "Travel"
+      ],
+      "icon": "🚉",
+      "scene": "A tiny train station sits on your palm.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "駅",
+          "meaning": "station",
+          "reading": "えき"
+        }
+      ],
+      "forms": {},
+      "example": {
+        "jp": "朝、友達と一緒に駅に行きました。それから、家に帰りました。",
+        "en": "In the morning, I went to the station with my friend. Then I returned home."
+      }
+    },
+    {
+      "id": "last-train",
+      "surface": "終電",
+      "reading": "しゅうでん",
+      "meaning": "last train",
+      "tags": [
+        "Travel"
+      ],
+      "icon": "🚆",
+      "scene": "The final train pulls away as the moon waves goodbye.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "終",
+          "meaning": "end",
+          "reading": "しゅう／お"
+        },
+        {
+          "char": "電",
+          "meaning": "electricity",
+          "reading": "でん"
+        }
+      ],
+      "forms": {},
+      "example": {
+        "jp": "終電に間に合わなかったので、友達の家に泊まりました。",
+        "en": "Because I missed the last train, I stayed at a friend’s house."
+      }
+    },
+    {
+      "id": "miss",
+      "surface": "間に合わない",
+      "reading": "まにあわない",
+      "meaning": "not to make it in time",
+      "tags": [
+        "Travel"
+      ],
+      "icon": "⏰",
+      "scene": "The train doors close a second before your hand arrives.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "間",
+          "meaning": "interval",
+          "reading": "ま"
+        },
+        {
+          "char": "合",
+          "meaning": "fit; join",
+          "reading": "あ"
+        }
+      ],
+      "forms": {
+        "間に合わなかった": "まにあわなかった"
+      },
+      "example": {
+        "jp": "終電に間に合わなかったので、友達の家に泊まりました。",
+        "en": "Because I missed the last train, I stayed at a friend’s house."
+      }
+    },
+    {
+      "id": "house",
+      "surface": "家",
+      "reading": "いえ",
+      "meaning": "house; home",
+      "tags": [
+        "Everyday"
+      ],
+      "icon": "🏠",
+      "scene": "A warm house opens its arms to welcome you.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "家",
+          "meaning": "house",
+          "reading": "いえ"
+        }
+      ],
+      "forms": {},
+      "example": {
+        "jp": "終電に間に合わなかったので、友達の家に泊まりました。",
+        "en": "Because I missed the last train, I stayed at a friend’s house."
+      }
+    },
+    {
+      "id": "stay",
+      "surface": "泊まる",
+      "reading": "とまる",
+      "meaning": "to stay overnight",
+      "tags": [
+        "Travel"
+      ],
+      "icon": "🛏️",
+      "scene": "A suitcase falls asleep in a guest bed.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "泊",
+          "meaning": "stay overnight",
+          "reading": "と"
+        }
+      ],
+      "forms": {
+        "泊まりました": "とまりました"
+      },
+      "example": {
+        "jp": "終電に間に合わなかったので、友達の家に泊まりました。",
+        "en": "Because I missed the last train, I stayed at a friend’s house."
+      }
+    },
+    {
+      "id": "morning",
+      "surface": "朝",
+      "reading": "あさ",
+      "meaning": "morning",
+      "tags": [
+        "Everyday"
+      ],
+      "icon": "🌅",
+      "scene": "The sun pops out of your breakfast bowl.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "朝",
+          "meaning": "morning",
+          "reading": "あさ"
+        }
+      ],
+      "forms": {},
+      "example": {
+        "jp": "朝、友達と一緒に駅に行きました。それから、家に帰りました。",
+        "en": "In the morning, I went to the station with my friend. Then I returned home."
+      }
+    },
+    {
+      "id": "return",
+      "surface": "帰る",
+      "reading": "かえる",
+      "meaning": "to return home",
+      "tags": [
+        "Travel"
+      ],
+      "icon": "↩️",
+      "scene": "Follow a ribbon that curls back to your front door.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "帰",
+          "meaning": "return",
+          "reading": "かえ"
+        }
+      ],
+      "forms": {
+        "帰りました": "かえりました"
+      },
+      "example": {
+        "jp": "朝、友達と一緒に駅に行きました。それから、家に帰りました。",
+        "en": "In the morning, I went to the station with my friend. Then I returned home."
+      }
+    },
+    {
+      "id": "research",
+      "surface": "研究",
+      "reading": "けんきゅう",
+      "meaning": "research",
+      "tags": [
+        "Engineering"
+      ],
+      "icon": "🔬",
+      "scene": "Look through a microscope at a tiny world of questions.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "研",
+          "meaning": "polish; study",
+          "reading": "けん"
+        },
+        {
+          "char": "究",
+          "meaning": "investigate",
+          "reading": "きゅう"
+        }
+      ],
+      "forms": {}
+    },
+    {
+      "id": "experiment",
+      "surface": "実験",
+      "reading": "じっけん",
+      "meaning": "experiment",
+      "tags": [
+        "Engineering"
+      ],
+      "icon": "🧪",
+      "scene": "A test tube launches a tiny rocket.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "実",
+          "meaning": "truth; fruit",
+          "reading": "じつ"
+        },
+        {
+          "char": "験",
+          "meaning": "test",
+          "reading": "けん"
+        }
+      ],
+      "forms": {},
+      "example": {
+        "jp": "実験の前に、先生の説明を聞きました。",
+        "en": "Before the experiment, I listened to the teacher’s explanation."
+      }
+    },
+    {
+      "id": "fail",
+      "surface": "失敗する",
+      "reading": "しっぱいする",
+      "meaning": "to fail; to make a mistake",
+      "tags": [
+        "Engineering"
+      ],
+      "icon": "💥",
+      "scene": "A machine spits out a wonky wheel; you inspect it.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "失",
+          "meaning": "lose",
+          "reading": "しつ"
+        },
+        {
+          "char": "敗",
+          "meaning": "failure",
+          "reading": "はい"
+        }
+      ],
+      "forms": {
+        "失敗しました": "しっぱいしました"
+      },
+      "example": {
+        "jp": "でも、実験は失敗しました。友達が原因を調べてくれました。",
+        "en": "But the experiment failed. My friend investigated the cause for me."
+      }
+    },
+    {
+      "id": "reason",
+      "surface": "原因",
+      "reading": "げんいん",
+      "meaning": "cause; reason",
+      "tags": [
+        "Engineering"
+      ],
+      "icon": "🔎",
+      "scene": "A magnifying glass traces a broken wire to its source.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "原",
+          "meaning": "origin",
+          "reading": "げん"
+        },
+        {
+          "char": "因",
+          "meaning": "cause",
+          "reading": "いん"
+        }
+      ],
+      "forms": {},
+      "example": {
+        "jp": "でも、実験は失敗しました。友達が原因を調べてくれました。",
+        "en": "But the experiment failed. My friend investigated the cause for me."
+      }
+    },
+    {
+      "id": "investigate",
+      "surface": "調べる",
+      "reading": "しらべる",
+      "meaning": "to investigate; to look up",
+      "tags": [
+        "Engineering"
+      ],
+      "icon": "🕵️",
+      "scene": "Search a mountain of papers with a giant magnifying glass.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "調",
+          "meaning": "investigate; tune",
+          "reading": "しら"
+        }
+      ],
+      "forms": {
+        "調べて": "しらべて"
+      },
+      "example": {
+        "jp": "でも、実験は失敗しました。友達が原因を調べてくれました。",
+        "en": "But the experiment failed. My friend investigated the cause for me."
+      }
+    },
+    {
+      "id": "explain",
+      "surface": "説明する",
+      "reading": "せつめいする",
+      "meaning": "to explain",
+      "tags": [
+        "Campus"
+      ],
+      "icon": "💬",
+      "scene": "A diagram escapes from your mouth into a speech bubble.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "説",
+          "meaning": "explain",
+          "reading": "せつ"
+        },
+        {
+          "char": "明",
+          "meaning": "bright; clear",
+          "reading": "めい"
+        }
+      ],
+      "forms": {
+        "説明して": "せつめいして",
+        "説明": "せつめい"
+      },
+      "example": {
+        "jp": "一緒に本を読みました。友達が日本語を説明してくれました。",
+        "en": "We read a book together. My friend explained the Japanese to me."
+      }
+    },
+    {
+      "id": "again",
+      "surface": "もう一度",
+      "reading": "もういちど",
+      "meaning": "once again; one more time",
+      "tags": [
+        "Everyday"
+      ],
+      "icon": "🔁",
+      "scene": "A rewind arrow pulls a scene back to its beginning.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "一",
+          "meaning": "one",
+          "reading": "いち"
+        },
+        {
+          "char": "度",
+          "meaning": "degree; occurrence",
+          "reading": "ど"
+        }
+      ],
+      "forms": {},
+      "example": {
+        "jp": "原因が分かったあとで、一緒にもう一度実験をしました。",
+        "en": "After we understood the cause, we did the experiment together once more."
+      }
+    },
+    {
+      "id": "do",
+      "surface": "する",
+      "reading": "する",
+      "meaning": "to do",
+      "tags": [
+        "Everyday"
+      ],
+      "icon": "⚙️",
+      "scene": "Push a giant button that makes an action happen.",
+      "sourceId": "starter",
+      "kanji": [],
+      "forms": {
+        "しました": "しました"
+      },
+      "example": {
+        "jp": "原因が分かったあとで、一緒にもう一度実験をしました。",
+        "en": "After we understood the cause, we did the experiment together once more."
+      }
+    },
+    {
+      "id": "cook",
+      "surface": "料理",
+      "reading": "りょうり",
+      "meaning": "cooking; cuisine",
+      "tags": [
+        "Home"
+      ],
+      "icon": "🍳",
+      "scene": "A frying pan becomes a stage for dancing vegetables.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "料",
+          "meaning": "material; fee",
+          "reading": "りょう"
+        },
+        {
+          "char": "理",
+          "meaning": "reason; principle",
+          "reading": "り"
+        }
+      ],
+      "forms": {},
+      "example": {
+        "jp": "友達が料理を作ってくれました。おいしかったです。",
+        "en": "My friend cooked for me. It was delicious."
+      }
+    },
+    {
+      "id": "music",
+      "surface": "音楽",
+      "reading": "おんがく",
+      "meaning": "music",
+      "tags": [
+        "Home"
+      ],
+      "icon": "🎵",
+      "scene": "Musical notes bounce around your kitchen.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "音",
+          "meaning": "sound",
+          "reading": "おん"
+        },
+        {
+          "char": "楽",
+          "meaning": "music; ease",
+          "reading": "がく"
+        }
+      ],
+      "forms": {},
+      "example": {
+        "jp": "音楽を聞きながら、料理を作りました。",
+        "en": "I cooked while listening to music."
+      }
+    },
+    {
+      "id": "listen",
+      "surface": "聞く",
+      "reading": "きく",
+      "meaning": "to listen; to hear; to ask",
+      "tags": [
+        "Everyday"
+      ],
+      "icon": "👂",
+      "scene": "An enormous ear catches floating musical notes.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "聞",
+          "meaning": "hear",
+          "reading": "き"
+        }
+      ],
+      "forms": {
+        "聞きました": "ききました",
+        "聞き": "きき",
+        "聞きます": "ききます"
+      },
+      "example": {
+        "jp": "実験の前に、先生の説明を聞きました。",
+        "en": "Before the experiment, I listened to the teacher’s explanation."
+      }
+    },
+    {
+      "id": "make",
+      "surface": "作る",
+      "reading": "つくる",
+      "meaning": "to make",
+      "tags": [
+        "Home"
+      ],
+      "icon": "🛠️",
+      "scene": "Build a bowl of food with tiny construction tools.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "作",
+          "meaning": "make",
+          "reading": "つく"
+        }
+      ],
+      "forms": {
+        "作って": "つくって",
+        "作る": "つくる",
+        "作りました": "つくりました",
+        "作った": "つくった"
+      },
+      "example": {
+        "jp": "友達が料理を作ってくれました。おいしかったです。",
+        "en": "My friend cooked for me. It was delicious."
+      }
+    },
+    {
+      "id": "vegetable",
+      "surface": "野菜",
+      "reading": "やさい",
+      "meaning": "vegetable",
+      "tags": [
+        "Home"
+      ],
+      "icon": "🥬",
+      "scene": "A cabbage rolls across your kitchen like a bowling ball.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "野",
+          "meaning": "field",
+          "reading": "や"
+        },
+        {
+          "char": "菜",
+          "meaning": "vegetable",
+          "reading": "さい"
+        }
+      ],
+      "forms": {},
+      "example": {
+        "jp": "料理を作る前に、野菜を買いました。",
+        "en": "Before cooking, I bought vegetables."
+      }
+    },
+    {
+      "id": "buy",
+      "surface": "買う",
+      "reading": "かう",
+      "meaning": "to buy",
+      "tags": [
+        "Home"
+      ],
+      "icon": "🛒",
+      "scene": "An enormous coin turns into a bag of vegetables.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "買",
+          "meaning": "buy",
+          "reading": "か"
+        }
+      ],
+      "forms": {
+        "買いました": "かいました"
+      },
+      "example": {
+        "jp": "料理を作る前に、野菜を買いました。",
+        "en": "Before cooking, I bought vegetables."
+      }
+    },
+    {
+      "id": "delicious",
+      "surface": "おいしい",
+      "reading": "おいしい",
+      "meaning": "delicious; tasty",
+      "tags": [
+        "Home"
+      ],
+      "icon": "😋",
+      "scene": "A bowl sparkles as you taste it.",
+      "sourceId": "starter",
+      "kanji": [],
+      "forms": {
+        "おいしかった": "おいしかった"
+      },
+      "example": {
+        "jp": "友達が料理を作ってくれました。おいしかったです。",
+        "en": "My friend cooked for me. It was delicious."
+      }
+    },
+    {
+      "id": "eat",
+      "surface": "食べる",
+      "reading": "たべる",
+      "meaning": "to eat",
+      "tags": [
+        "Home"
+      ],
+      "icon": "🥢",
+      "scene": "Chopsticks lift a giant glowing bite.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "食",
+          "meaning": "eat",
+          "reading": "た"
+        }
+      ],
+      "forms": {
+        "食べました": "たべました"
+      },
+      "example": {
+        "jp": "作ったあとで、友達と一緒に食べました。おいしかったです。",
+        "en": "After making the meal, I ate together with a friend. It was delicious."
+      }
+    },
+    {
+      "id": "practice",
+      "surface": "練習",
+      "reading": "れんしゅう",
+      "meaning": "practice",
+      "tags": [
+        "Learning"
+      ],
+      "icon": "🎯",
+      "scene": "Repeat a throw until every arrow lands in the centre.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "練",
+          "meaning": "train; refine",
+          "reading": "れん"
+        },
+        {
+          "char": "習",
+          "meaning": "learn",
+          "reading": "しゅう"
+        }
+      ],
+      "forms": {
+        "練習します": "れんしゅうします",
+        "練習しました": "れんしゅうしました",
+        "練習する": "れんしゅうする"
+      },
+      "example": {
+        "jp": "私は毎日、少し日本語を練習します。難しかったら、先生に聞きます。",
+        "en": "I practise a little Japanese every day. If it is difficult, I ask my teacher."
+      }
+    },
+    {
+      "id": "every-day",
+      "surface": "毎日",
+      "reading": "まいにち",
+      "meaning": "every day",
+      "tags": [
+        "Learning"
+      ],
+      "icon": "🗓️",
+      "scene": "A calendar walks one step forward each morning.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "毎",
+          "meaning": "every",
+          "reading": "まい"
+        },
+        {
+          "char": "日",
+          "meaning": "day; sun",
+          "reading": "にち"
+        }
+      ],
+      "forms": {},
+      "example": {
+        "jp": "私は毎日、少し日本語を練習します。難しかったら、先生に聞きます。",
+        "en": "I practise a little Japanese every day. If it is difficult, I ask my teacher."
+      }
+    },
+    {
+      "id": "little",
+      "surface": "少し",
+      "reading": "すこし",
+      "meaning": "a little; a bit",
+      "tags": [
+        "Learning"
+      ],
+      "icon": "🤏",
+      "scene": "A tiny drop fills a cup a little at a time.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "少",
+          "meaning": "few; little",
+          "reading": "すこ"
+        }
+      ],
+      "forms": {},
+      "example": {
+        "jp": "私は毎日、少し日本語を練習します。難しかったら、先生に聞きます。",
+        "en": "I practise a little Japanese every day. If it is difficult, I ask my teacher."
+      }
+    },
+    {
+      "id": "continue",
+      "surface": "続ける",
+      "reading": "つづける",
+      "meaning": "to continue",
+      "tags": [
+        "Learning"
+      ],
+      "icon": "🧵",
+      "scene": "Keep pulling an endless thread through your hands.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "続",
+          "meaning": "continue",
+          "reading": "つづ"
+        }
+      ],
+      "forms": {
+        "続けます": "つづけます"
+      },
+      "example": {
+        "jp": "毎日続けるので、少し分かります。練習は大切だと思います。",
+        "en": "Because I keep going every day, I understand a little. I think practice is important."
+      }
+    },
+    {
+      "id": "difficult",
+      "surface": "難しい",
+      "reading": "むずかしい",
+      "meaning": "difficult",
+      "tags": [
+        "Learning"
+      ],
+      "icon": "🧩",
+      "scene": "A puzzle piece grows into a mountain.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "難",
+          "meaning": "difficult",
+          "reading": "むずか"
+        }
+      ],
+      "forms": {
+        "難しかった": "むずかしかった"
+      },
+      "example": {
+        "jp": "私は毎日、少し日本語を練習します。難しかったら、先生に聞きます。",
+        "en": "I practise a little Japanese every day. If it is difficult, I ask my teacher."
+      }
+    },
+    {
+      "id": "understand",
+      "surface": "分かる",
+      "reading": "わかる",
+      "meaning": "to understand",
+      "tags": [
+        "Learning"
+      ],
+      "icon": "💡",
+      "scene": "A bulb lights up when two puzzle pieces connect.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "分",
+          "meaning": "part; understand",
+          "reading": "わ"
+        }
+      ],
+      "forms": {
+        "分かった": "わかった",
+        "分かります": "わかります",
+        "分かりました": "わかりました"
+      },
+      "example": {
+        "jp": "原因が分かったあとで、一緒にもう一度実験をしました。",
+        "en": "After we understood the cause, we did the experiment together once more."
+      }
+    },
+    {
+      "id": "important",
+      "surface": "大切",
+      "reading": "たいせつ",
+      "meaning": "important; precious",
+      "tags": [
+        "Learning"
+      ],
+      "icon": "💎",
+      "scene": "Hold a small glowing diamond carefully in both hands.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "大",
+          "meaning": "big",
+          "reading": "たい"
+        },
+        {
+          "char": "切",
+          "meaning": "cut; earnest",
+          "reading": "せつ"
+        }
+      ],
+      "forms": {},
+      "example": {
+        "jp": "毎日続けるので、少し分かります。練習は大切だと思います。",
+        "en": "Because I keep going every day, I understand a little. I think practice is important."
+      }
+    },
+    {
+      "id": "think",
+      "surface": "思う",
+      "reading": "おもう",
+      "meaning": "to think",
+      "tags": [
+        "Learning"
+      ],
+      "icon": "💭",
+      "scene": "A thought bubble grows into a miniature world.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "思",
+          "meaning": "think",
+          "reading": "おも"
+        }
+      ],
+      "forms": {
+        "思います": "おもいます"
+      },
+      "example": {
+        "jp": "毎日続けるので、少し分かります。練習は大切だと思います。",
+        "en": "Because I keep going every day, I understand a little. I think practice is important."
+      }
+    },
+    {
+      "id": "japanese",
+      "surface": "日本語",
+      "reading": "にほんご",
+      "meaning": "Japanese language",
+      "tags": [
+        "Learning"
+      ],
+      "icon": "🇯🇵",
+      "scene": "Japanese characters float around you like speech bubbles.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "日",
+          "meaning": "day; sun",
+          "reading": "にち"
+        },
+        {
+          "char": "本",
+          "meaning": "book; origin",
+          "reading": "ほん"
+        },
+        {
+          "char": "語",
+          "meaning": "language",
+          "reading": "ご"
+        }
+      ],
+      "forms": {},
+      "example": {
+        "jp": "一緒に本を読みました。友達が日本語を説明してくれました。",
+        "en": "We read a book together. My friend explained the Japanese to me."
+      }
+    },
+    {
+      "id": "help",
+      "surface": "手伝う",
+      "reading": "てつだう",
+      "meaning": "to help; to assist",
+      "tags": [
+        "Everyday"
+      ],
+      "icon": "🙌",
+      "scene": "A second pair of hands appears to lift a heavy box.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "手",
+          "meaning": "hand",
+          "reading": "て"
+        },
+        {
+          "char": "伝",
+          "meaning": "transmit",
+          "reading": "つだ"
+        }
+      ],
+      "forms": {
+        "手伝って": "てつだって",
+        "手伝い": "てつだい"
+      },
+      "example": {
+        "jp": "友達が難しい日本語を説明してくれました。練習を手伝ってくれたので、少し分かりました。",
+        "en": "My friend explained difficult Japanese to me. Because they helped me practise, I understood a little."
+      }
+    },
+    {
+      "id": "thankful",
+      "surface": "ありがたい",
+      "reading": "ありがたい",
+      "meaning": "to be grateful; appreciated",
+      "tags": [
+        "Everyday"
+      ],
+      "icon": "✨",
+      "scene": "Warm light spreads from a helping hand.",
+      "sourceId": "starter",
+      "kanji": [],
+      "forms": {},
+      "example": {
+        "jp": "友達の手伝いはありがたいです。一緒に練習することは大切だと思います。",
+        "en": "I am grateful for my friend’s help. I think practising together is important."
+      }
+    },
+    {
+      "id": "teacher",
+      "surface": "先生",
+      "reading": "せんせい",
+      "meaning": "teacher",
+      "tags": [
+        "Campus"
+      ],
+      "icon": "🧑‍🏫",
+      "scene": "A teacher draws a doorway on the board and opens it.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "先",
+          "meaning": "ahead; previous",
+          "reading": "せん"
+        },
+        {
+          "char": "生",
+          "meaning": "life; birth",
+          "reading": "せい"
+        }
+      ],
+      "forms": {},
+      "example": {
+        "jp": "実験の前に、先生の説明を聞きました。",
+        "en": "Before the experiment, I listened to the teacher’s explanation."
+      }
+    },
+    {
+      "id": "book",
+      "surface": "本",
+      "reading": "ほん",
+      "meaning": "book",
+      "tags": [
+        "Campus"
+      ],
+      "icon": "📕",
+      "scene": "A giant book opens like a door.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "本",
+          "meaning": "book; origin",
+          "reading": "ほん"
+        }
+      ],
+      "forms": {},
+      "example": {
+        "jp": "一緒に本を読みました。友達が日本語を説明してくれました。",
+        "en": "We read a book together. My friend explained the Japanese to me."
+      }
+    },
+    {
+      "id": "read",
+      "surface": "読む",
+      "reading": "よむ",
+      "meaning": "to read",
+      "tags": [
+        "Learning"
+      ],
+      "icon": "👀",
+      "scene": "Your eyes ride along a line of characters.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "読",
+          "meaning": "read",
+          "reading": "よ"
+        }
+      ],
+      "forms": {
+        "読みました": "よみました",
+        "読みます": "よみます"
+      },
+      "example": {
+        "jp": "一緒に本を読みました。友達が日本語を説明してくれました。",
+        "en": "We read a book together. My friend explained the Japanese to me."
+      }
+    },
+    {
+      "id": "today",
+      "surface": "今日",
+      "reading": "きょう",
+      "meaning": "today",
+      "tags": [
+        "Everyday"
+      ],
+      "icon": "📍",
+      "scene": "Put a bright pin on the current calendar square.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "今",
+          "meaning": "now",
+          "reading": "きょう／いま"
+        },
+        {
+          "char": "日",
+          "meaning": "day; sun",
+          "reading": "にち"
+        }
+      ],
+      "forms": {},
+      "example": {
+        "jp": "今日、授業が終わったあとで、友達と日本語を練習しました。",
+        "en": "Today, after class ended, I practised Japanese with a friend."
+      }
+    },
+    {
+      "id": "borrow",
+      "surface": "借りる",
+      "reading": "かりる",
+      "meaning": "to borrow",
+      "tags": [
+        "Everyday"
+      ],
+      "icon": "📥",
+      "scene": "Receive a book with a return-date flag.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "借",
+          "meaning": "borrow",
+          "reading": "か"
+        }
+      ],
+      "forms": {}
+    },
+    {
+      "id": "before",
+      "surface": "前",
+      "reading": "まえ",
+      "meaning": "before; in front",
+      "tags": [
+        "Everyday"
+      ],
+      "icon": "⬅️",
+      "scene": "Stand in front of a door before it opens.",
+      "sourceId": "starter",
+      "kanji": [
+        {
+          "char": "前",
+          "meaning": "before",
+          "reading": "まえ"
+        }
+      ],
+      "forms": {},
+      "example": {
+        "jp": "実験の前に、先生の説明を聞きました。",
+        "en": "Before the experiment, I listened to the teacher’s explanation."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "after",
+      "title": "〜たあとで",
+      "meaning": "after doing something",
+      "form": "Verb た-form + あとで",
+      "explanation": "Use this to place one action after another. The first verb is in the た-form even when talking about a future sequence.",
+      "example": "授業が終わったあとで、図書館に行きます。",
+      "translation": "After class finishes, I will go to the library.",
+      "questions": [
+        {
+          "prompt": "授業が終わった＿＿、図書館に行きました。",
+          "options": [
+            "あとで",
+            "ながら",
+            "前に"
+          ],
+          "answer": 0,
+          "explanation": "終わったあとで means after class finished."
+        },
+        {
+          "prompt": "Which form goes before あとで?",
+          "options": [
+            "Verb た-form",
+            "Verb ます-form",
+            "Verb ない-form"
+          ],
+          "answer": 0,
+          "explanation": "Use the completed-action た-form: 読んだあとで."
+        }
+      ]
+    },
+    {
+      "id": "because",
+      "title": "〜ので",
+      "meaning": "because; since",
+      "form": "Plain clause + ので (noun / な-adjective + なので)",
+      "explanation": "Give a reason before stating the result. With a noun or な-adjective, use な before ので.",
+      "example": "雨なので、傘を借りました。",
+      "translation": "Because it was raining, I borrowed an umbrella.",
+      "questions": [
+        {
+          "prompt": "雨＿＿、傘を借りました。",
+          "options": [
+            "なので",
+            "をので",
+            "にので"
+          ],
+          "answer": 0,
+          "explanation": "雨 is a noun, so use 雨なので."
+        },
+        {
+          "prompt": "終電に間に合わなかったので、友達の家に泊まりました。 What is the reason?",
+          "options": [
+            "Missing the last train",
+            "Staying with a friend",
+            "Returning home"
+          ],
+          "answer": 0,
+          "explanation": "The clause before ので gives the reason."
+        }
+      ]
+    },
+    {
+      "id": "favor",
+      "title": "〜てくれる",
+      "meaning": "someone does something for me / us",
+      "form": "Verb て-form + くれる",
+      "explanation": "Describe someone’s action as a benefit to you or your group. The person doing the action is the subject.",
+      "example": "友達が傘を貸してくれました。",
+      "translation": "My friend lent me an umbrella (as a favour).",
+      "questions": [
+        {
+          "prompt": "友達が傘を貸して＿＿。",
+          "options": [
+            "くれました",
+            "いました",
+            "みました"
+          ],
+          "answer": 0,
+          "explanation": "くれました presents lending the umbrella as a favour to you."
+        },
+        {
+          "prompt": "先生が説明してくれました。 Who explained?",
+          "options": [
+            "The teacher",
+            "I did",
+            "Nobody"
+          ],
+          "answer": 0,
+          "explanation": "先生が identifies the person doing the favour."
+        }
+      ]
+    },
+    {
+      "id": "while",
+      "title": "〜ながら",
+      "meaning": "while doing; at the same time",
+      "form": "Verb ます-stem + ながら",
+      "explanation": "Connect two actions done by the same person. The main action comes at the end.",
+      "example": "音楽を聞きながら、料理を作ります。",
+      "translation": "I cook while listening to music.",
+      "questions": [
+        {
+          "prompt": "音楽を＿＿ながら、料理を作ります。",
+          "options": [
+            "聞き",
+            "聞く",
+            "聞いた"
+          ],
+          "answer": 0,
+          "explanation": "Remove ます from 聞きます, then add ながら."
+        },
+        {
+          "prompt": "本を読みながら、音楽を聞きます。 Who performs the two actions?",
+          "options": [
+            "The same person",
+            "Two different people",
+            "The sentence requires a teacher"
+          ],
+          "answer": 0,
+          "explanation": "In this use, the same person reads and listens."
+        }
+      ]
+    },
+    {
+      "id": "before",
+      "title": "〜前に",
+      "meaning": "before doing something",
+      "form": "Verb dictionary form + 前に / noun + の前に",
+      "explanation": "State an action that happens before another action. Keep the verb before 前に in dictionary form.",
+      "example": "料理を作る前に、野菜を買います。",
+      "translation": "Before cooking, I buy vegetables.",
+      "questions": [
+        {
+          "prompt": "料理を＿＿前に、野菜を買います。",
+          "options": [
+            "作る",
+            "作った",
+            "作り"
+          ],
+          "answer": 0,
+          "explanation": "Use dictionary form: 作る前に."
+        },
+        {
+          "prompt": "実験の前に、先生の説明を聞きました。 What happened first?",
+          "options": [
+            "Listening to the explanation",
+            "Doing the experiment",
+            "Buying vegetables"
+          ],
+          "answer": 0,
+          "explanation": "実験の前に places listening before the experiment."
+        }
+      ]
+    },
+    {
+      "id": "if",
+      "title": "〜たら",
+      "meaning": "if; when (a condition is met)",
+      "form": "Verb た-form + ら",
+      "explanation": "State a condition and its result, or something discovered when an event happens. Example: 読んだ → 読んだら.",
+      "example": "難しかったら、先生に聞きます。",
+      "translation": "If it is difficult, I will ask the teacher.",
+      "questions": [
+        {
+          "prompt": "本を＿＿、少し分かりました。",
+          "options": [
+            "読んだら",
+            "読みながら",
+            "読む前に"
+          ],
+          "answer": 0,
+          "explanation": "読んだら can mean when / after I read it, I understood a little."
+        },
+        {
+          "prompt": "難しかったら、先生に聞きます。 What is the condition?",
+          "options": [
+            "It being difficult",
+            "The teacher going home",
+            "The rain stopping"
+          ],
+          "answer": 0,
+          "explanation": "難しかったら means if it is difficult."
+        }
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "id": "rain-library",
+      "title": "雨の日の図書館",
+      "subtitle": "One umbrella, two friends",
+      "context": "Campus",
+      "icon": "☂️",
+      "scene": "Imagine two students squeezed under one umbrella, walking toward a building made of books.",
+      "grammarIds": [
+        "after",
+        "because",
+        "favor"
+      ],
+      "wordIds": [
+        "class",
+        "end",
+        "friend",
+        "library",
+        "go",
+        "rain",
+        "umbrella",
+        "lend",
+        "together",
+        "book",
+        "read",
+        "japanese",
+        "explain"
+      ],
+      "paragraphs": [
+        {
+          "jp": "[[class|授業]]が[[end|終わった]]あとで、[[friend|友達]]と[[library|図書館]]に[[go|行きました]]。",
+          "en": "After class finished, I went to the library with a friend."
+        },
+        {
+          "jp": "[[rain|雨]]なので、[[friend|友達]]が[[umbrella|傘]]を[[lend|貸して]]くれました。",
+          "en": "Because it was raining, my friend lent me an umbrella."
+        },
+        {
+          "jp": "[[together|一緒に]][[book|本]]を[[read|読みました]]。[[friend|友達]]が[[japanese|日本語]]を[[explain|説明して]]くれました。",
+          "en": "We read a book together. My friend explained the Japanese to me."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Where did they go after class?",
+          "options": [
+            "The library",
+            "The station",
+            "A friend’s house"
+          ],
+          "answer": 0,
+          "explanation": "The first sentence says 図書館に行きました."
+        },
+        {
+          "prompt": "Why did the friend lend an umbrella?",
+          "options": [
+            "It was raining",
+            "The experiment failed",
+            "They missed the train"
+          ],
+          "answer": 0,
+          "explanation": "雨なので gives the reason."
+        },
+        {
+          "prompt": "What did the friend explain?",
+          "options": [
+            "Japanese",
+            "Cooking",
+            "A train timetable"
+          ],
+          "answer": 0,
+          "explanation": "日本語を説明してくれました."
+        }
+      ],
+      "kind": "Story",
+      "sourceId": "starter",
+      "createdAt": "2026-10-12"
+    },
+    {
+      "id": "last-train-home",
+      "title": "終電のあとで",
+      "subtitle": "An unexpected overnight stay",
+      "context": "Travel",
+      "icon": "🌙",
+      "scene": "The last train disappears under a moon; a friend opens a warm door.",
+      "grammarIds": [
+        "because",
+        "favor"
+      ],
+      "wordIds": [
+        "last-train",
+        "miss",
+        "friend",
+        "house",
+        "stay",
+        "cook",
+        "make",
+        "delicious",
+        "morning",
+        "together",
+        "station",
+        "go",
+        "return"
+      ],
+      "paragraphs": [
+        {
+          "jp": "[[last-train|終電]]に[[miss|間に合わなかった]]ので、[[friend|友達]]の[[house|家]]に[[stay|泊まりました]]。",
+          "en": "Because I missed the last train, I stayed at a friend’s house."
+        },
+        {
+          "jp": "[[friend|友達]]が[[cook|料理]]を[[make|作って]]くれました。[[delicious|おいしかった]]です。",
+          "en": "My friend cooked for me. It was delicious."
+        },
+        {
+          "jp": "[[morning|朝]]、[[friend|友達]]と[[together|一緒に]][[station|駅]]に[[go|行きました]]。それから、[[house|家]]に[[return|帰りました]]。",
+          "en": "In the morning, I went to the station with my friend. Then I returned home."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Why did the narrator stay overnight?",
+          "options": [
+            "They missed the last train",
+            "They had research to do",
+            "They wanted to borrow a book"
+          ],
+          "answer": 0,
+          "explanation": "終電に間に合わなかったので gives the reason."
+        },
+        {
+          "prompt": "What did the friend do for the narrator?",
+          "options": [
+            "Cooked a meal",
+            "Bought a book",
+            "Explained an experiment"
+          ],
+          "answer": 0,
+          "explanation": "料理を作ってくれました."
+        },
+        {
+          "prompt": "When did they go to the station?",
+          "options": [
+            "In the morning",
+            "Before dinner",
+            "During class"
+          ],
+          "answer": 0,
+          "explanation": "朝 starts the final paragraph."
+        }
+      ],
+      "kind": "Story",
+      "sourceId": "starter",
+      "createdAt": "2026-10-12"
+    },
+    {
+      "id": "lab-second-try",
+      "title": "もう一度、実験",
+      "subtitle": "The second attempt",
+      "context": "Engineering",
+      "icon": "🧪",
+      "scene": "A failed test tube becomes a magnifying glass; two researchers trace the cause.",
+      "grammarIds": [
+        "before",
+        "after",
+        "favor"
+      ],
+      "wordIds": [
+        "experiment",
+        "before",
+        "teacher",
+        "explain",
+        "listen",
+        "fail",
+        "friend",
+        "reason",
+        "investigate",
+        "understand",
+        "together",
+        "again",
+        "do"
+      ],
+      "paragraphs": [
+        {
+          "jp": "[[experiment|実験]]の[[before|前]]に、[[teacher|先生]]の[[explain|説明]]を[[listen|聞きました]]。",
+          "en": "Before the experiment, I listened to the teacher’s explanation."
+        },
+        {
+          "jp": "でも、[[experiment|実験]]は[[fail|失敗しました]]。[[friend|友達]]が[[reason|原因]]を[[investigate|調べて]]くれました。",
+          "en": "But the experiment failed. My friend investigated the cause for me."
+        },
+        {
+          "jp": "[[reason|原因]]が[[understand|分かった]]あとで、[[together|一緒に]][[again|もう一度]][[experiment|実験]]を[[do|しました]]。",
+          "en": "After we understood the cause, we did the experiment together once more."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "What happened before the experiment?",
+          "options": [
+            "The narrator listened to an explanation",
+            "The narrator went home",
+            "The friend cooked"
+          ],
+          "answer": 0,
+          "explanation": "実験の前に、先生の説明を聞きました."
+        },
+        {
+          "prompt": "What did the friend investigate?",
+          "options": [
+            "The cause of the failure",
+            "The train route",
+            "The price of vegetables"
+          ],
+          "answer": 0,
+          "explanation": "原因を調べてくれました."
+        },
+        {
+          "prompt": "What did they do after understanding the cause?",
+          "options": [
+            "Tried the experiment again",
+            "Stopped studying Japanese",
+            "Went to the station"
+          ],
+          "answer": 0,
+          "explanation": "もう一度実験をしました."
+        }
+      ],
+      "kind": "Story",
+      "sourceId": "starter",
+      "createdAt": "2026-10-12"
+    },
+    {
+      "id": "music-kitchen",
+      "title": "音楽と料理",
+      "subtitle": "A musical meal",
+      "context": "Home",
+      "icon": "🍳",
+      "scene": "Notes bounce off vegetables while you stir a pan.",
+      "grammarIds": [
+        "before",
+        "while",
+        "after"
+      ],
+      "wordIds": [
+        "cook",
+        "make",
+        "before",
+        "vegetable",
+        "buy",
+        "music",
+        "listen",
+        "friend",
+        "together",
+        "eat",
+        "delicious"
+      ],
+      "paragraphs": [
+        {
+          "jp": "[[cook|料理]]を[[make|作る]][[before|前]]に、[[vegetable|野菜]]を[[buy|買いました]]。",
+          "en": "Before cooking, I bought vegetables."
+        },
+        {
+          "jp": "[[music|音楽]]を[[listen|聞き]]ながら、[[cook|料理]]を[[make|作りました]]。",
+          "en": "I cooked while listening to music."
+        },
+        {
+          "jp": "[[make|作った]]あとで、[[friend|友達]]と[[together|一緒に]][[eat|食べました]]。[[delicious|おいしかった]]です。",
+          "en": "After making the meal, I ate together with a friend. It was delicious."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "What did the narrator do before cooking?",
+          "options": [
+            "Bought vegetables",
+            "Read a book",
+            "Missed the train"
+          ],
+          "answer": 0,
+          "explanation": "野菜を買いました."
+        },
+        {
+          "prompt": "What happened at the same time as cooking?",
+          "options": [
+            "Listening to music",
+            "Going to class",
+            "Doing an experiment"
+          ],
+          "answer": 0,
+          "explanation": "聞きながら connects listening to cooking."
+        },
+        {
+          "prompt": "Who ate with the narrator?",
+          "options": [
+            "A friend",
+            "The teacher",
+            "Nobody"
+          ],
+          "answer": 0,
+          "explanation": "友達と一緒に食べました."
+        }
+      ],
+      "kind": "Story",
+      "sourceId": "starter",
+      "createdAt": "2026-10-12"
+    },
+    {
+      "id": "daily-practice",
+      "title": "少しずつの練習",
+      "subtitle": "Why small practice matters",
+      "context": "Learning",
+      "icon": "🌱",
+      "scene": "One drop each day waters a plant whose leaves are Japanese characters.",
+      "grammarIds": [
+        "if",
+        "because"
+      ],
+      "wordIds": [
+        "every-day",
+        "little",
+        "japanese",
+        "practice",
+        "difficult",
+        "teacher",
+        "listen",
+        "continue",
+        "understand",
+        "important",
+        "think",
+        "friend",
+        "together",
+        "book",
+        "read"
+      ],
+      "paragraphs": [
+        {
+          "jp": "私は[[every-day|毎日]]、[[little|少し]][[japanese|日本語]]を[[practice|練習します]]。[[difficult|難しかった]]ら、[[teacher|先生]]に[[listen|聞きます]]。",
+          "en": "I practise a little Japanese every day. If it is difficult, I ask my teacher."
+        },
+        {
+          "jp": "[[every-day|毎日]][[continue|続ける]]ので、[[little|少し]][[understand|分かります]]。[[practice|練習]]は[[important|大切]]だと[[think|思います]]。",
+          "en": "Because I keep going every day, I understand a little. I think practice is important."
+        },
+        {
+          "jp": "[[friend|友達]]と[[together|一緒に]][[book|本]]を[[read|読みます]]。[[japanese|日本語]]の[[practice|練習]]を[[continue|続けます]]。",
+          "en": "I read a book together with a friend. I will continue practising Japanese."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "What does the writer do every day?",
+          "options": [
+            "Practises a little Japanese",
+            "Conducts an experiment",
+            "Borrows an umbrella"
+          ],
+          "answer": 0,
+          "explanation": "毎日、少し日本語を練習します."
+        },
+        {
+          "prompt": "What does the writer do if something is difficult?",
+          "options": [
+            "Asks the teacher",
+            "Stops permanently",
+            "Cooks dinner"
+          ],
+          "answer": 0,
+          "explanation": "難しかったら、先生に聞きます."
+        },
+        {
+          "prompt": "What opinion does the writer express?",
+          "options": [
+            "Practice is important",
+            "Rain is important",
+            "Missing trains is helpful"
+          ],
+          "answer": 0,
+          "explanation": "練習は大切だと思います."
+        }
+      ],
+      "kind": "Short essay",
+      "sourceId": "starter",
+      "createdAt": "2026-10-12"
+    },
+    {
+      "id": "help-gratitude",
+      "title": "友達の手伝い",
+      "subtitle": "Help that matters",
+      "context": "Campus",
+      "icon": "🤝",
+      "scene": "A second pair of hands helps lift a giant book; warm light fills the room.",
+      "grammarIds": [
+        "after",
+        "favor",
+        "because"
+      ],
+      "wordIds": [
+        "today",
+        "class",
+        "end",
+        "friend",
+        "japanese",
+        "practice",
+        "difficult",
+        "explain",
+        "help",
+        "little",
+        "understand",
+        "thankful",
+        "together",
+        "important",
+        "think"
+      ],
+      "paragraphs": [
+        {
+          "jp": "[[today|今日]]、[[class|授業]]が[[end|終わった]]あとで、[[friend|友達]]と[[japanese|日本語]]を[[practice|練習しました]]。",
+          "en": "Today, after class ended, I practised Japanese with a friend."
+        },
+        {
+          "jp": "[[friend|友達]]が[[difficult|難しい]][[japanese|日本語]]を[[explain|説明して]]くれました。[[practice|練習]]を[[help|手伝って]]くれたので、[[little|少し]][[understand|分かりました]]。",
+          "en": "My friend explained difficult Japanese to me. Because they helped me practise, I understood a little."
+        },
+        {
+          "jp": "[[friend|友達]]の[[help|手伝い]]は[[thankful|ありがたい]]です。[[together|一緒に]][[practice|練習する]]ことは[[important|大切]]だと[[think|思います]]。",
+          "en": "I am grateful for my friend’s help. I think practising together is important."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "When did they practise?",
+          "options": [
+            "After class today",
+            "Before the experiment",
+            "The following morning"
+          ],
+          "answer": 0,
+          "explanation": "今日、授業が終わったあとで."
+        },
+        {
+          "prompt": "What helped the narrator understand?",
+          "options": [
+            "The friend’s explanation and help",
+            "Music",
+            "An umbrella"
+          ],
+          "answer": 0,
+          "explanation": "The friend explained and helped with practice."
+        },
+        {
+          "prompt": "How does the narrator feel about the help?",
+          "options": [
+            "Grateful",
+            "Angry",
+            "Indifferent"
+          ],
+          "answer": 0,
+          "explanation": "ありがたい expresses appreciation."
+        }
+      ],
+      "kind": "Reflection",
+      "sourceId": "starter",
+      "createdAt": "2026-10-12"
+    }
+  ]
+}
