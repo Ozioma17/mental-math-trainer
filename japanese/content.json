@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-10-12-learned-sets-1",
-  "updatedAt": "2026-10-12",
+  "revision": "2026-10-17-readable-stories-1",
+  "updatedAt": "2026-10-17",
   "foundation": "Readings assume basic particles, pronouns, polite/past verb forms, それから, でも, だと／と, and こと. Target vocabulary and grammar are tested before each reading. These starter entries are not assumed mastered.",
   "sources": [
     {
@@ -8244,6 +8244,96 @@
       "kind": "Story",
       "sourceId": "learned-set-4",
       "createdAt": "2026-10-12"
+    },
+    {
+      "id": "first-rainy-book",
+      "title": "雨と本",
+      "subtitle": "A book shared on a rainy day · あめとほん",
+      "context": "Everyday life",
+      "icon": "📘",
+      "scene": "Picture rain tapping on the library window and two friends sharing the same open book.",
+      "kind": "Short story · start here",
+      "sourceId": "starter",
+      "createdAt": "2026-10-17",
+      "wordIds": [
+        "rain",
+        "library",
+        "go",
+        "friend",
+        "book",
+        "lend",
+        "read",
+        "together"
+      ],
+      "grammarIds": [],
+      "paragraphs": [
+        {
+          "jp": "[[rain|雨]]です。私は[[library|図書館]]に[[go|行きました]]。",
+          "en": "It was raining. I went to the library."
+        },
+        {
+          "jp": "[[library|図書館]]には[[friend|友達]]もいました。でも、[[friend|友達]]は[[book|本]]がありませんでした。",
+          "en": "My friend was also at the library. But my friend didn't have a book."
+        },
+        {
+          "jp": "私は[[friend|友達]]に[[book|本]]を[[lend|貸しました]]。",
+          "en": "I lent my book to my friend."
+        },
+        {
+          "jp": "[[friend|友達]]はその[[book|本]]を[[read|読みました]]。でも、私は[[book|本]]がありませんでした。",
+          "en": "My friend read the book. But now I didn't have a book."
+        },
+        {
+          "jp": "「[[together|一緒に]][[read|読みます]]か？」",
+          "en": "“Shall we read together?”"
+        },
+        {
+          "jp": "私たちは[[together|一緒に]][[book|本]]を[[read|読みました]]。[[rain|雨]]の日でした。でも、いい日でした。",
+          "en": "We read the book together. It was a rainy day, but it was a good day."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Where did the narrator go?",
+          "options": [
+            "To the library",
+            "To a restaurant",
+            "To the station"
+          ],
+          "answer": 0,
+          "explanation": "The first paragraph says 図書館に行きました."
+        },
+        {
+          "prompt": "What was the friend's problem?",
+          "options": [
+            "They did not have a book",
+            "They could not find an umbrella",
+            "They missed a train"
+          ],
+          "answer": 0,
+          "explanation": "友達は本がありませんでした tells us the friend had no book."
+        },
+        {
+          "prompt": "What did the narrator do for the friend?",
+          "options": [
+            "Lent them a book",
+            "Made them dinner",
+            "Bought them a train ticket"
+          ],
+          "answer": 0,
+          "explanation": "友達に本を貸しました means I lent my friend a book."
+        },
+        {
+          "prompt": "How did they finally read?",
+          "options": [
+            "Together, sharing the book",
+            "Separately, in different rooms",
+            "They never read"
+          ],
+          "answer": 0,
+          "explanation": "私たちは一緒に本を読みました states that they read together."
+        }
+      ]
     }
   ],
   "learningHistory": {
