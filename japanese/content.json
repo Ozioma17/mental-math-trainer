@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-10-17-readable-stories-1",
+  "revision": "2026-10-17-japanese-reasoning-quizzes-1",
   "updatedAt": "2026-10-17",
   "foundation": "Readings assume basic particles, pronouns, polite/past verb forms, それから, でも, だと／と, and こと. Target vocabulary and grammar are tested before each reading. These starter entries are not assumed mastered.",
   "sources": [
@@ -7471,7 +7471,9 @@
         "book",
         "read",
         "japanese",
-        "explain"
+        "explain",
+        "difficult",
+        "understand"
       ],
       "paragraphs": [
         {
@@ -7485,38 +7487,60 @@
         {
           "jp": "[[together|一緒に]][[book|本]]を[[read|読みました]]。[[friend|友達]]が[[japanese|日本語]]を[[explain|説明して]]くれました。",
           "en": "We read a book together. My friend explained the Japanese to me."
+        },
+        {
+          "jp": "[[book|本]]は私には[[difficult|難しかった]]です。[[friend|友達]]にも[[understand|分からない]]ところがありました。",
+          "en": "The book was difficult for me. There were also parts my friend did not understand."
+        },
+        {
+          "jp": "そこで、[[together|一緒に]][[book|本]]をもう一度[[read|読みました]]。そのあと、私は[[friend|友達]]に[[book|本]]を[[lend|貸しました]]。",
+          "en": "So we read the book together once more. Afterwards, I lent the book to my friend."
         }
       ],
       "questions": [
         {
-          "prompt": "Where did they go after class?",
+          "prompt": "二人が本をもう一度読んだ理由として、最も自然なのはどれですか。",
           "options": [
-            "The library",
-            "The station",
-            "A friend’s house"
+            "最初から全部分かっていたから。",
+            "二人とも、まだ分からないところがあったから。",
+            "雨が終わったので帰る時間がなかったから。",
+            "先生に読むように言われたから。"
           ],
-          "answer": 0,
-          "explanation": "The first sentence says 図書館に行きました."
+          "answer": 1,
+          "explanation": "二人とも分からないところがあったので、もう一度一緒に読みました。"
         },
         {
-          "prompt": "Why did the friend lend an umbrella?",
+          "prompt": "傘と本について、本文から読み取れることはどれですか。",
           "options": [
-            "It was raining",
-            "The experiment failed",
-            "They missed the train"
+            "友達は傘だけでなく本も貸しました。",
+            "私は傘を貸し、友達は本を貸しました。",
+            "傘も本も、先生から借りました。",
+            "友達は傘を貸し、私はあとで本を貸しました。"
           ],
-          "answer": 0,
-          "explanation": "雨なので gives the reason."
+          "answer": 3,
+          "explanation": "傘を貸したのは友達、本を貸したのは私です。"
         },
         {
-          "prompt": "What did the friend explain?",
+          "prompt": "本文に書かれていないため、判断できないことはどれですか。",
           "options": [
-            "Japanese",
-            "Cooking",
-            "A train timetable"
+            "二人が読んだ本の題名。",
+            "二人が本をもう一度読んだこと。",
+            "友達にも分からないところがあったこと。",
+            "友達が傘を貸したこと。"
           ],
           "answer": 0,
-          "explanation": "日本語を説明してくれました."
+          "explanation": "本の題名は出てきません。書いてあることと推測を区別しましょう。"
+        },
+        {
+          "prompt": "出来事の順番として正しいものはどれですか。",
+          "options": [
+            "本を貸す→図書館に行く→傘を借りる。",
+            "本をもう一度読む→傘を借りる→授業が終わる。",
+            "授業が終わる→図書館に行く→本をもう一度読む→本を貸す。",
+            "図書館に行く→本を貸す→授業が終わる。"
+          ],
+          "answer": 2,
+          "explanation": "授業のあと図書館へ行き、説明を受けて本を読み直し、最後に本を貸しました。"
         }
       ],
       "kind": "Story",
@@ -7547,7 +7571,9 @@
         "together",
         "station",
         "go",
-        "return"
+        "return",
+        "explain",
+        "understand"
       ],
       "paragraphs": [
         {
@@ -7561,38 +7587,60 @@
         {
           "jp": "[[morning|朝]]、[[friend|友達]]と[[together|一緒に]][[station|駅]]に[[go|行きました]]。それから、[[house|家]]に[[return|帰りました]]。",
           "en": "In the morning, I went to the station with my friend. Then I returned home."
+        },
+        {
+          "jp": "私は[[last-train|終電]]に[[miss|間に合わなかった]]ことを[[friend|友達]]に[[explain|説明しました]]。[[friend|友達]]は私が[[house|家]]に[[return|帰れない]]と[[understand|分かりました]]。",
+          "en": "I explained to my friend that I had missed the last train. My friend understood that I could not get home."
+        },
+        {
+          "jp": "[[friend|友達]]は[[cook|料理]]を[[make|作った]]だけではありません。[[morning|朝]]、[[station|駅]]まで[[together|一緒に]][[go|行って]]くれました。",
+          "en": "My friend did more than cook: in the morning, they accompanied me to the station."
         }
       ],
       "questions": [
         {
-          "prompt": "Why did the narrator stay overnight?",
+          "prompt": "友達の行動について、本文に最も合う説明はどれですか。",
           "options": [
-            "They missed the last train",
-            "They had research to do",
-            "They wanted to borrow a book"
+            "料理が好きだったので、毎朝駅に行きました。",
+            "終電に乗るため、友達も泊まりました。",
+            "帰れなくなった私を、夜も朝も助けました。",
+            "駅に行くのが難しかったので、私に頼みました。"
           ],
-          "answer": 0,
-          "explanation": "終電に間に合わなかったので gives the reason."
+          "answer": 2,
+          "explanation": "友達は泊まる場所だけでなく、料理と朝の付き添いでも助けています。"
         },
         {
-          "prompt": "What did the friend do for the narrator?",
+          "prompt": "もし私が終電に間に合っていたら、変わった可能性が最も高いことはどれですか。",
           "options": [
-            "Cooked a meal",
-            "Bought a book",
-            "Explained an experiment"
+            "日本語が分からなくなったこと。",
+            "友達の家に泊まる必要がなかったこと。",
+            "朝に駅がなくなったこと。",
+            "料理がおいしくなくなったこと。"
           ],
-          "answer": 0,
-          "explanation": "料理を作ってくれました."
+          "answer": 1,
+          "explanation": "泊まった直接の理由は終電に間に合わなかったことです。"
         },
         {
-          "prompt": "When did they go to the station?",
+          "prompt": "本文だけからは言えないことはどれですか。",
           "options": [
-            "In the morning",
-            "Before dinner",
-            "During class"
+            "友達が料理を作った。",
+            "私が終電に間に合わなかった。",
+            "翌朝二人で駅に行った。",
+            "友達の家が駅の近くにある。"
+          ],
+          "answer": 3,
+          "explanation": "友達の家と駅の距離は説明されていません。"
+        },
+        {
+          "prompt": "友達が私の事情を理解したのは、何を聞いたあとですか。",
+          "options": [
+            "終電に間に合わなかったという説明。",
+            "翌朝の駅の案内。",
+            "料理が好きだという話。",
+            "先生の説明。"
           ],
           "answer": 0,
-          "explanation": "朝 starts the final paragraph."
+          "explanation": "私は終電を逃したことを説明し、そのあと友達は帰れない事情を理解しました。"
         }
       ],
       "kind": "Story",
@@ -7638,38 +7686,60 @@
         {
           "jp": "[[reason|原因]]が[[understand|分かった]]あとで、[[together|一緒に]][[again|もう一度]][[experiment|実験]]を[[do|しました]]。",
           "en": "After we understood the cause, we did the experiment together once more."
+        },
+        {
+          "jp": "[[teacher|先生]]の[[explain|説明]]を[[listen|聞いて]]も、[[experiment|実験]]は[[fail|失敗しました]]。[[listen|聞く]]ことと[[understand|分かる]]ことは、同じではありません。",
+          "en": "Even though I listened to the teacher's explanation, the experiment failed. Hearing and understanding are not the same."
+        },
+        {
+          "jp": "[[friend|友達]]と[[reason|原因]]を[[investigate|調べた]]ので、[[again|もう一度]][[do|する]]ときは、[[before|前]]と同じことをしませんでした。",
+          "en": "Because my friend and I investigated the cause, when we tried again we did not do exactly the same thing as before."
         }
       ],
       "questions": [
         {
-          "prompt": "What happened before the experiment?",
+          "prompt": "本文の中心にある考えとして、最も適切なものはどれですか。",
           "options": [
-            "The narrator listened to an explanation",
-            "The narrator went home",
-            "The friend cooked"
+            "説明を聞けば、失敗することはない。",
+            "失敗したら、説明を聞くのをやめたほうがいい。",
+            "実験では、友達より先生の言葉だけが大切だ。",
+            "失敗の原因を調べてから、次の行動を変えることが大切だ。"
           ],
-          "answer": 0,
-          "explanation": "実験の前に、先生の説明を聞きました."
+          "answer": 3,
+          "explanation": "ただ実験を繰り返すのではなく、原因を理解して行動を変えています。"
         },
         {
-          "prompt": "What did the friend investigate?",
+          "prompt": "最初の実験が失敗したことから、何が言えますか。",
           "options": [
-            "The cause of the failure",
-            "The train route",
-            "The price of vegetables"
+            "説明を聞いたことだけでは、成功は保証されない。",
+            "先生は何も説明しなかった。",
+            "友達は最初からすべて分かっていた。",
+            "実験をもう一度することは禁止された。"
           ],
           "answer": 0,
-          "explanation": "原因を調べてくれました."
+          "explanation": "説明を聞きましたが、実験は失敗しました。"
         },
         {
-          "prompt": "What did they do after understanding the cause?",
+          "prompt": "二回目の実験が一回目と違うのは、主に何ですか。",
           "options": [
-            "Tried the experiment again",
-            "Stopped studying Japanese",
-            "Went to the station"
+            "先生がいなくなったこと。",
+            "原因を調べ、やり方を変えたこと。",
+            "図書館で実験したこと。",
+            "説明を一度も聞かなかったこと。"
           ],
-          "answer": 0,
-          "explanation": "もう一度実験をしました."
+          "answer": 1,
+          "explanation": "原因を調べたうえで、前と同じことをしないと書かれています。"
+        },
+        {
+          "prompt": "本文から確実には分からないことはどれですか。",
+          "options": [
+            "友達が原因を調べたこと。",
+            "最初の実験が失敗したこと。",
+            "二回目の実験が成功したこと。",
+            "説明を先に聞いたこと。"
+          ],
+          "answer": 2,
+          "explanation": "二回目を行ったことは書かれていますが、その結果は書かれていません。"
         }
       ],
       "kind": "Story",
@@ -7713,38 +7783,60 @@
         {
           "jp": "[[make|作った]]あとで、[[friend|友達]]と[[together|一緒に]][[eat|食べました]]。[[delicious|おいしかった]]です。",
           "en": "After making the meal, I ate together with a friend. It was delicious."
+        },
+        {
+          "jp": "[[friend|友達]]は[[cook|料理]]を[[make|作った]]あとで来ました。[[music|音楽]]は、もう[[listen|聞いて]]いませんでした。",
+          "en": "My friend arrived after I had finished cooking. I was no longer listening to music."
+        },
+        {
+          "jp": "[[friend|友達]]と[[eat|食べた]]ときは、[[cook|料理]]の話をしました。[[music|音楽]]を[[listen|聞き]]ながら[[eat|食べた]]わけではありません。",
+          "en": "While eating with my friend, we talked about the meal. We were not eating while listening to music."
         }
       ],
       "questions": [
         {
-          "prompt": "What did the narrator do before cooking?",
+          "prompt": "音楽についての説明として正しいのはどれですか。",
           "options": [
-            "Bought vegetables",
-            "Read a book",
-            "Missed the train"
+            "買い物と食事の間、ずっと聞いていた。",
+            "友達が食べ始めてから初めて聞いた。",
+            "料理を作っている間に聞き、食事中は聞いていなかった。",
+            "野菜を買う前にしか聞いていなかった。"
           ],
-          "answer": 0,
-          "explanation": "野菜を買いました."
+          "answer": 2,
+          "explanation": "音楽を聞いたのは料理中です。食事中は聞いていません。"
         },
         {
-          "prompt": "What happened at the same time as cooking?",
+          "prompt": "友達について、本文から読み取れることはどれですか。",
           "options": [
-            "Listening to music",
-            "Going to class",
-            "Doing an experiment"
+            "料理が終わる前に野菜を買ってくれた。",
+            "音楽を聞きながら一緒に料理した。",
+            "料理の途中で帰った。",
+            "料理が完成してから来て、一緒に食べた。"
           ],
-          "answer": 0,
-          "explanation": "聞きながら connects listening to cooking."
+          "answer": 3,
+          "explanation": "友達は料理を作ったあとで来ました。"
         },
         {
-          "prompt": "Who ate with the narrator?",
+          "prompt": "出来事の順番と同時に起きたことの組み合わせとして正しいのはどれですか。",
           "options": [
-            "A friend",
-            "The teacher",
-            "Nobody"
+            "野菜を買う→音楽を聞きながら料理→友達と食べる。",
+            "音楽を聞きながら食べる→野菜を買う→料理する。",
+            "友達が来る→野菜を買う→料理する。",
+            "料理をする→野菜を買う→音楽を聞く。"
           ],
           "answer": 0,
-          "explanation": "友達と一緒に食べました."
+          "explanation": "野菜を先に買い、音楽を聞きながら料理し、そのあとで友達と食べています。"
+        },
+        {
+          "prompt": "本文では確認できないのはどれですか。",
+          "options": [
+            "料理がおいしかったこと。",
+            "音楽の曲名。",
+            "友達が来たタイミング。",
+            "料理の前に野菜を買ったこと。"
+          ],
+          "answer": 1,
+          "explanation": "音楽を聞いたことは書かれていますが、曲名は出てきません。"
         }
       ],
       "kind": "Story",
@@ -7791,38 +7883,60 @@
         {
           "jp": "[[friend|友達]]と[[together|一緒に]][[book|本]]を[[read|読みます]]。[[japanese|日本語]]の[[practice|練習]]を[[continue|続けます]]。",
           "en": "I read a book together with a friend. I will continue practising Japanese."
+        },
+        {
+          "jp": "[[japanese|日本語]]が[[difficult|難しい]]日もあります。でも、[[little|少し]]だけでも[[practice|練習]]を[[continue|続けます]]。",
+          "en": "There are days when Japanese is difficult. But I continue to practise, even if only a little."
+        },
+        {
+          "jp": "[[teacher|先生]]に[[listen|聞く]]ことも、[[friend|友達]]と[[book|本]]を[[read|読む]]ことも、[[understand|分かる]]ための[[practice|練習]]です。",
+          "en": "Asking my teacher and reading with my friend are both ways I practise to understand."
         }
       ],
       "questions": [
         {
-          "prompt": "What does the writer do every day?",
+          "prompt": "書き手が『少しだけでも』練習するのは、なぜだと考えられますか。",
           "options": [
-            "Practises a little Japanese",
-            "Conducts an experiment",
-            "Borrows an umbrella"
+            "先生に会うのが嫌だから。",
+            "一度に全部を理解しているから。",
+            "毎日続けることが理解につながると考えているから。",
+            "友達と本を読んだことが一度もないから。"
           ],
-          "answer": 0,
-          "explanation": "毎日、少し日本語を練習します."
+          "answer": 2,
+          "explanation": "書き手は毎日の継続によって少しずつ理解できると考えています。"
         },
         {
-          "prompt": "What does the writer do if something is difficult?",
+          "prompt": "次のうち、書き手の考え方に最も近い行動はどれですか。",
           "options": [
-            "Asks the teacher",
-            "Stops permanently",
-            "Cooks dinner"
+            "難しい日は、練習を全部やめる。",
+            "毎日少し読み、分からないところは先生に聞く。",
+            "本を読まず、練習の大切さだけを話す。",
+            "友達がいない日は、日本語を使わない。"
           ],
-          "answer": 0,
-          "explanation": "難しかったら、先生に聞きます."
+          "answer": 1,
+          "explanation": "少しでも継続し、必要なら質問するという本文の方針に合います。"
         },
         {
-          "prompt": "What opinion does the writer express?",
+          "prompt": "本文から、先生と友達の役割についてどう考えられますか。",
           "options": [
-            "Practice is important",
-            "Rain is important",
-            "Missing trains is helpful"
+            "どちらも、続けて学ぶことを助けている。",
+            "先生だけが日本語を使える。",
+            "友達と読むことは練習にはならない。",
+            "先生に聞くと、一人で練習できなくなる。"
           ],
           "answer": 0,
-          "explanation": "練習は大切だと思います."
+          "explanation": "先生への質問と友達との読書の両方が学習の一部になっています。"
+        },
+        {
+          "prompt": "本文だけからは断定できないことはどれですか。",
+          "options": [
+            "難しい日もある。",
+            "友達と本を読む。",
+            "少しずつ理解できる。",
+            "毎日必ず一時間練習している。"
+          ],
+          "answer": 3,
+          "explanation": "毎日練習するとは書かれていますが、時間は示されていません。"
         }
       ],
       "kind": "Short essay",
@@ -7870,38 +7984,60 @@
         {
           "jp": "[[friend|友達]]の[[help|手伝い]]は[[thankful|ありがたい]]です。[[together|一緒に]][[practice|練習する]]ことは[[important|大切]]だと[[think|思います]]。",
           "en": "I am grateful for my friend’s help. I think practising together is important."
+        },
+        {
+          "jp": "[[friend|友達]]も[[difficult|難しい]]ときがあります。そのときは、私も[[friend|友達]]の[[practice|練習]]を[[help|手伝います]]。",
+          "en": "My friend also has difficult moments. When that happens, I help them practise too."
+        },
+        {
+          "jp": "今日は私が[[help|手伝って]]もらいましたが、[[together|一緒に]][[practice|練習する]]ことは、二人にとって[[important|大切]]です。",
+          "en": "Today I was the one who received help, but practising together matters to both of us."
         }
       ],
       "questions": [
         {
-          "prompt": "When did they practise?",
+          "prompt": "最後の二つの段落から、二人の関係について最も適切なのはどれですか。",
           "options": [
-            "After class today",
-            "Before the experiment",
-            "The following morning"
+            "友達だけが、いつも教える側である。",
+            "二人は必要に応じて助け合っている。",
+            "私は友達の練習に興味がない。",
+            "一人で練習することは禁止されている。"
           ],
-          "answer": 0,
-          "explanation": "今日、授業が終わったあとで."
+          "answer": 1,
+          "explanation": "友達が私を助け、友達が難しいときは私も手伝います。"
         },
         {
-          "prompt": "What helped the narrator understand?",
+          "prompt": "書き手が『一緒に練習すること』を大切だと思う理由として自然なのはどれですか。",
           "options": [
-            "The friend’s explanation and help",
-            "Music",
-            "An umbrella"
+            "質問をしなくて済むから。",
+            "難しい日本語を避けられるから。",
+            "一方だけが学べるから。",
+            "お互いに学びながら助け合えるから。"
           ],
-          "answer": 0,
-          "explanation": "The friend explained and helped with practice."
+          "answer": 3,
+          "explanation": "本文では、一方が教えるだけでなく、二人で助け合うことが描かれています。"
         },
         {
-          "prompt": "How does the narrator feel about the help?",
+          "prompt": "『今日』について本文から言えるのはどれですか。",
           "options": [
-            "Grateful",
-            "Angry",
-            "Indifferent"
+            "書き手は友達から説明を受け、少し理解できた。",
+            "書き手は友達にだけ難しい日本語を教えた。",
+            "二人は授業の前に練習を終えた。",
+            "友達は練習を断った。"
           ],
           "answer": 0,
-          "explanation": "ありがたい expresses appreciation."
+          "explanation": "今日は友達が説明し、手伝ってくれたので、書き手が理解できました。"
+        },
+        {
+          "prompt": "本文からは分からないことはどれですか。",
+          "options": [
+            "二人が日本語を練習したこと。",
+            "友達にも難しいときがあること。",
+            "友達がどの単語を説明したか。",
+            "書き手が助けに感謝していること。"
+          ],
+          "answer": 2,
+          "explanation": "難しい日本語を説明したとは書かれていますが、具体的な単語は書かれていません。"
         }
       ],
       "kind": "Reflection",
@@ -7935,7 +8071,9 @@
         "learned-s1-17",
         "read",
         "learned-s1-30",
-        "learned-s1-32"
+        "learned-s1-32",
+        "think",
+        "understand"
       ],
       "paragraphs": [
         {
@@ -7949,38 +8087,60 @@
         {
           "jp": "[[learned-s1-25|一方]]、私は[[library|図書館]]で[[learned-s1-31|地域]]の[[learned-s1-17|記事]]を[[read|読みました]]。[[learned-s1-17|記事]]の[[learned-s1-30|著者]]は、その[[learned-s1-31|地域]]の[[learned-s1-32|住民]]でした。",
           "en": "Meanwhile, I read an article about the area at the library. Its author was a resident of that area."
+        },
+        {
+          "jp": "[[friend|友達]]との[[learned-s1-04|約束]]は[[learned-s1-08|延期しました]]が、私は[[library|図書館]]に[[go|行く]]ことができました。[[friend|友達]]と[[go|行く]]ことと、一人で[[go|行く]]ことは違います。",
+          "en": "I postponed the arrangement to go with my friend, but I could still go to the library. Going with a friend and going alone are different."
+        },
+        {
+          "jp": "[[learned-s1-17|記事]]の[[learned-s1-30|著者]]はその[[learned-s1-31|地域]]の[[learned-s1-32|住民]]でした。だからよく知っていると[[think|思いました]]。でも、[[learned-s1-17|記事]]のすべてが正しいかどうかは、まだ[[understand|分かりません]]。",
+          "en": "The writer of the article lived in that region, so I thought they knew it well. But I still did not know whether everything in the article was accurate."
         }
       ],
       "questions": [
         {
-          "prompt": "What had the narrator arranged to do?",
+          "prompt": "約束を延期したのに図書館へ行ったことは、なぜ矛盾しませんか。",
           "options": [
-            "Go to the library with a friend",
-            "Attend a gathering of representatives",
-            "Conduct an experiment"
+            "図書館は延期できないから。",
+            "友達との予定を変えても、一人で行くことはできるから。",
+            "記事の著者が友達だったから。",
+            "友達は実は図書館に行っていたから。"
           ],
-          "answer": 0,
-          "explanation": "図書館に行く約束をしました."
+          "answer": 1,
+          "explanation": "延期したのは友達と一緒に行く約束であり、図書館に行く行動そのものではありません。"
         },
         {
-          "prompt": "Why was the arrangement postponed?",
+          "prompt": "著者が地域の住民であることについて、書き手の考えに最も近いものはどれですか。",
           "options": [
-            "The friend said today was difficult",
-            "The library was closed",
-            "The article had not arrived"
+            "記事が必ず正しい証拠になる。",
+            "記事を読む必要がなくなる。",
+            "情報を一切信じられなくなる。",
+            "地域を知っている可能性はあるが、正しさの証明にはならない。"
           ],
-          "answer": 0,
-          "explanation": "The friend’s explanation is followed by ので."
+          "answer": 3,
+          "explanation": "住民だから詳しいかもしれませんが、それだけで記事のすべてが正しいとは限りません。"
         },
         {
-          "prompt": "Who wrote the article?",
+          "prompt": "本文から確実に言えることはどれですか。",
           "options": [
-            "A resident of the area",
-            "The friend",
-            "The narrator"
+            "二人で図書館に行った。",
+            "図書館そのものが閉まった。",
+            "友達との約束は延期したが、書き手は図書館へ行った。",
+            "著者は地域の外から来た人だった。"
+          ],
+          "answer": 2,
+          "explanation": "友達とは予定を延期し、書き手は一人で図書館に行って記事を読みました。"
+        },
+        {
+          "prompt": "文章の内容から判断できないことはどれですか。",
+          "options": [
+            "友達がいつ図書館へ行けるようになるか。",
+            "著者が地域の住民だったこと。",
+            "書き手が記事を読んだこと。",
+            "友達と相談したこと。"
           ],
           "answer": 0,
-          "explanation": "記事の著者は、その地域の住民でした."
+          "explanation": "約束を延期したことは分かりますが、新しい日程は示されていません。"
         }
       ],
       "kind": "Story",
@@ -8019,7 +8179,10 @@
         "learned-s2-16",
         "important",
         "think",
-        "read"
+        "read",
+        "reason",
+        "understand",
+        "end"
       ],
       "paragraphs": [
         {
@@ -8033,38 +8196,60 @@
         {
           "jp": "[[learned-s1-15|農産物]]を[[learned-s2-16|守る]]ことは[[important|大切]]だと[[think|思いました]]。[[learned-s4-24|記録]]を[[read|読みました]]。",
           "en": "I thought protecting agricultural produce was important. I read the records."
+        },
+        {
+          "jp": "[[learned-s2-25|雨量]]が多く、[[learned-s2-26|湿度]]も高かったです。しかし、[[learned-s2-14|虫]]が多い[[reason|原因]]が[[learned-s2-25|雨量]]かどうかは、まだ[[understand|分かりません]]。",
+          "en": "Rainfall was high and so was humidity. However, we still did not know whether rainfall was the cause of the large number of insects."
+        },
+        {
+          "jp": "[[learned-s1-15|農産物]]を[[learned-s2-16|守る]]ために、[[learned-s4-24|記録]]をもう一度[[investigate|調べました]]。[[learned-s1-14|調査]]はまだ[[end|終わって]]いません。",
+          "en": "To protect produce, we looked through the records again. The investigation was not finished yet."
         }
       ],
       "questions": [
         {
-          "prompt": "What did they record before examining the crops?",
+          "prompt": "雨量が多く、虫も多かったことから、何が言えますか。",
           "options": [
-            "Rainfall and humidity",
-            "Prices and attendance",
-            "Left and right"
+            "雨が虫を増やしたと証明された。",
+            "湿度と虫には関係がないと分かった。",
+            "同じ時期の記録はあるが、原因はまだ判断できない。",
+            "調査を続ける必要はない。"
           ],
-          "answer": 0,
-          "explanation": "作物を調べる前に、雨量と湿度を記録しました."
+          "answer": 2,
+          "explanation": "雨量と虫の多さが同時に見られても、原因が雨とは限りません。"
         },
         {
-          "prompt": "What did they observe on the grass?",
+          "prompt": "農産物を守るために、書き手たちは何を重視していますか。",
           "options": [
-            "Insects",
-            "Aircraft",
-            "A reflection"
+            "記録を見ずに、すぐに原因を決めること。",
+            "観察と記録を使い、調査を続けること。",
+            "虫の数だけで農業全体を判断すること。",
+            "先生の説明を聞かないこと。"
           ],
-          "answer": 0,
-          "explanation": "草の虫を観察しました."
+          "answer": 1,
+          "explanation": "結論を急がず、記録を確認しながら調査を続けています。"
         },
         {
-          "prompt": "Which idea does the narrator consider important?",
+          "prompt": "本文の記録の順番に合っているのはどれですか。",
           "options": [
-            "Protecting agricultural produce",
-            "Cancelling the research",
-            "Skipping the records"
+            "虫の観察→雨量の記録→作物を調べる。",
+            "調査の終了→記録の確認→虫の観察。",
+            "作物を守る→雨量を初めて記録する→調査を始める。",
+            "雨量・湿度の記録→虫の観察→記録の再確認。"
+          ],
+          "answer": 3,
+          "explanation": "先に雨量と湿度を記録し、そのあと虫を観察し、最後に記録をもう一度確認しています。"
+        },
+        {
+          "prompt": "本文から判断できないことはどれですか。",
+          "options": [
+            "虫が増えた正確な原因。",
+            "記録した二つの項目。",
+            "先生が作物を説明したこと。",
+            "農産物を守るという目的。"
           ],
           "answer": 0,
-          "explanation": "農産物を守ることは大切だと思いました."
+          "explanation": "原因を確かめるための調査が続いています。まだ正確な原因は分かっていません。"
         }
       ],
       "kind": "Story",
@@ -8107,7 +8292,8 @@
         "read",
         "little",
         "learned-s4-03",
-        "think"
+        "think",
+        "understand"
       ],
       "paragraphs": [
         {
@@ -8121,38 +8307,60 @@
         {
           "jp": "[[learned-s3-14|成功した]]ので、[[learned-s3-21|現象]]を[[learned-s4-24|記録して]]、[[learned-s3-22|論文]]を[[read|読みました]]。[[little|少し]][[learned-s4-03|進歩した]]と[[think|思いました]]。",
           "en": "Because we succeeded, I recorded the phenomenon and read an academic paper. I thought I had made a little progress."
+        },
+        {
+          "jp": "最初は、[[learned-s3-34|操作]]が[[learned-s3-35|簡単]]なら、[[experiment|実験]]も[[learned-s3-14|成功する]]と[[think|思いました]]。でも、[[learned-s3-01|細かい]][[learned-s4-24|記録]]と[[learned-s3-11|工夫]]も[[important|大切]]でした。",
+          "en": "At first I thought that if the operation was simple, the experiment would succeed. But detailed records and ingenuity were important too."
+        },
+        {
+          "jp": "[[learned-s3-14|成功した]]あとでも、[[learned-s3-21|現象]]をすべて[[understand|分かった]]とは言えません。だから、[[learned-s3-22|論文]]を[[read|読みました]]。",
+          "en": "Even after succeeding, I could not say I understood every aspect of the phenomenon. That is why I read academic papers."
         }
       ],
       "questions": [
         {
-          "prompt": "Why did the narrator ask the teacher for advice?",
+          "prompt": "最初の考えと実験のあとでの考えは、どう変わりましたか。",
           "options": [
-            "The experiment failed",
-            "The teacher missed a train",
-            "The records were lost"
+            "操作が簡単なら十分だと思ったが、記録と工夫も必要だと分かった。",
+            "実験の失敗と成功は同じだと分かった。",
+            "先生の説明は必要ないと考えるようになった。",
+            "記録よりも運が重要だと考えるようになった。"
           ],
           "answer": 0,
-          "explanation": "実験が失敗したので gives the reason."
+          "explanation": "最初は簡単な操作だけを重視しましたが、あとで記録と工夫の大切さに気づいています。"
         },
         {
-          "prompt": "What happened before the repeated experiments?",
+          "prompt": "成功したのに論文を読んだのは、なぜですか。",
           "options": [
-            "They investigated the cause",
-            "They read about a successful result",
-            "They postponed a gathering"
+            "記録を消すため。",
+            "友達に会わないため。",
+            "成功だけでは現象のすべてを理解したとは言えないから。",
+            "先生が操作を難しくしたから。"
           ],
-          "answer": 0,
-          "explanation": "原因を調べたあとで comes before 実験を重ねました."
+          "answer": 2,
+          "explanation": "実験が成功することと、その現象を十分に理解することは別だと考えています。"
         },
         {
-          "prompt": "What did the narrator do after succeeding?",
+          "prompt": "同じ実験を考える人への助言として、本文に最も近いものはどれですか。",
           "options": [
-            "Recorded the phenomenon and read a paper",
-            "Destroyed the records",
-            "Changed the library arrangement"
+            "失敗したら原因を調べずに繰り返す。",
+            "成功したら記録を取らなくてもよい。",
+            "操作が簡単なら原因は必ず分かる。",
+            "原因を調べ、記録を残し、結果を考える。"
           ],
-          "answer": 0,
-          "explanation": "現象を記録して、論文を読みました."
+          "answer": 3,
+          "explanation": "原因調査、繰り返し、詳細な記録、文献を読むことが描かれています。"
+        },
+        {
+          "prompt": "本文から確実に判断できないことはどれですか。",
+          "options": [
+            "実験が一度失敗したこと。",
+            "最初の失敗の具体的な原因。",
+            "友達と実験を重ねたこと。",
+            "成功後に論文を読んだこと。"
+          ],
+          "answer": 1,
+          "explanation": "原因を調べたとは書かれていますが、何が原因だったのかは説明されていません。"
         }
       ],
       "kind": "Story",
@@ -8207,38 +8415,60 @@
         {
           "jp": "[[learned-s4-22|植物]]を[[investigate|調べた]]あとで、[[learned-s4-12|情報]]を[[learned-s4-20|交換しました]]。私は[[research|研究]]の[[learned-s2-09|希望]]を[[explain|説明しました]]。[[friend|友達]]は[[learned-s4-35|賛成しました]]。",
           "en": "After examining the plant, we exchanged information. I explained what I hoped to research. My friend agreed."
+        },
+        {
+          "jp": "[[learned-s3-30|各国]]の[[learned-s3-31|代表]]は、同じ[[learned-s4-22|植物]]を[[learned-s2-01|観察しました]]。でも、[[research|研究]]の[[learned-s2-09|希望]]はみんな同じではありませんでした。",
+          "en": "Representatives from different countries observed the same plant, but their research hopes were not all identical."
+        },
+        {
+          "jp": "私の[[friend|友達]]は[[learned-s4-35|賛成しました]]。しかし、それだけで[[learned-s3-30|各国]]の[[learned-s3-31|代表]]もみんな[[learned-s4-35|賛成した]]とは言えません。",
+          "en": "My friend agreed with me. But that alone does not mean that all the representatives from other countries agreed."
         }
       ],
       "questions": [
         {
-          "prompt": "Who attended the gathering?",
+          "prompt": "同じ植物を観察した代表たちについて、本文から分かることはどれですか。",
           "options": [
-            "Representatives from various countries",
-            "Only the narrator",
-            "Only local residents"
+            "全員が同じ研究を希望した。",
+            "全員が友達の考えに反対した。",
+            "同じものを見ても、研究への希望は異なることがある。",
+            "係員が研究の内容をすべて決めた。"
           ],
-          "answer": 0,
-          "explanation": "各国の代表が出席しました."
+          "answer": 2,
+          "explanation": "観察の対象は同じでも、研究の希望は同じではありませんでした。"
         },
         {
-          "prompt": "What did the staff member explain?",
+          "prompt": "友達が賛成したことから、何を結論として出せますか。",
           "options": [
-            "The order",
-            "A constitutional right",
-            "An aircraft schedule"
+            "少なくとも友達一人は賛成したが、全員の意見は分からない。",
+            "各国の代表全員が賛成した。",
+            "代表たちは植物を観察しなかった。",
+            "希望を説明する必要はなかった。"
           ],
           "answer": 0,
-          "explanation": "係員が順番を説明してくれました."
+          "explanation": "本文で賛成したと分かるのは友達です。他の代表の賛否は書かれていません。"
         },
         {
-          "prompt": "What happened after examining the plant?",
+          "prompt": "集会の活動として、最も適切な説明はどれですか。",
           "options": [
-            "They exchanged information",
-            "They stopped the gathering",
-            "They missed the last train"
+            "各国の代表は順番を聞かずに帰った。",
+            "植物の観察だけを行い、意見は交換しなかった。",
+            "友達だけが情報を持っていた。",
+            "観察したあと情報を交換し、自分の研究の希望も話した。"
           ],
-          "answer": 0,
-          "explanation": "植物を調べたあとで、情報を交換しました."
+          "answer": 3,
+          "explanation": "観察から情報交換へと進み、書き手は研究の希望を説明しました。"
+        },
+        {
+          "prompt": "『友達の賛成』と『各国の代表の意見』を区別することが大切なのは、なぜですか。",
+          "options": [
+            "植物が珍しくなくなるから。",
+            "一人の意見を全員の意見として扱えないから。",
+            "係員が順番を忘れたから。",
+            "情報を交換する必要がなくなるから。"
+          ],
+          "answer": 1,
+          "explanation": "一人が賛成したという事実から、全員の考えまで推測することはできません。"
         }
       ],
       "kind": "Story",
@@ -8290,48 +8520,56 @@
         {
           "jp": "私たちは[[together|一緒に]][[book|本]]を[[read|読みました]]。[[rain|雨]]の日でした。でも、いい日でした。",
           "en": "We read the book together. It was a rainy day, but it was a good day."
+        },
+        {
+          "jp": "私は[[book|本]]を[[lend|貸した]]あと、一人では[[read|読めません]]でした。でも、[[friend|友達]]の言葉で、[[together|一緒に]][[read|読む]]ことができました。",
+          "en": "After lending my book, I could not read it by myself. But because of my friend's suggestion, I was able to read together."
         }
       ],
       "questions": [
         {
-          "prompt": "Where did the narrator go?",
+          "prompt": "本を貸したあと、私がすぐに読めなかったのはなぜですか。",
           "options": [
-            "To the library",
-            "To a restaurant",
-            "To the station"
+            "図書館が閉まったから。",
+            "雨が降っていなかったから。",
+            "友達が帰ったから。",
+            "自分の本を友達に貸していたから。"
           ],
-          "answer": 0,
-          "explanation": "The first paragraph says 図書館に行きました."
+          "answer": 3,
+          "explanation": "一冊の本を貸したので、私は一人では読めなくなりました。"
         },
         {
-          "prompt": "What was the friend's problem?",
+          "prompt": "『一緒に読みますか』という言葉で変わったことは何ですか。",
           "options": [
-            "They did not have a book",
-            "They could not find an umbrella",
-            "They missed a train"
+            "二人とも本を読むことができるようになった。",
+            "本が二冊になった。",
+            "雨が終わった。",
+            "友達が図書館から出ていった。"
           ],
           "answer": 0,
-          "explanation": "友達は本がありませんでした tells us the friend had no book."
+          "explanation": "本の数は増えていませんが、一緒に読むことで二人が読めました。"
         },
         {
-          "prompt": "What did the narrator do for the friend?",
+          "prompt": "この話の中心にある考えとして、最も自然なのはどれですか。",
           "options": [
-            "Lent them a book",
-            "Made them dinner",
-            "Bought them a train ticket"
+            "本は貸さないほうがよい。",
+            "図書館には雨の日しか行けない。",
+            "一つのものでも、使い方を変えれば二人で楽しめる。",
+            "友達に本を貸すと、必ず困ったことが起きる。"
           ],
-          "answer": 0,
-          "explanation": "友達に本を貸しました means I lent my friend a book."
+          "answer": 2,
+          "explanation": "同じ一冊の本を一緒に読むことで、二人とも楽しい時間を過ごせました。"
         },
         {
-          "prompt": "How did they finally read?",
+          "prompt": "本文だけでは分からないことはどれですか。",
           "options": [
-            "Together, sharing the book",
-            "Separately, in different rooms",
-            "They never read"
+            "友達は最初、本を持っていなかった。",
+            "読んだ本の題名。",
+            "最後に二人で読んだ。",
+            "雨の日だった。"
           ],
-          "answer": 0,
-          "explanation": "私たちは一緒に本を読みました states that they read together."
+          "answer": 1,
+          "explanation": "本の題名は一度も出てきません。書かれていないことを答えにしないのが読解の基本です。"
         }
       ]
     }
