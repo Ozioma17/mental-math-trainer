@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-10-17-japanese-reasoning-quizzes-1",
+  "revision": "2026-10-17-japanese-reasoning-quizzes-2",
   "updatedAt": "2026-10-17",
   "foundation": "Readings assume basic particles, pronouns, polite/past verb forms, それから, でも, だと／と, and こと. Target vocabulary and grammar are tested before each reading. These starter entries are not assumed mastered.",
   "sources": [
@@ -780,7 +780,8 @@
         }
       ],
       "forms": {
-        "終わった": "おわった"
+        "終わった": "おわった",
+        "終わって": "おわって"
       },
       "example": {
         "jp": "授業が終わったあとで、友達と図書館に行きました。",
@@ -869,7 +870,8 @@
         }
       ],
       "forms": {
-        "行きました": "いきました"
+        "行きました": "いきました",
+        "行って": "いって"
       },
       "example": {
         "jp": "授業が終わったあとで、友達と図書館に行きました。",
@@ -943,7 +945,9 @@
         }
       ],
       "forms": {
-        "貸して": "かして"
+        "貸して": "かして",
+        "貸しました": "かしました",
+        "貸した": "かした"
       },
       "example": {
         "jp": "雨なので、友達が傘を貸してくれました。",
@@ -1156,7 +1160,8 @@
         }
       ],
       "forms": {
-        "帰りました": "かえりました"
+        "帰りました": "かえりました",
+        "帰れない": "かえれない"
       },
       "example": {
         "jp": "朝、友達と一緒に駅に行きました。それから、家に帰りました。",
@@ -1318,7 +1323,8 @@
       ],
       "forms": {
         "調べて": "しらべて",
-        "調べた": "しらべた"
+        "調べた": "しらべた",
+        "調べました": "しらべました"
       },
       "example": {
         "jp": "でも、実験は失敗しました。友達が原因を調べてくれました。",
@@ -1501,7 +1507,9 @@
       "forms": {
         "聞きました": "ききました",
         "聞き": "きき",
-        "聞きます": "ききます"
+        "聞きます": "ききます",
+        "聞いて": "きいて",
+        "聞きませんでした": "ききませんでした"
       },
       "example": {
         "jp": "実験の前に、先生の説明を聞きました。",
@@ -1631,7 +1639,8 @@
         }
       ],
       "forms": {
-        "食べました": "たべました"
+        "食べました": "たべました",
+        "食べた": "たべた"
       },
       "example": {
         "jp": "作ったあとで、友達と一緒に食べました。おいしかったです。",
@@ -1797,7 +1806,9 @@
       "forms": {
         "分かった": "わかった",
         "分かります": "わかります",
-        "分かりました": "わかりました"
+        "分かりました": "わかりました",
+        "分からない": "わからない",
+        "分かりません": "わかりません"
       },
       "example": {
         "jp": "原因が分かったあとで、一緒にもう一度実験をしました。",
@@ -1919,7 +1930,8 @@
       ],
       "forms": {
         "手伝って": "てつだって",
-        "手伝い": "てつだい"
+        "手伝い": "てつだい",
+        "手伝います": "てつだいます"
       },
       "example": {
         "jp": "友達が難しい日本語を説明してくれました。練習を手伝ってくれたので、少し分かりました。",
@@ -2017,7 +2029,8 @@
       ],
       "forms": {
         "読みました": "よみました",
-        "読みます": "よみます"
+        "読みます": "よみます",
+        "読めません": "よめません"
       },
       "example": {
         "jp": "一緒に本を読みました。友達が日本語を説明してくれました。",
@@ -5068,7 +5081,8 @@
         }
       ],
       "forms": {
-        "成功した": "せいこうした"
+        "成功した": "せいこうした",
+        "成功する": "せいこうする"
       },
       "accept": [
         "success",
@@ -7196,7 +7210,8 @@
         }
       ],
       "forms": {
-        "賛成しました": "さんせいしました"
+        "賛成しました": "さんせいしました",
+        "賛成した": "さんせいした"
       },
       "accept": [
         "agreement",
@@ -7268,24 +7283,26 @@
       "translation": "After class finishes, I will go to the library.",
       "questions": [
         {
-          "prompt": "授業が終わった＿＿、図書館に行きました。",
+          "prompt": "『授業が終わりました。それから図書館に行きました。』この順番を正しく表す文はどれですか。",
           "options": [
-            "あとで",
-            "ながら",
-            "前に"
+            "授業が終わりながら、図書館に行きました。",
+            "授業が終わったあとで、図書館に行きました。",
+            "授業が終わる前に、図書館に行きました。",
+            "授業が終わったら、図書館には行きませんでした。"
           ],
-          "answer": 0,
-          "explanation": "終わったあとで means after class finished."
+          "answer": 1,
+          "explanation": "授業が終わることが先で、図書館に行くことがあとです。完了した動作に『あとで』を続けます。"
         },
         {
-          "prompt": "Which form goes before あとで?",
+          "prompt": "『本を読みました。そのあと、友達と話しました。』と同じ順番になるのはどれですか。",
           "options": [
-            "Verb た-form",
-            "Verb ます-form",
-            "Verb ない-form"
+            "本を読んだあとで、友達と話しました。",
+            "友達と話したあとで、本を読みました。",
+            "本を読みながら、友達と話しました。",
+            "本を読む前に、友達と話しました。"
           ],
           "answer": 0,
-          "explanation": "Use the completed-action た-form: 読んだあとで."
+          "explanation": "『本を読んだ』が先、『友達と話した』があとです。順番を変えないことが重要です。"
         }
       ]
     },
@@ -7299,24 +7316,26 @@
       "translation": "Because it was raining, I borrowed an umbrella.",
       "questions": [
         {
-          "prompt": "雨＿＿、傘を借りました。",
+          "prompt": "『雨が降っています。そのため、傘を借りました。』と同じ理由を表すのはどれですか。",
           "options": [
-            "なので",
-            "をので",
-            "にので"
+            "雨を降るので、傘を借りました。",
+            "雨が降りながら、傘を借りました。",
+            "雨が降っているので、傘を借りました。",
+            "雨が降る前に、傘を借りました。"
           ],
-          "answer": 0,
-          "explanation": "雨 is a noun, so use 雨なので."
+          "answer": 2,
+          "explanation": "『雨が降っている』が理由で、『傘を借りた』が結果です。『ので』でつなぎます。"
         },
         {
-          "prompt": "終電に間に合わなかったので、友達の家に泊まりました。 What is the reason?",
+          "prompt": "『友達が説明してくれたので、少し分かりました。』から読み取れる関係はどれですか。",
           "options": [
-            "Missing the last train",
-            "Staying with a friend",
-            "Returning home"
+            "分かったことが、友達に説明させた理由である。",
+            "説明と理解が同時でないといけない。",
+            "友達は私から説明を受けた。",
+            "友達の説明が、理解できた理由である。"
           ],
-          "answer": 0,
-          "explanation": "The clause before ので gives the reason."
+          "answer": 3,
+          "explanation": "『ので』の前に理由があり、あとに結果が来ます。"
         }
       ]
     },
@@ -7330,24 +7349,26 @@
       "translation": "My friend lent me an umbrella (as a favour).",
       "questions": [
         {
-          "prompt": "友達が傘を貸して＿＿。",
+          "prompt": "友達が私のために傘を貸しました。私の立場から自然に言うとどれですか。",
           "options": [
-            "くれました",
-            "いました",
-            "みました"
+            "私は友達に傘を貸してくれました。",
+            "友達が私に傘を貸してくれました。",
+            "友達が私に傘を貸してあげました。",
+            "友達に傘を貸してもらいませんでした。"
           ],
-          "answer": 0,
-          "explanation": "くれました presents lending the umbrella as a favour to you."
+          "answer": 1,
+          "explanation": "『友達が私に貸してくれた』は、友達の行動を受け手の立場から表します。"
         },
         {
-          "prompt": "先生が説明してくれました。 Who explained?",
+          "prompt": "『先生が説明してくれました。』について、最も自然な理解はどれですか。",
           "options": [
-            "The teacher",
-            "I did",
-            "Nobody"
+            "私が先生に説明してあげた。",
+            "先生が一人で勉強した。",
+            "先生が私たちのために説明した。",
+            "説明した人が誰かは分からない。"
           ],
-          "answer": 0,
-          "explanation": "先生が identifies the person doing the favour."
+          "answer": 2,
+          "explanation": "動作をしたのは先生です。『くれる』はその行動を私たちへの助けとして表します。"
         }
       ]
     },
@@ -7361,24 +7382,26 @@
       "translation": "I cook while listening to music.",
       "questions": [
         {
-          "prompt": "音楽を＿＿ながら、料理を作ります。",
+          "prompt": "『音楽を聞きながら料理を作りました。』について、正しい理解はどれですか。",
           "options": [
-            "聞き",
-            "聞く",
-            "聞いた"
+            "同じ人が、音楽を聞くことと料理を作ることを同時にした。",
+            "料理が終わってから音楽を聞き始めた。",
+            "別々の人が必ず二つの行動をした。",
+            "音楽を聞く前に料理を作った。"
           ],
           "answer": 0,
-          "explanation": "Remove ます from 聞きます, then add ながら."
+          "explanation": "『〜ながら』は、基本的に同じ人が二つの動作を同時にすることを表します。"
         },
         {
-          "prompt": "本を読みながら、音楽を聞きます。 Who performs the two actions?",
+          "prompt": "『本を読む』『音楽を聞く』を、一人が同時にする動作として言うとどれですか。",
           "options": [
-            "The same person",
-            "Two different people",
-            "The sentence requires a teacher"
+            "本を読んだあとで、音楽を聞きます。",
+            "本を読むので、音楽を聞きます。",
+            "本を読んだ前に、音楽を聞きます。",
+            "本を読みながら、音楽を聞きます。"
           ],
-          "answer": 0,
-          "explanation": "In this use, the same person reads and listens."
+          "answer": 3,
+          "explanation": "『読む』のます形『読みます』から『ます』を取って『読みながら』にします。"
         }
       ]
     },
@@ -7392,24 +7415,26 @@
       "translation": "Before cooking, I buy vegetables.",
       "questions": [
         {
-          "prompt": "料理を＿＿前に、野菜を買います。",
+          "prompt": "『野菜を買いました。そのあとで料理を作りました。』を『前に』で表すとどれですか。",
           "options": [
-            "作る",
-            "作った",
-            "作り"
+            "料理を作った前に、野菜を買いました。",
+            "料理を作る前に、野菜を買いました。",
+            "料理を作り前に、野菜を買いました。",
+            "野菜を買う前に、料理を作りました。"
           ],
-          "answer": 0,
-          "explanation": "Use dictionary form: 作る前に."
+          "answer": 1,
+          "explanation": "『前に』は動詞の辞書形に続きます。野菜を買うことが先です。"
         },
         {
-          "prompt": "実験の前に、先生の説明を聞きました。 What happened first?",
+          "prompt": "『実験の前に、先生の説明を聞きました。』から分かる順番はどれですか。",
           "options": [
-            "Listening to the explanation",
-            "Doing the experiment",
-            "Buying vegetables"
+            "実験が終わったあとに説明を聞いた。",
+            "実験と説明は必ず同時だった。",
+            "説明を聞いてから実験した。",
+            "実験をしてから先生に説明した。"
           ],
-          "answer": 0,
-          "explanation": "実験の前に places listening before the experiment."
+          "answer": 2,
+          "explanation": "『実験の前に』なので、説明を聞いたのは実験より前です。"
         }
       ]
     },
@@ -7423,24 +7448,26 @@
       "translation": "If it is difficult, I will ask the teacher.",
       "questions": [
         {
-          "prompt": "本を＿＿、少し分かりました。",
+          "prompt": "『難しかったら、先生に聞きます。』に最も近い意味はどれですか。",
           "options": [
-            "読んだら",
-            "読みながら",
-            "読む前に"
+            "難しい場合には先生に質問する。",
+            "難しくなくても、必ず先生に質問する。",
+            "先生が難しい人だと決めている。",
+            "先生に聞いたので難しくなった。"
           ],
           "answer": 0,
-          "explanation": "読んだら can mean when / after I read it, I understood a little."
+          "explanation": "『難しかったら』は『難しい場合には』という条件を表します。"
         },
         {
-          "prompt": "難しかったら、先生に聞きます。 What is the condition?",
+          "prompt": "『読んだら分かりました。』で表す出来事として、最も自然なのはどれですか。",
           "options": [
-            "It being difficult",
-            "The teacher going home",
-            "The rain stopping"
+            "分かる前には、本を読んではいけない。",
+            "読むことと分かることは必ず同時に起きる。",
+            "本を読む前から、すべて分かっていた。",
+            "本を読んだあとで、内容が理解できた。"
           ],
-          "answer": 0,
-          "explanation": "難しかったら means if it is difficult."
+          "answer": 3,
+          "explanation": "『読んだら』は、読んだことをきっかけとして、あとで分かったことを表せます。"
         }
       ]
     }
@@ -7789,8 +7816,8 @@
           "en": "My friend arrived after I had finished cooking. I was no longer listening to music."
         },
         {
-          "jp": "[[friend|友達]]と[[eat|食べた]]ときは、[[cook|料理]]の話をしました。[[music|音楽]]を[[listen|聞き]]ながら[[eat|食べた]]わけではありません。",
-          "en": "While eating with my friend, we talked about the meal. We were not eating while listening to music."
+          "jp": "[[friend|友達]]と[[eat|食べました]]。そのとき、[[music|音楽]]は[[listen|聞きませんでした]]。",
+          "en": "I ate with my friend. At that time, I was not listening to music."
         }
       ],
       "questions": [
@@ -7986,12 +8013,12 @@
           "en": "I am grateful for my friend’s help. I think practising together is important."
         },
         {
-          "jp": "[[friend|友達]]も[[difficult|難しい]]ときがあります。そのときは、私も[[friend|友達]]の[[practice|練習]]を[[help|手伝います]]。",
-          "en": "My friend also has difficult moments. When that happens, I help them practise too."
+          "jp": "[[friend|友達]]も[[japanese|日本語]]が[[difficult|難しい]]と[[think|思う]]ことがあります。そのときは、私も[[friend|友達]]の[[practice|練習]]を[[help|手伝います]]。",
+          "en": "My friend also sometimes finds Japanese difficult. When that happens, I help them practise too."
         },
         {
-          "jp": "今日は私が[[help|手伝って]]もらいましたが、[[together|一緒に]][[practice|練習する]]ことは、二人にとって[[important|大切]]です。",
-          "en": "Today I was the one who received help, but practising together matters to both of us."
+          "jp": "今日は[[friend|友達]]が私を[[help|手伝って]]くれました。[[together|一緒に]][[practice|練習する]]ことは、二人にとって[[important|大切]]です。",
+          "en": "Today my friend helped me. Practising together is important to both of us."
         }
       ],
       "questions": [
@@ -8202,8 +8229,8 @@
           "en": "Rainfall was high and so was humidity. However, we still did not know whether rainfall was the cause of the large number of insects."
         },
         {
-          "jp": "[[learned-s1-15|農産物]]を[[learned-s2-16|守る]]ために、[[learned-s4-24|記録]]をもう一度[[investigate|調べました]]。[[learned-s1-14|調査]]はまだ[[end|終わって]]いません。",
-          "en": "To protect produce, we looked through the records again. The investigation was not finished yet."
+          "jp": "[[learned-s1-15|農産物]]を[[learned-s2-16|守る]]ことは[[important|大切]]です。だから、[[learned-s4-24|記録]]をもう一度[[investigate|調べました]]。[[learned-s1-14|調査]]はまだ[[end|終わって]]いません。",
+          "en": "Protecting agricultural produce is important. So we checked the records again. The investigation is not finished."
         }
       ],
       "questions": [
@@ -8313,8 +8340,8 @@
           "en": "At first I thought that if the operation was simple, the experiment would succeed. But detailed records and ingenuity were important too."
         },
         {
-          "jp": "[[learned-s3-14|成功した]]あとでも、[[learned-s3-21|現象]]をすべて[[understand|分かった]]とは言えません。だから、[[learned-s3-22|論文]]を[[read|読みました]]。",
-          "en": "Even after succeeding, I could not say I understood every aspect of the phenomenon. That is why I read academic papers."
+          "jp": "[[learned-s3-14|成功した]]あとでも、まだ[[understand|分からない]][[learned-s3-21|現象]]がありました。だから、[[learned-s3-22|論文]]を[[read|読みました]]。",
+          "en": "Even after succeeding, there were aspects of the phenomenon I did not understand. That is why I read academic papers."
         }
       ],
       "questions": [
@@ -8401,7 +8428,8 @@
         "research",
         "learned-s2-09",
         "friend",
-        "learned-s4-35"
+        "learned-s4-35",
+        "understand"
       ],
       "paragraphs": [
         {
@@ -8421,8 +8449,8 @@
           "en": "Representatives from different countries observed the same plant, but their research hopes were not all identical."
         },
         {
-          "jp": "私の[[friend|友達]]は[[learned-s4-35|賛成しました]]。しかし、それだけで[[learned-s3-30|各国]]の[[learned-s3-31|代表]]もみんな[[learned-s4-35|賛成した]]とは言えません。",
-          "en": "My friend agreed with me. But that alone does not mean that all the representatives from other countries agreed."
+          "jp": "私の[[friend|友達]]は[[learned-s4-35|賛成しました]]。でも、ほかの[[learned-s3-31|代表]]が[[learned-s4-35|賛成した]]かは、まだ[[understand|分かりません]]。",
+          "en": "My friend agreed with me, but I do not yet know whether the other representatives agreed."
         }
       ],
       "questions": [
