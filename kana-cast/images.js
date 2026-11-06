@@ -2,3 +2,5 @@ const PORTRAITS={"Asta":{"url":"https://i.pinimg.com/originals/ff/e5/38/ffe538f3
 PORTRAITS["Jugo Naruto"]={url:"https://vignette.wikia.nocookie.net/naruto-bleach/images/0/05/Jugo.jpg/revision/latest?cb=20101231101155",source:"https://naruto-bleach.fandom.com/wiki/Jugo"};
 
 PORTRAITS["Kenjaku Jujutsu Kaisen"]={url:"https://staticg.sportskeeda.com/editor/2024/08/2e757-17247651596940-1920.jpg",source:"https://www.sportskeeda.com/anime/who-kenjaku-jujutsu-kaisen"};
+
+PORTRAITS["Twice Jin Bubaigawara"]={url:"https://staticg.sportskeeda.com/editor/2022/07/17f48-16568938762040-1920.jpg",source:"https://www.sportskeeda.com/anime/my-hero-academia-10-best-fights-pro-heroes-villains-ranked"};
