@@ -9,3 +9,5 @@ PORTRAITS["Sho Kusakabe Fire Force"]={url:"https://fireforce-anime.jp/season2/im
 
 PORTRAITS["Choji Akimichi"]={url:"https://vignette.wikia.nocookie.net/naruto/images/6/68/Ch_ji_Akimichi_p1.png/revision/latest?cb=20150424202600&path-prefix=id",source:"https://naruto.fandom.com/id/wiki/Ch%C5%8Dji_Akimichi"};
 PORTRAITS["Sung Jinwoo Solo Leveling"]={url:"https://img.anime2you.de/2024/04/Jin-Woo.jpg",source:"https://www.anime2you.de/news/785690/ranking-anime-charaktere-overpowered/"};
+
+PORTRAITS["Kaito Kite Hunter Hunter"]={url:"https://superherojacked.b-cdn.net/wp-content/uploads/2021/08/Kite-Workout-1-1024x576.jpeg",source:"https://superherojacked.com/2021/08/06/kite-workout/"};
