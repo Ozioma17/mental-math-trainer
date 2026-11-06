@@ -4,3 +4,5 @@ PORTRAITS["Jugo Naruto"]={url:"https://vignette.wikia.nocookie.net/naruto-bleach
 PORTRAITS["Kenjaku Jujutsu Kaisen"]={url:"https://staticg.sportskeeda.com/editor/2024/08/2e757-17247651596940-1920.jpg",source:"https://www.sportskeeda.com/anime/who-kenjaku-jujutsu-kaisen"};
 
 PORTRAITS["Twice Jin Bubaigawara"]={url:"https://staticg.sportskeeda.com/editor/2022/07/17f48-16568938762040-1920.jpg",source:"https://www.sportskeeda.com/anime/my-hero-academia-10-best-fights-pro-heroes-villains-ranked"};
+
+PORTRAITS["Sho Kusakabe Fire Force"]={url:"https://fireforce-anime.jp/season2/images/character/c_main_s2_1.jpg",source:"https://fireforce-anime.jp/season2/character/other2.php"};
