@@ -6,3 +6,6 @@ PORTRAITS["Kenjaku Jujutsu Kaisen"]={url:"https://staticg.sportskeeda.com/editor
 PORTRAITS["Twice Jin Bubaigawara"]={url:"https://staticg.sportskeeda.com/editor/2022/07/17f48-16568938762040-1920.jpg",source:"https://www.sportskeeda.com/anime/my-hero-academia-10-best-fights-pro-heroes-villains-ranked"};
 
 PORTRAITS["Sho Kusakabe Fire Force"]={url:"https://fireforce-anime.jp/season2/images/character/c_main_s2_1.jpg",source:"https://fireforce-anime.jp/season2/character/other2.php"};
+
+PORTRAITS["Choji Akimichi"]={url:"https://vignette.wikia.nocookie.net/naruto/images/6/68/Ch_ji_Akimichi_p1.png/revision/latest?cb=20150424202600&path-prefix=id",source:"https://naruto.fandom.com/id/wiki/Ch%C5%8Dji_Akimichi"};
+PORTRAITS["Sung Jinwoo Solo Leveling"]={url:"https://img.anime2you.de/2024/04/Jin-Woo.jpg",source:"https://www.anime2you.de/news/785690/ranking-anime-charaktere-overpowered/"};
