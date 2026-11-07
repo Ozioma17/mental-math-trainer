@@ -12,26 +12,26 @@ h1,h2{font-family:Georgia,serif}h1{font-size:clamp(42px,8vw,72px);line-height:.9
 .field label{display:block;font-size:10px;text-transform:uppercase;font-weight:800;color:var(--m);margin-bottom:6px}.field input,.field select{width:100%;border:1px solid var(--l);background:#fff;border-radius:12px;padding:11px 12px}
 .presets,.actions,.readerActions{display:flex;gap:8px;flex-wrap:wrap;margin-top:15px}.preset,.ghost,.solid{border:1px solid var(--l);border-radius:999px;padding:9px 13px;font-weight:800;font-size:12px}.preset,.ghost{background:#fff}.solid{background:var(--i);border-color:var(--i);color:#fff}
 .note{margin-top:15px;background:var(--p2);border-radius:13px;padding:13px 14px;color:var(--m);font-size:12px;line-height:1.55}.reading{margin-top:18px}.readerHead{display:flex;justify-content:space-between;gap:14px;align-items:end;margin-bottom:12px}.readerHead h2{margin:0}.meta{font-size:11px;color:var(--m);text-align:right}.reader{min-height:420px}
-.digits{font-family:Georgia,"Times New Roman",serif;font-size:34px;line-height:1.75;letter-spacing:.05em;overflow-wrap:anywhere}.group{display:inline-block;white-space:nowrap;margin-right:.34em;padding:0 .03em;border-radius:5px}.group.current{background:#e7f2ec;outline:2px solid rgba(31,93,82,.18)}.decimal{color:var(--r);font-weight:800}
+.digits{font-family:Georgia,"Times New Roman",serif;font-size:34px;line-height:1.75;letter-spacing:.05em;overflow-wrap:anywhere}.group{display:inline-block;white-space:nowrap;margin-right:.34em;padding:0 .03em;border-radius:5px}.group.continuous{margin-right:0;padding:0;border-radius:2px}.group.current{background:#e7f2ec;outline:2px solid rgba(31,93,82,.18)}.decimal{color:var(--r);font-weight:800}
 .indexLine{margin-top:20px;padding-top:15px;border-top:1px solid var(--l);display:flex;justify-content:space-between;color:var(--m);font-size:11px}.progress{height:8px;background:var(--p2);border-radius:99px;overflow:hidden;margin-top:10px}.progress div{height:100%;background:var(--g);width:0}
 .sticky{position:sticky;bottom:10px;z-index:5;background:rgba(246,241,232,.94);border:1px solid var(--l);border-radius:18px;padding:10px;display:flex;gap:8px;justify-content:center;margin:18px auto 0;max-width:560px}.hidden{display:none!important}
 @media(max-width:760px){.grid{grid-template-columns:1fr 1fr}.readerHead{align-items:flex-start;flex-direction:column}.meta{text-align:left}.digits{font-size:30px}}@media(max-width:470px){.grid{grid-template-columns:1fr}.digits{font-size:28px}.reader{padding:22px 16px}}
 </style></head>
 <body><div class="wrap">
 <div class="ey">Number-image fluency · reading only</div><h1>Read π like text.</h1>
-<p class="lead">No questions and no scoring. Choose any section of π and simply read. Use pairs when you want every two digits to behave like one familiar 00–99 symbol.</p>
+<p class="lead">No questions and no scoring. Choose any section of π and simply read the number stream naturally. The goal is to make 2-digit recognition happen automatically in your mind without the page chunking it for you.</p>
 <section class="card">
 <div class="grid">
 <div class="field"><label>Start index</label><input id="start" type="number" min="0" max="20000" value="0"></div>
 <div class="field"><label>End index</label><input id="end" type="number" min="0" max="20000" value="100"></div>
-<div class="field"><label>Grouping</label><select id="grouping"><option value="1">Single digits</option><option value="2" selected>Pairs (00–99)</option><option value="3">Groups of 3</option><option value="5">Groups of 5</option><option value="10">Groups of 10</option><option value="0">Continuous</option></select></div>
+<div class="field"><label>Reading display</label><select id="grouping"><option value="0" selected>Continuous digits</option><option value="1">Spaced single digits</option></select></div>
 <div class="field"><label>Text size</label><select id="fontSize"><option value="24">Small</option><option value="30">Medium</option><option value="34" selected>Large</option><option value="42">Extra large</option><option value="52">Huge</option></select></div>
 </div>
 <div class="presets">
 <button class="preset" data-s="0" data-e="100">0–100</button><button class="preset" data-s="101" data-e="300">101–300</button><button class="preset" data-s="301" data-e="500">301–500</button><button class="preset" data-s="501" data-e="1000">501–1000</button><button class="preset" data-s="1001" data-e="2000">1001–2000</button><button class="preset" data-s="2001" data-e="5000">2001–5000</button><button class="preset" data-s="5001" data-e="10000">5001–10000</button>
 </div>
 <div class="actions"><button id="show" class="solid">Show this range</button><button id="resume" class="ghost">Resume last position</button><button id="resetCursor" class="ghost">Reset reading cursor</button></div>
-<div class="note"><b>Indexing:</b> position 0 is the leading <b>3</b>. Position 1 is the first digit after the decimal point, so 0–5 is <b>3.14159</b>. The page generates digits locally as needed, up to position <b>20,000</b>.</div>
+<div class="note"><b>Indexing:</b> position 0 is the leading <b>3</b>. Position 1 is the first digit after the decimal point, so 0–5 is <b>3.14159</b>. The page generates digits locally as needed, up to position <b>20,000</b>.<br><br><b>Training goal:</b> the page will not split the stream into 2-digit chunks for you. Read continuously and let your brain begin spotting familiar 00–99 combinations on its own.</div>
 </section>
 
 <section class="reading">
@@ -44,8 +44,8 @@ h1,h2{font-family:Georgia,serif}h1{font-size:clamp(42px,8vw,72px);line-height:.9
 
 <script>
 const $=s=>document.querySelector(s),MAX=20000,KEY="piReadingTrainer_v2";
-let piCache="",cacheDigits=0,state={start:0,end:100,grouping:2,fontSize:34,cursor:0,hideIndex:false};
-try{const old=JSON.parse(localStorage.getItem(KEY)||"null");if(old)state={...state,...old}}catch{}
+let piCache="",cacheDigits=0,state={start:0,end:100,grouping:0,fontSize:34,cursor:0,hideIndex:false};
+try{const old=JSON.parse(localStorage.getItem(KEY)||"null");if(old)state={...state,...old};if(state.grouping!==0&&state.grouping!==1)state.grouping=0}catch{}
 function save(){try{localStorage.setItem(KEY,JSON.stringify(state))}catch{}}
 function clamp(n,a,b){return Math.max(a,Math.min(b,n))}
 function isqrt(n){if(n<2n)return n;let x=1n<<(BigInt(n.toString(2).length+1)>>1n),y=(x+n/x)>>1n;while(y<x){x=y;y=(x+n/x)>>1n}return x}
@@ -65,13 +65,12 @@ function ensurePi(end){
   cacheDigits=needed;
 }
 function normRange(){let s=clamp(parseInt($("#start").value||0),0,MAX),e=clamp(parseInt($("#end").value||s),0,MAX);if(e<s)[s,e]=[e,s];$("#start").value=s;$("#end").value=e;return[s,e]}
-function groups(text,size,start){if(size===0)return[{text:text,index:start}];let out=[];for(let i=0;i<text.length;i+=size)out.push({text:text.slice(i,i+size),index:start+i});return out}
+function groups(text,size,start){let out=[];if(size===0){for(let i=0;i<text.length;i++)out.push({text:text[i],index:start+i,continuous:true});return out}for(let i=0;i<text.length;i+=size)out.push({text:text.slice(i,i+size),index:start+i});return out}
 function render(){
   let [s,e]=normRange(),g=+$("#grouping").value,fs=+$("#fontSize").value;
   state.start=s;state.end=e;state.grouping=g;state.fontSize=fs;state.cursor=clamp(state.cursor,s,e);ensurePi(e);
   const raw=piCache.slice(s,e+1),arr=groups(raw,g,s),box=$("#digits");box.style.fontSize=fs+"px";let html="";
-  if(g===0){html='<span class="group" data-i="'+s+'">'+(s===0&&raw.length>1?raw[0]+'<span class="decimal">.</span>'+raw.slice(1):raw)+'</span>'}
-  else arr.forEach(gr=>{let txt=gr.text;if(gr.index===0&&txt.length>=2)txt=txt[0]+'<span class="decimal">.</span>'+txt.slice(1);else if(gr.index===0&&txt.length===1&&e>=1)txt=txt+'<span class="decimal">.</span>';html+='<span class="group" data-i="'+gr.index+'">'+txt+'</span>'});
+  arr.forEach(gr=>{let txt=gr.text;if(gr.index===0)txt=txt+'<span class="decimal">.</span>';let cls=gr.continuous?'group continuous':'group';html+='<span class="'+cls+'" data-i="'+gr.index+'">'+txt+'</span>'});
   box.innerHTML=html;$("#status").classList.add("hidden");$("#rangeTitle").textContent="π · positions "+s+"–"+e;$("#countMeta").textContent=(e-s+1)+" digits";$("#rangeText").textContent=s+" → "+e;
   $(".indexLine").classList.toggle("hidden",state.hideIndex);$(".progress").classList.toggle("hidden",state.hideIndex);$("#toggleIndex").textContent=state.hideIndex?"Show position line":"Hide position line";
   document.querySelectorAll(".group").forEach(el=>el.onclick=()=>setCursor(+el.dataset.i,true));setCursor(state.cursor,false);save()
