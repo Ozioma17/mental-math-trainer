@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pi Reading Trainer</title>
+<style>
+:root{--p:#f6f1e8;--p2:#efe8dc;--c:#fffdf8;--i:#171717;--m:#6f6a63;--l:#d7d0c4;--r:#b23a2d;--g:#1f5d52;--s:0 14px 38px rgba(25,20,14,.08)}
+*{box-sizing:border-box}body{margin:0;background:var(--p);color:var(--i);font-family:Inter,system-ui,sans-serif}button,input,select{font:inherit}button{cursor:pointer}
+.wrap{max-width:1120px;margin:auto;padding:34px 18px 90px}.ey{color:var(--r);font-size:10px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}
+h1,h2{font-family:Georgia,serif}h1{font-size:clamp(42px,8vw,72px);line-height:.96;margin:8px 0 12px}.lead{max-width:760px;color:var(--m);line-height:1.65}
+.card,.reader{background:var(--c);border:1px solid var(--l);border-radius:24px;box-shadow:var(--s);padding:clamp(18px,4vw,32px)}.grid{display:grid;grid-template-columns:1.1fr 1.1fr 1fr 1fr;gap:10px}
+.field label{display:block;font-size:10px;text-transform:uppercase;font-weight:800;color:var(--m);margin-bottom:6px}.field input,.field select{width:100%;border:1px solid var(--l);background:#fff;border-radius:12px;padding:11px 12px}
+.presets,.actions,.readerActions{display:flex;gap:8px;flex-wrap:wrap;margin-top:15px}.preset,.ghost,.solid{border:1px solid var(--l);border-radius:999px;padding:9px 13px;font-weight:800;font-size:12px}.preset,.ghost{background:#fff}.solid{background:var(--i);border-color:var(--i);color:#fff}
+.note{margin-top:15px;background:var(--p2);border-radius:13px;padding:13px 14px;color:var(--m);font-size:12px;line-height:1.55}.reading{margin-top:18px}.readerHead{display:flex;justify-content:space-between;gap:14px;align-items:end;margin-bottom:12px}.readerHead h2{margin:0}.meta{font-size:11px;color:var(--m);text-align:right}.reader{min-height:420px}
+.digits{font-family:Georgia,"Times New Roman",serif;font-size:34px;line-height:1.75;letter-spacing:.05em;overflow-wrap:anywhere}.group{display:inline-block;white-space:nowrap;margin-right:.34em;padding:0 .03em;border-radius:5px}.group.current{background:#e7f2ec;outline:2px solid rgba(31,93,82,.18)}.decimal{color:var(--r);font-weight:800}
+.indexLine{margin-top:20px;padding-top:15px;border-top:1px solid var(--l);display:flex;justify-content:space-between;color:var(--m);font-size:11px}.progress{height:8px;background:var(--p2);border-radius:99px;overflow:hidden;margin-top:10px}.progress div{height:100%;background:var(--g);width:0}
+.sticky{position:sticky;bottom:10px;z-index:5;background:rgba(246,241,232,.94);border:1px solid var(--l);border-radius:18px;padding:10px;display:flex;gap:8px;justify-content:center;margin:18px auto 0;max-width:560px}.hidden{display:none!important}
+@media(max-width:760px){.grid{grid-template-columns:1fr 1fr}.readerHead{align-items:flex-start;flex-direction:column}.meta{text-align:left}.digits{font-size:30px}}@media(max-width:470px){.grid{grid-template-columns:1fr}.digits{font-size:28px}.reader{padding:22px 16px}}
+</style></head>
+<body><div class="wrap">
+<div class="ey">Number-image fluency · reading only</div><h1>Read π like text.</h1>
+<p class="lead">No questions and no scoring. Choose any section of π and simply read. Use pairs when you want every two digits to behave like one familiar 00–99 symbol.</p>
+<section class="card">
+<div class="grid">
+<div class="field"><label>Start index</label><input id="start" type="number" min="0" max="20000" value="0"></div>
+<div class="field"><label>End index</label><input id="end" type="number" min="0" max="20000" value="100"></div>
+<div class="field"><label>Grouping</label><select id="grouping"><option value="1">Single digits</option><option value="2" selected>Pairs (00–99)</option><option value="3">Groups of 3</option><option value="5">Groups of 5</option><option value="10">Groups of 10</option><option value="0">Continuous</option></select></div>
+<div class="field"><label>Text size</label><select id="fontSize"><option value="24">Small</option><option value="30">Medium</option><option value="34" selected>Large</option><option value="42">Extra large</option><option value="52">Huge</option></select></div>
+</div>
+<div class="presets">
+<button class="preset" data-s="0" data-e="100">0–100</button><button class="preset" data-s="101" data-e="300">101–300</button><button class="preset" data-s="301" data-e="500">301–500</button><button class="preset" data-s="501" data-e="1000">501–1000</button><button class="preset" data-s="1001" data-e="2000">1001–2000</button><button class="preset" data-s="2001" data-e="5000">2001–5000</button><button class="preset" data-s="5001" data-e="10000">5001–10000</button>
+</div>
+<div class="actions"><button id="show" class="solid">Show this range</button><button id="resume" class="ghost">Resume last position</button><button id="resetCursor" class="ghost">Reset reading cursor</button></div>
+<div class="note"><b>Indexing:</b> position 0 is the leading <b>3</b>. Position 1 is the first digit after the decimal point, so 0–5 is <b>3.14159</b>. The page generates digits locally as needed, up to position <b>20,000</b>.</div>
+</section>
+
+<section class="reading">
+<div class="readerHead"><h2 id="rangeTitle">π · positions 0–100</h2><div class="meta"><div id="countMeta">101 digits</div><div>Tap a group to mark your place.</div></div></div>
+<div class="reader"><div id="status" class="note">Preparing π…</div><div id="digits" class="digits"></div>
+<div class="indexLine"><span id="cursorText">Current position: 0</span><span id="rangeText">0 → 100</span></div><div class="progress"><div id="progressBar"></div></div>
+<div class="readerActions"><button id="prevChunk" class="ghost">← Previous 100</button><button id="nextChunk" class="ghost">Next 100 →</button><button id="toggleIndex" class="ghost">Hide position line</button></div></div>
+<div class="sticky"><button id="prevGroup" class="ghost">← Previous</button><button id="nextGroup" class="solid">Next →</button></div>
+</section></div>
+
+<script>
+const $=s=>document.querySelector(s),MAX=20000,KEY="piReadingTrainer_v2";
+let piCache="",cacheDigits=0,state={start:0,end:100,grouping:2,fontSize:34,cursor:0,hideIndex:false};
+try{const old=JSON.parse(localStorage.getItem(KEY)||"null");if(old)state={...state,...old}}catch{}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(state))}catch{}}
+function clamp(n,a,b){return Math.max(a,Math.min(b,n))}
+function isqrt(n){if(n<2n)return n;let x=1n<<(BigInt(n.toString(2).length+1)>>1n),y=(x+n/x)>>1n;while(y<x){x=y;y=(x+n/x)>>1n}return x}
+function makePi(decimalDigits){
+  const guard=30,D=decimalDigits+guard,S=10n**BigInt(D);
+  let a=S,b=isqrt((S*S)/2n),t=S/4n,p=1n;
+  for(let i=0;i<20;i++){const an=(a+b)/2n,bn=isqrt(a*b),d=a-an,tn=t-(p*d*d)/S;a=an;b=bn;t=tn;p*=2n;if(d===0n)break}
+  const q=((a+b)*(a+b))/(4n*t);
+  return q.toString().padStart(D+1,"0").slice(0,decimalDigits+1);
+}
+function ensurePi(end){
+  const needed=end;
+  if(cacheDigits>=needed)return;
+  $("#status").textContent="Preparing π to position "+needed+"…";
+  $("#status").classList.remove("hidden");
+  piCache=makePi(needed);
+  cacheDigits=needed;
+}
+function normRange(){let s=clamp(parseInt($("#start").value||0),0,MAX),e=clamp(parseInt($("#end").value||s),0,MAX);if(e<s)[s,e]=[e,s];$("#start").value=s;$("#end").value=e;return[s,e]}
+function groups(text,size,start){if(size===0)return[{text:text,index:start}];let out=[];for(let i=0;i<text.length;i+=size)out.push({text:text.slice(i,i+size),index:start+i});return out}
+function render(){
+  let [s,e]=normRange(),g=+$("#grouping").value,fs=+$("#fontSize").value;
+  state.start=s;state.end=e;state.grouping=g;state.fontSize=fs;state.cursor=clamp(state.cursor,s,e);ensurePi(e);
+  const raw=piCache.slice(s,e+1),arr=groups(raw,g,s),box=$("#digits");box.style.fontSize=fs+"px";let html="";
+  if(g===0){html='<span class="group" data-i="'+s+'">'+(s===0&&raw.length>1?raw[0]+'<span class="decimal">.</span>'+raw.slice(1):raw)+'</span>'}
+  else arr.forEach(gr=>{let txt=gr.text;if(gr.index===0&&txt.length>=2)txt=txt[0]+'<span class="decimal">.</span>'+txt.slice(1);else if(gr.index===0&&txt.length===1&&e>=1)txt=txt+'<span class="decimal">.</span>';html+='<span class="group" data-i="'+gr.index+'">'+txt+'</span>'});
+  box.innerHTML=html;$("#status").classList.add("hidden");$("#rangeTitle").textContent="π · positions "+s+"–"+e;$("#countMeta").textContent=(e-s+1)+" digits";$("#rangeText").textContent=s+" → "+e;
+  $(".indexLine").classList.toggle("hidden",state.hideIndex);$(".progress").classList.toggle("hidden",state.hideIndex);$("#toggleIndex").textContent=state.hideIndex?"Show position line":"Hide position line";
+  document.querySelectorAll(".group").forEach(el=>el.onclick=()=>setCursor(+el.dataset.i,true));setCursor(state.cursor,false);save()
+}
+function starts(){return[...document.querySelectorAll(".group")].map(x=>+x.dataset.i)}
+function setCursor(i,scroll){state.cursor=clamp(i,state.start,state.end);document.querySelectorAll(".group").forEach(el=>el.classList.toggle("current",+el.dataset.i===state.cursor));$("#cursorText").textContent="Current position: "+state.cursor;let pct=state.end===state.start?100:(state.cursor-state.start)/(state.end-state.start)*100;$("#progressBar").style.width=clamp(pct,0,100)+"%";if(scroll){let el=document.querySelector('.group[data-i="'+state.cursor+'"]');if(el)el.scrollIntoView({behavior:"smooth",block:"center"})}save()}
+function move(d){let xs=starts();if(!xs.length)return;let p=xs.findIndex(x=>x===state.cursor);if(p<0){p=0;for(let i=0;i<xs.length;i++)if(xs[i]<=state.cursor)p=i}p=clamp(p+d,0,xs.length-1);setCursor(xs[p],true)}
+$("#show").onclick=()=>{state.cursor=+$("#start").value||0;render()};$("#grouping").onchange=render;$("#fontSize").onchange=render;
+document.querySelectorAll(".preset").forEach(b=>b.onclick=()=>{$("#start").value=b.dataset.s;$("#end").value=b.dataset.e;state.cursor=+b.dataset.s;render()});
+$("#resume").onclick=()=>{$("#start").value=state.start;$("#end").value=state.end;$("#grouping").value=String(state.grouping);$("#fontSize").value=String(state.fontSize);render();setCursor(state.cursor,true)};
+$("#resetCursor").onclick=()=>setCursor(state.start,true);$("#prevGroup").onclick=()=>move(-1);$("#nextGroup").onclick=()=>move(1);
+$("#nextChunk").onclick=()=>{let len=state.end-state.start,ns=clamp(state.end+1,0,MAX),ne=clamp(ns+Math.max(100,len),0,MAX);$("#start").value=ns;$("#end").value=ne;state.cursor=ns;render()};
+$("#prevChunk").onclick=()=>{let len=state.end-state.start,ne=Math.max(0,state.start-1),ns=Math.max(0,ne-Math.max(100,len));$("#start").value=ns;$("#end").value=ne;state.cursor=ns;render()};
+$("#toggleIndex").onclick=()=>{state.hideIndex=!state.hideIndex;render()};
+document.addEventListener("keydown",e=>{if(e.key==="ArrowRight"){e.preventDefault();move(1)}if(e.key==="ArrowLeft"){e.preventDefault();move(-1)}});
+$("#start").value=state.start;$("#end").value=state.end;$("#grouping").value=String(state.grouping);$("#fontSize").value=String(state.fontSize);setTimeout(render,0);
+</script></body></html>
