@@ -17,3 +17,5 @@ PORTRAITS["Shaiapouf Hunter Hunter"]={url:"https://static.wikia.nocookie.net/hun
 PORTRAITS["Suika Dr. Stone"]={url:"https://sp.shonenjump.com/j/img/_news/190527drs_1.jpg",source:"https://dr-stone.jp/character/"};
 
 PORTRAITS["Kyojuro Rengoku"]={url:"https://kimetsu.com/anime/mugenresshahen_movie/assets/img/character/img_cha_09.jpg",source:"https://demonslayer-anime.com/eda/character/?chara=kyojuro"};
+
+PORTRAITS["Katsuki Bakugo"]={"url":"https://pbs.twimg.com/media/D4i9SwRVUAACZWL.jpg","source":"https://pbs.twimg.com/media/D4i9SwRVUAACZWL.jpg"};
