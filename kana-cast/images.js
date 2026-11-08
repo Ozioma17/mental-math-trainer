@@ -11,3 +11,5 @@ PORTRAITS["Choji Akimichi"]={url:"https://vignette.wikia.nocookie.net/naruto/ima
 PORTRAITS["Sung Jinwoo Solo Leveling"]={url:"https://img.anime2you.de/2024/04/Jin-Woo.jpg",source:"https://www.anime2you.de/news/785690/ranking-anime-charaktere-overpowered/"};
 
 PORTRAITS["Kaito Kite Hunter Hunter"]={url:"https://superherojacked.b-cdn.net/wp-content/uploads/2021/08/Kite-Workout-1-1024x576.jpeg",source:"https://superherojacked.com/2021/08/06/kite-workout/"};
+
+PORTRAITS["Shaiapouf Hunter Hunter"]={url:"https://static.wikia.nocookie.net/hunterxhunter/images/a/a2/109_-_Shaiapouf_portrait.png/revision/latest?cb=20150902224149",source:"https://hunterxhunter.fandom.com/wiki/Shaiapouf"};
