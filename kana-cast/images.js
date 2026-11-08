@@ -15,3 +15,5 @@ PORTRAITS["Kaito Kite Hunter Hunter"]={url:"https://superherojacked.b-cdn.net/wp
 PORTRAITS["Shaiapouf Hunter Hunter"]={url:"https://static.wikia.nocookie.net/hunterxhunter/images/a/a2/109_-_Shaiapouf_portrait.png/revision/latest?cb=20150902224149",source:"https://hunterxhunter.fandom.com/wiki/Shaiapouf"};
 
 PORTRAITS["Suika Dr. Stone"]={url:"https://sp.shonenjump.com/j/img/_news/190527drs_1.jpg",source:"https://dr-stone.jp/character/"};
+
+PORTRAITS["Kyojuro Rengoku"]={url:"https://kimetsu.com/anime/mugenresshahen_movie/assets/img/character/img_cha_09.jpg",source:"https://demonslayer-anime.com/eda/character/?chara=kyojuro"};
